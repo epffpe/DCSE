@@ -1,0 +1,88 @@
+m255
+13
+cModel Technology
+dU:\Proyecto1
+Eclkscale
+w1225198433
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dU:\Modulo1
+8U:/Modulo1/clkscale.vhd
+FU:/Modulo1/clkscale.vhd
+l0
+L17
+VCee6[CZ`D^1mC@ZhXMP1Z1
+OE;C;6.2d;35
+32
+o-work work -2002 -explicit
+tExplicit 1
+Acompor
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work clkscale Cee6[CZ`D^1mC@ZhXMP1Z1
+l27
+L23
+VM;fmFQMF=GJZSTG=UgEgR0
+OE;C;6.2d;35
+32
+M3 ieee std_logic_1164
+M2 ieee std_logic_unsigned
+M1 ieee std_logic_arith
+o-work work -2002 -explicit
+tExplicit 1
+Ereader
+w1225201651
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dU:\Modulo1
+8U:/Modulo1/reader.vhd
+FU:/Modulo1/reader.vhd
+l0
+L17
+VF1kOG5F?Q7;l??35gM?z_3
+OE;C;6.2d;35
+32
+o-work work -2002 -explicit
+tExplicit 1
+Acompor
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work reader F1kOG5F?Q7;l??35gM?z_3
+l34
+L24
+VJ>YV;2>>M7:A0gUlFC85z3
+OE;C;6.2d;35
+32
+M3 ieee std_logic_1164
+M2 ieee std_logic_unsigned
+M1 ieee std_logic_arith
+o-work work -2002 -explicit
+tExplicit 1
+Etickgen
+w1225197521
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dU:\Modulo1
+8U:/Modulo1/tickgen.vhd
+FU:/Modulo1/tickgen.vhd
+l0
+L15
+V;=MR83U@Y6:=ONRN<=<jc3
+OE;C;6.2d;35
+32
+o-work work -2002 -explicit
+tExplicit 1
+Acompor
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work tickgen ;=MR83U@Y6:=ONRN<=<jc3
+l24
+L20
+VD6X8=7ehJfBHQ]hNfbX^k0
+OE;C;6.2d;35
+32
+M1 ieee std_logic_1164
+o-work work -2002 -explicit
+tExplicit 1

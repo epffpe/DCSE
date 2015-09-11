@@ -1,0 +1,78 @@
+V3 43
+FL D:/Designs/DCSE/LCD_Spartan3E/Control_interfaz.vhd 2009/08/26.06:09:53 K.31
+EN work/Control_interfaz 1252426138 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/Control_interfaz.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/Control_interfaz/Behavioral 1252426139 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/Control_interfaz.vhd \
+      EN work/Control_interfaz 1252426138 CP debounce
+FL D:/Designs/DCSE/LCD_Spartan3E/debounce.vhd 2009/08/26.06:09:54 K.31
+EN work/debounce 1252426136 FL D:/Designs/DCSE/LCD_Spartan3E/debounce.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/debounce/imp_fsmd_arch 1252426137 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/debounce.vhd EN work/debounce 1252426136
+FL D:/Designs/DCSE/LCD_Spartan3E/fifo.vhd 2009/08/26.06:10:24 K.31
+EN work/fifo 1252426124 FL D:/Designs/DCSE/LCD_Spartan3E/fifo.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/fifo/Behavioral 1252426125 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/fifo.vhd EN work/fifo 1252426124
+FL D:/Designs/DCSE/LCD_Spartan3E/kb_code.vhd 2009/09/01.18:18:49 K.31
+EN work/kb_code 1252426130 FL D:/Designs/DCSE/LCD_Spartan3E/kb_code.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/kb_code/Behavioral 1252426131 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/kb_code.vhd EN work/kb_code 1252426130 \
+      AR work/ps2_rx/Behavioral 1252426129 AR work/fifo/Behavioral 1252426125
+FL D:/Designs/DCSE/LCD_Spartan3E/kb_test.vhd 2009/09/01.20:06:29 K.31
+EN work/kb_test 1252426142 FL D:/Designs/DCSE/LCD_Spartan3E/kb_test.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/kb_test/Behavioral 1252426143 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/kb_test.vhd EN work/kb_test 1252426142 \
+      AR work/kb_code/Behavioral 1252426131 AR work/uart/Behavioral 1252426133 \
+      AR work/key2ascii/Behavioral 1252426135
+FL D:/Designs/DCSE/LCD_Spartan3E/key2ascii.vhd 2009/08/26.06:11:19 K.31
+EN work/key2ascii 1252426134 FL D:/Designs/DCSE/LCD_Spartan3E/key2ascii.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/key2ascii/Behavioral 1252426135 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/key2ascii.vhd EN work/key2ascii 1252426134
+FL D:/Designs/DCSE/LCD_Spartan3E/LCD_Control.vhd 2009/09/08.17:08:07 K.31
+EN work/LCD_Control 1252426140 FL D:/Designs/DCSE/LCD_Spartan3E/LCD_Control.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/LCD_Control/Behavioral 1252426141 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/LCD_Control.vhd EN work/LCD_Control 1252426140
+FL D:/Designs/DCSE/LCD_Spartan3E/Modulo3.vhd 2009/09/01.22:16:25 K.31
+EN work/Modulo3 1252426144 FL D:/Designs/DCSE/LCD_Spartan3E/Modulo3.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/Modulo3/Behavioral 1252426145 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/Modulo3.vhd EN work/Modulo3 1252426144 \
+      CP Control_interfaz CP LCD_Control CP kb_test
+FL D:/Designs/DCSE/LCD_Spartan3E/mod_m_counter.vhd 2009/08/26.06:11:07 K.31
+EN work/mod_m_counter 1252426120 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/mod_m_counter.vhd PB ieee/std_logic_1164 1200023565 \
+      PH ieee/NUMERIC_STD 1200023568
+AR work/mod_m_counter/Behavioral 1252426121 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/mod_m_counter.vhd EN work/mod_m_counter 1252426120
+FL D:/Designs/DCSE/LCD_Spartan3E/ps2_rx.vhd 2009/08/26.06:10:23 K.31
+EN work/ps2_rx 1252426128 FL D:/Designs/DCSE/LCD_Spartan3E/ps2_rx.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/ps2_rx/Behavioral 1252426129 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/ps2_rx.vhd EN work/ps2_rx 1252426128
+FL D:/Designs/DCSE/LCD_Spartan3E/uart.vhd 2009/09/01.20:10:06 K.31
+EN work/uart 1252426132 FL D:/Designs/DCSE/LCD_Spartan3E/uart.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart/Behavioral 1252426133 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/uart.vhd EN work/uart 1252426132 \
+      AR work/mod_m_counter/Behavioral 1252426121 AR work/uart_rx/Behavioral 1252426123 \
+      AR work/fifo/Behavioral 1252426125 AR work/uart_tx/Behavioral 1252426127
+FL D:/Designs/DCSE/LCD_Spartan3E/uart_rx.vhd 2009/08/26.06:11:08 K.31
+EN work/uart_rx 1252426122 FL D:/Designs/DCSE/LCD_Spartan3E/uart_rx.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_rx/Behavioral 1252426123 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/uart_rx.vhd EN work/uart_rx 1252426122
+FL D:/Designs/DCSE/LCD_Spartan3E/uart_tx.vhd 2009/08/26.06:11:08 K.31
+EN work/uart_tx 1252426126 FL D:/Designs/DCSE/LCD_Spartan3E/uart_tx.vhd \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_tx/Behavioral 1252426127 \
+      FL D:/Designs/DCSE/LCD_Spartan3E/uart_tx.vhd EN work/uart_tx 1252426126

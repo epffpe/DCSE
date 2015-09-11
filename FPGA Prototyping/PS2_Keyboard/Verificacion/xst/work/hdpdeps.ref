@@ -1,0 +1,69 @@
+V3 27
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/fifo.vhd" 2009/08/19.03:32:01 K.31
+EN work/fifo 1250913890 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/fifo.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/fifo/Behavioral 1250913891 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/fifo.vhd" \
+      EN work/fifo 1250913890
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_code.vhd" 2009/08/22.04:48:03 K.31
+EN work/kb_code 1250913896 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_code.vhd" \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/kb_code/Behavioral 1250913897 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_code.vhd" \
+      EN work/kb_code 1250913896 AR work/ps2_rx/Behavioral 1250913895 \
+      AR work/fifo/Behavioral 1250913891
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.vhd" 2009/08/22.05:04:26 K.31
+EN work/kb_test 1250913902 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/kb_test/Behavioral 1250913903 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.vhd" \
+      EN work/kb_test 1250913902 AR work/kb_code/Behavioral 1250913897 \
+      AR work/uart/Behavioral 1250913899 AR work/key2ascii/Behavioral 1250913901
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/key2ascii.vhd" 2009/08/22.04:09:49 K.31
+EN work/key2ascii 1250913900 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/key2ascii.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/key2ascii/Behavioral 1250913901 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/key2ascii.vhd" \
+      EN work/key2ascii 1250913900
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/mod_m_counter.vhd" 2009/08/19.19:57:49 K.31
+EN work/mod_m_counter 1250913886 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/mod_m_counter.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/mod_m_counter/Behavioral 1250913887 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/mod_m_counter.vhd" \
+      EN work/mod_m_counter 1250913886
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/ps2_rx.vhd" 2009/08/21.18:22:44 K.31
+EN work/ps2_rx 1250913894 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/ps2_rx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/ps2_rx/Behavioral 1250913895 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/ps2_rx.vhd" \
+      EN work/ps2_rx 1250913894
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart.vhd" 2009/08/19.20:15:21 K.31
+EN work/uart 1250913898 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart/Behavioral 1250913899 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart.vhd" \
+      EN work/uart 1250913898 AR work/mod_m_counter/Behavioral 1250913887 \
+      AR work/uart_rx/Behavioral 1250913889 AR work/fifo/Behavioral 1250913891 \
+      AR work/uart_tx/Behavioral 1250913893
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart_rx.vhd" 2009/08/19.18:36:55 K.31
+EN work/uart_rx 1250913888 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart_rx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_rx/Behavioral 1250913889 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart_rx.vhd" \
+      EN work/uart_rx 1250913888
+FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart_tx.vhd" 2009/08/19.19:41:22 K.31
+EN work/uart_tx 1250913892 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart_tx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_tx/Behavioral 1250913893 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/uart_tx.vhd" \
+      EN work/uart_tx 1250913892

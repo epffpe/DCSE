@@ -1,0 +1,9 @@
+work	../../../Practica1/clkscale.vhd
+work	../../../Practica1/ramdump.vhd
+work	../../../Practica1/reader.vhd
+work	../../../Practica1/tickgen.vhd
+work	DCSEP2.vhd
+work	DEBOUNCER.vhd
+work	DISPLAY.vhd
+work	divDEBOUNCER.vhd
+work	divisorRAM.vhd

@@ -1,0 +1,2 @@
+set -xsthdpdir xst_work
+run -ifn implement.prj -p xc3s700a-fg484-4 -ofn boarddemo -ifmt mixed -opt_mode speed -opt_level 2 -bufg 0 -top boarddemo

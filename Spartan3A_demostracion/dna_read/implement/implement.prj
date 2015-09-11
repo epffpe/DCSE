@@ -1,0 +1,5 @@
+vhdl    work ../source/reading_dna.vhd
+vhdl    work ../source/picoblze/kcpsm3.vhd
+vhdl    work ../source/dna_ctrl/dna_ctrl.vhd
+vhdl    work ../source/clocking.vhd
+verilog work ../source/picoboot.v

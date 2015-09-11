@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+D:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 DCSEP2.ngc DCSEP2.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+DCSEP2_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

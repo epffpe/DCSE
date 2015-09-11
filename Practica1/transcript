@@ -1,0 +1,42 @@
+# Reading D:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {tb_reader.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity reader
+# -- Compiling architecture compor of reader
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity tb_reader
+# -- Compiling architecture behavior of tb_reader
+# ** Warning: [4] tb_reader.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] tb_reader.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] tb_reader.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] tb_reader.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -t 1ps tb_reader 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_reader(behavior)
+# Loading work.reader(compor)
+# ** Warning: (vsim-WLF-5000) Waveform log file vsim.wlf currently in use.
+# File in use by: Administrador  Hostname: FOX-Supersonic  ProcessID: 1912
+#           Attempting to use alternate file "./wlfth63ycv".
+# ** Warning: (vsim-WLF-5001) Could not open waveform log file vsim.wlf.  Using ./wlfth63ycv instead.
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_reader/uut
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_reader/uut
+run

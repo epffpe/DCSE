@@ -1,0 +1,4 @@
+verilog work "Clock.v"
+vhdl work "ModuloLCD.vhd"
+vhdl work "ModuloLCD_tb.vhd"
+verilog work "C:/Xilinx/10.1/ISE/verilog/src/glbl.v"

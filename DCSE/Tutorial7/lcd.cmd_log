@@ -1,0 +1,90 @@
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd
+xst -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -ifn lcd.xst -ofn lcd.syr
+ngdbuild -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -dd _ngo -nt timestamp -uc "constraints.ucf" -p xc3s500e-fg320-4 "lcd.ngc" lcd.ngd
+map -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr b -k 4 -c 100 -o lcd_map.ncd lcd.ngd lcd.pcf
+par -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -w -intstyle ise -ol std -t 1 lcd_map.ncd lcd.ncd lcd.pcf
+trce -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -e 3 -s 4 -xml lcd lcd.ncd -o lcd.twr lcd.pcf -ucf constraints.ucf
+bitgen -ise "/home/lixica/thig/fpga/lcd_counter/lcd_counter.ise" -intstyle ise -f lcd.ut lcd.ncd

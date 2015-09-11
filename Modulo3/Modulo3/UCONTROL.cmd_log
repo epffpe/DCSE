@@ -1,0 +1,1 @@
+xst -ise "D:/Desings/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Desings/Modulo3/UCONTROL.xst" -ofn "D:/Desings/Modulo3/UCONTROL.syr"

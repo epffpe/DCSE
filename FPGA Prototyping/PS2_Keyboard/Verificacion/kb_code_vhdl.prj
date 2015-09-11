@@ -1,0 +1,3 @@
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\PS2_Keyboard\Verificacion\ps2_rx.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\PS2_Keyboard\Verificacion\fifo.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\PS2_Keyboard\Verificacion\kb_code.vhd"

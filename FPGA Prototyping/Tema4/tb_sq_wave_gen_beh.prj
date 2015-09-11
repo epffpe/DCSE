@@ -1,0 +1,2 @@
+vhdl work "Square_wave_gen.vhd"
+vhdl work "tb_sq_wave_gen.vhd"

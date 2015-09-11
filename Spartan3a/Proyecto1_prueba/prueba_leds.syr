@@ -1,0 +1,383 @@
+Release 9.1i - xst J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 3.13 s | Elapsed : 0.00 / 3.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 3.17 s | Elapsed : 0.00 / 3.00 s
+ 
+--> Reading design: prueba_leds.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "prueba_leds.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "prueba_leds"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : prueba_leds
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : prueba_leds.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" in Library work.
+Architecture behavioral of Entity reloj_ent is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.vhd" in Library work.
+Entity <prueba_leds> compiled.
+Entity <prueba_leds> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <prueba_leds> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Reloj_ent> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <prueba_leds> in library <work> (Architecture <behavioral>).
+Entity <prueba_leds> analyzed. Unit <prueba_leds> generated.
+
+Analyzing Entity <Reloj_ent> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 93: Instantiating black box module <BUFG>.
+WARNING:Xst:2211 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 97: Instantiating black box module <IBUFG>.
+WARNING:Xst:2211 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 101: Instantiating black box module <BUFG>.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'CLK90' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'CLK180' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'CLK270' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'CLK2X' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'CLK2X180' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'CLKFX' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'CLKFX180' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'STATUS' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'LOCKED' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Unconnected output port 'PSDONE' of component 'DCM_SP'.
+WARNING:Xst:2211 - "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd" line 105: Instantiating black box module <DCM_SP>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "CLKDV_DIVIDE =  15.0000000000000000" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "CLKIN_PERIOD =  20.0000000000000000" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <Reloj_ent>.
+Entity <Reloj_ent> analyzed. Unit <Reloj_ent> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Reloj_ent>.
+    Related source file is "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd".
+Unit <Reloj_ent> synthesized.
+
+
+Synthesizing Unit <prueba_leds>.
+    Related source file is "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.vhd".
+WARNING:Xst:1780 - Signal <reset> is never used or assigned.
+WARNING:Xst:1780 - Signal <leds> is never used or assigned.
+WARNING:Xst:1780 - Signal <sw> is never used or assigned.
+WARNING:Xst:646 - Signal <clkdv_int> is assigned but never used.
+WARNING:Xst:646 - Signal <clk_buff> is assigned but never used.
+    Found 4-bit register for signal <o_leds>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <prueba_leds> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s700a.nph' in environment C:\Xilinx91i.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <prueba_leds> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block prueba_leds, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : prueba_leds.ngr
+Top Level Output File Name         : prueba_leds
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 1
+#      GND                         : 1
+# FlipFlops/Latches                : 4
+#      FD                          : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 10
+#      IBUF                        : 5
+#      IBUFG                       : 1
+#      OBUF                        : 4
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                       0  out of   5888     0%  
+ Number of Slice Flip Flops:             4  out of  11776     0%  
+ Number of IOs:                         10
+ Number of bonded IOBs:                 10  out of    372     2%  
+    IOB Flip Flops:                      4
+ Number of GCLKs:                        2  out of     24     8%  
+ Number of DCMs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Inst_Reloj_ent/CLK0_BUF            | BUFG                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.228ns
+   Maximum output required time after clock: 7.342ns
+   Maximum combinational path delay: 1.796ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_Reloj_ent/CLK0_BUF'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.228ns (Levels of Logic = 1)
+  Source:            i_switch<0> (PAD)
+  Destination:       o_leds_0 (FF)
+  Destination Clock: Inst_Reloj_ent/CLK0_BUF rising
+
+  Data Path: i_switch<0> to o_leds_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.443   0.420  i_switch_0_IBUF (i_switch_0_IBUF)
+     FD:D                      0.365          o_leds_0
+    ----------------------------------------
+    Total                      1.228ns (0.808ns logic, 0.420ns route)
+                                       (65.8% logic, 34.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_Reloj_ent/CLK0_BUF'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              7.342ns (Levels of Logic = 1)
+  Source:            o_leds_3 (FF)
+  Destination:       o_leds<3> (PAD)
+  Source Clock:      Inst_Reloj_ent/CLK0_BUF rising
+
+  Data Path: o_leds_3 to o_leds<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.557   0.420  o_leds_3 (o_leds_3)
+     OBUF:I->O                 6.365          o_leds_3_OBUF (o_leds<3>)
+    ----------------------------------------
+    Total                      7.342ns (6.922ns logic, 0.420ns route)
+                                       (94.3% logic, 5.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               1.796ns (Levels of Logic = 1)
+  Source:            Inst_Reloj_ent/DCM_SP_INST:CLK0 (PAD)
+  Destination:       Inst_Reloj_ent/DCM_SP_INST:CLKFB (PAD)
+
+  Data Path: Inst_Reloj_ent/DCM_SP_INST:CLK0 to Inst_Reloj_ent/DCM_SP_INST:CLKFB
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    DCM_SP:CLK0            1   0.000   0.420  Inst_Reloj_ent/DCM_SP_INST (Inst_Reloj_ent/CLK0_BUF)
+     BUFG:I->O             4   0.789   0.587  Inst_Reloj_ent/CLK0_BUFG_INST (clk_int)
+    DCM_SP:CLKFB               0.000          Inst_Reloj_ent/DCM_SP_INST
+    ----------------------------------------
+    Total                      1.796ns (0.789ns logic, 1.007ns route)
+                                       (43.9% logic, 56.1% route)
+
+=========================================================================
+CPU : 11.33 / 14.77 s | Elapsed : 11.00 / 15.00 s
+ 
+--> 
+
+Total memory usage is 172404 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   19 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

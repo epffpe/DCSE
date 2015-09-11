@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+D:/Desings/Xilinx/PruebaLCD/PruebaLCD.ise -intstyle ise -e 3 -s 4 -xml
+ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+
+Design file:              ModuloLCD.ncd
+Physical constraint file: ModuloLCD.pcf
+Device,package,speed:     xc3s700a,fg484,-4 (PRODUCTION 1.39 2008-01-09)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk50 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+LCD_DB<0>   |   32.877(R)|clkdv             |   0.000|
+LCD_DB<1>   |   32.998(R)|clkdv             |   0.000|
+LCD_DB<2>   |   32.670(R)|clkdv             |   0.000|
+LCD_DB<3>   |   32.773(R)|clkdv             |   0.000|
+LCD_DB<4>   |   32.654(R)|clkdv             |   0.000|
+LCD_DB<5>   |   33.041(R)|clkdv             |   0.000|
+LCD_E       |   34.195(R)|clkdv             |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk50          |    4.555|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Feb 05 03:44:12 2009 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 120 MB
+
+
+

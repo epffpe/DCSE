@@ -1,0 +1,8 @@
+vhdl work "D:\Desings\DCSE\ModuloLCD\LEDS.vhd"
+vhdl work "D:\Desings\DCSE\ModuloLCD\Interfaz.vhd"
+vhdl work "D:\Desings\DCSE\ModuloLCD\Direccion.vhd"
+vhdl work "D:\Desings\DCSE\ModuloLCD\DatosLCD.vhd"
+vhdl work "D:\Desings\DCSE\ModuloLCD\Counter.vhd"
+vhdl work "D:\Desings\DCSE\ModuloLCD\Control.vhd"
+vhdl work "D:\Desings\DCSE\ModuloLCD\Clock.vhd"
+vhdl work "D:\Desings\DCSE\ModuloLCD\ModuloLCD.vhd"

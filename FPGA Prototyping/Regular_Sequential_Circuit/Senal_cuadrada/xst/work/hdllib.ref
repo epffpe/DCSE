@@ -1,0 +1,4 @@
+EN sqr_wave NULL "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.vhd" sub00/vhpl00 1250698455
+EN debounce NULL "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/debounce.vhd" sub00/vhpl02 1250698359
+AR debounce imp_fsmd_arch "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/debounce.vhd" sub00/vhpl03 1250698360
+AR sqr_wave behavioral "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.vhd" sub00/vhpl01 1250698456

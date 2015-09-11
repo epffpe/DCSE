@@ -1,0 +1,44 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/mod_m_counter.vhd" in Library work.
+Architecture behavioral of Entity mod_m_counter is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart_rx.vhd" in Library work.
+Architecture behavioral of Entity uart_rx is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/fifo.vhd" in Library work.
+Architecture behavioral of Entity fifo is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart_tx.vhd" in Library work.
+Architecture behavioral of Entity uart_tx is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/ps2_rx.vhd" in Library work.
+Architecture behavioral of Entity ps2_rx is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/kb_code.vhd" in Library work.
+Architecture behavioral of Entity kb_code is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart.vhd" in Library work.
+Architecture behavioral of Entity uart is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/key2ascii.vhd" in Library work.
+Architecture behavioral of Entity key2ascii is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/kb_test.vhd" in Library work.
+Entity <kb_test> compiled.
+Entity <kb_test> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> 
+
+Total memory usage is 135576 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

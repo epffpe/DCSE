@@ -1,0 +1,14 @@
+AR fifo behavioral "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/fifo.vhd" sub00/vhpl07 1250879545
+AR mod_m_counter behavioral "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/mod_m_counter.vhd" sub00/vhpl03 1250879541
+EN ps2_rx NULL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/ps2_rx.vhd" sub00/vhpl00 1250879548
+AR uart_tx behavioral "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/uart_tx.vhd" sub00/vhpl09 1250879547
+AR ps2_rx behavioral "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/ps2_rx.vhd" sub00/vhpl01 1250879549
+AR kb_monitor behavioral "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/kb_monitor.vhd" sub00/vhpl13 1250879553
+AR uart_rx behavioral "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/uart_rx.vhd" sub00/vhpl05 1250879543
+AR uart behavioral "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/uart.vhd" sub00/vhpl11 1250879551
+EN kb_monitor NULL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/kb_monitor.vhd" sub00/vhpl12 1250879552
+EN fifo NULL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/fifo.vhd" sub00/vhpl06 1250879544
+EN uart NULL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/uart.vhd" sub00/vhpl10 1250879550
+EN uart_rx NULL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/uart_rx.vhd" sub00/vhpl04 1250879542
+EN uart_tx NULL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/uart_tx.vhd" sub00/vhpl08 1250879546
+EN mod_m_counter NULL "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/mod_m_counter.vhd" sub00/vhpl02 1250879540

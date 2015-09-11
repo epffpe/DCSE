@@ -1,0 +1,63 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\LCD_Spartan3E
+Elcd_control
+Z1 w1252420993
+Z2 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z3 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8LCD_Control.vhd
+Z5 FLCD_Control.vhd
+l0
+L30
+Vl@6kZi5Gla5;C[AVBOS5l1
+Z6 OX;C;6.3c;37
+31
+Z7 o-explicit -93 -O0
+Z8 tExplicit 1
+Abehavioral
+R2
+R3
+DE work lcd_control l@6kZi5Gla5;C[AVBOS5l1
+l70
+L47
+VgS:c6mKj9UKQNBW:2MId]1
+R6
+31
+Z9 M2 ieee std_logic_1164
+Z10 M1 ieee numeric_std
+R7
+R8
+Elcd_control_tb
+Z11 w1252424745
+R2
+Z12 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z13 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+R3
+Z14 8LCD_control_tb.vhd
+Z15 FLCD_control_tb.vhd
+l0
+L33
+VmGXHDfThea<inHbQiLb781
+R6
+31
+R7
+R8
+Abehavior
+R2
+R12
+R13
+R3
+Z16 DE work lcd_control_tb mGXHDfThea<inHbQiLb781
+l81
+L36
+Z17 VK1=Y]VUECCbRPSLTlIk;f1
+R6
+31
+Z18 M4 ieee std_logic_1164
+Z19 M3 ieee std_logic_unsigned
+Z20 M2 ieee std_logic_arith
+R10
+R7
+R8

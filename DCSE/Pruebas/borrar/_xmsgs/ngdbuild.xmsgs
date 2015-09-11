@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NgdBuild" num="1012" delta="unknown" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;pb&lt;0&gt;&quot; PULLDOWN;&gt; [borrar.ucf(42)]</arg> is overridden on the design object <arg fmt="%s" index="2">pb&lt;0&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;pb&lt;0&gt;&quot; PULLDOWN;&gt; [borrar.ucf(43)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="unknown" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;pb&lt;1&gt;&quot; PULLDOWN;&gt; [borrar.ucf(45)]</arg> is overridden on the design object <arg fmt="%s" index="2">pb&lt;1&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;pb&lt;1&gt;&quot; PULLDOWN;&gt; [borrar.ucf(46)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="unknown" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;pb&lt;2&gt;&quot; PULLDOWN;&gt; [borrar.ucf(48)]</arg> is overridden on the design object <arg fmt="%s" index="2">pb&lt;2&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;pb&lt;2&gt;&quot; PULLDOWN;&gt; [borrar.ucf(49)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="unknown" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;pb&lt;3&gt;&quot; PULLDOWN;&gt; [borrar.ucf(51)]</arg> is overridden on the design object <arg fmt="%s" index="2">pb&lt;3&gt;</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;pb&lt;3&gt;&quot; PULLDOWN;&gt; [borrar.ucf(52)]</arg>.
+</msg>
+
+</messages>
+

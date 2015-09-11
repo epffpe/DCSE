@@ -1,0 +1,16 @@
+V3 7
+FL "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/debounce.vhd" 2009/08/19.17:12:34 K.31
+EN work/debounce 1250698359 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/debounce.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/debounce/imp_fsmd_arch 1250698360 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/debounce.vhd" \
+      EN work/debounce 1250698359
+FL "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.vhd" 2009/08/19.16:23:27 K.31
+EN work/sqr_wave 1250698455 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/sqr_wave/Behavioral 1250698456 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.vhd" \
+      EN work/sqr_wave 1250698455
+FL D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.vhd 2009/08/19.16:23:27 K.31

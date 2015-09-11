@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer0</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer1</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer2</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer3</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer4</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer5</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer6</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer7</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer8</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer9</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer10</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer11</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer12</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer13</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer14</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer15</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer16</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer17</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer18</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="754" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Modulo3/UCONTROL.vhd</arg>&quot; line <arg fmt="%d" index="2">365</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">timer19</arg>&apos; of component &apos;<arg fmt="%s" index="4">SHELL_UCONTROL</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="unknown" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch &lt;<arg fmt="%s" index="1">status4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SHELL_UCONTROL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">status5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SHELL_UCONTROL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">status6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SHELL_UCONTROL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">status7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SHELL_UCONTROL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">LCD_DB2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SHELL_UCONTROL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">LCD_DB3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">SHELL_UCONTROL</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">LCD_E</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">SHELL_UCONTROL</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;LCD_DB1&gt; </arg>
+</msg>
+
+</messages>
+

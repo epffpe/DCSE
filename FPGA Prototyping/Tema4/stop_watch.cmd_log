@@ -1,0 +1,2 @@
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Tema4/Tema4.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Tema4/Tema4.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.syr"

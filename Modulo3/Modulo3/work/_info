@@ -1,0 +1,258 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Desings\Modulo3
+Emodulo3
+Z1 w1234270057
+Z2 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z3 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8Modulo3.vhd
+Z6 FModulo3.vhd
+l0
+L30
+VIM6bNVD0JB:1bFjXQ^ZDP1
+Z7 OX;C;6.3c;37
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+DE work modulo3 IM6bNVD0JB:1bFjXQ^ZDP1
+l45
+L43
+VA?mo7Lj3jchZMzLI5M`hB3
+R7
+31
+Z10 M3 ieee std_logic_1164
+Z11 M2 ieee std_logic_arith
+Z12 M1 ieee std_logic_unsigned
+R8
+R9
+Epruebalcd_tb
+Z13 w1234368679
+Z14 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+R3
+R2
+R4
+Z15 8PruebaLCD_tb.vhd
+Z16 FPruebaLCD_tb.vhd
+l0
+L33
+VglIAAWEW;PJNRV6>2^X7U1
+R7
+31
+R8
+R9
+Abehavior
+R14
+R3
+R2
+R4
+DE work pruebalcd_tb glIAAWEW;PJNRV6>2^X7U1
+l60
+L36
+VbO;ibUoR9zDEcBU]Nzi`z2
+R7
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+R11
+M1 ieee numeric_std
+R8
+R9
+Eshell_ucontrol
+Z17 w1234297191
+R3
+R2
+R4
+Z18 8UCONTROL.vhd
+Z19 FUCONTROL.vhd
+l0
+L16
+VfJ;INLhXH9OV]7eZi58Wh1
+R7
+31
+R8
+R9
+Abehavior
+R3
+R2
+R4
+DE work shell_ucontrol fJ;INLhXH9OV]7eZi58Wh1
+l38
+L22
+Vnf;7QDdR]z_dah]:eTAck3
+R7
+31
+R10
+Z20 M2 ieee std_logic_unsigned
+Z21 M1 ieee std_logic_arith
+R8
+R9
+Eshell_ucontrollcd
+Z22 w1234368835
+R3
+R2
+R4
+Z23 8UCONTROLLCD.vhd
+Z24 FUCONTROLLCD.vhd
+l0
+L16
+VjBS?1eRBBNO`feFn[lXJ`1
+R7
+31
+R8
+R9
+Abehavior
+R3
+R2
+R4
+DE work shell_ucontrollcd jBS?1eRBBNO`feFn[lXJ`1
+l43
+L27
+VnnO]2[L[ZQCcaBF:P8OT63
+R7
+31
+R10
+R20
+R21
+R8
+R9
+Etestbench
+Z25 w1234369149
+Z26 DP std textio K]Z^fghZ6B=BjnK5NomDT3
+Z27 DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+R4
+Z28 8UCONTROLLCD_TB.VHD
+Z29 FUCONTROLLCD_TB.VHD
+l0
+L13
+VakHk:MlF9k=8AJ3=;K9o00
+R7
+31
+R8
+R9
+Atestbench_arch
+R26
+R27
+R4
+Z30 DE work testbench akHk:MlF9k=8AJ3=;K9o00
+l30
+L16
+VIl7ze4QI?TZWOl_G=2l=32
+R7
+31
+R10
+Z31 M2 ieee std_logic_textio
+Z32 M1 std textio
+R8
+R9
+Eucontrol
+R17
+R3
+R2
+R4
+R18
+R19
+l0
+L323
+V0M1ce[93jn=FhN?bclegh0
+R7
+31
+R8
+R9
+Abehavior
+R3
+R2
+R4
+Z33 DE work ucontrol 0M1ce[93jn=FhN?bclegh0
+l336
+L330
+VCUf23SRMC7lQ5Kk?@[a>z1
+R7
+31
+R10
+R20
+R21
+R8
+R9
+Cucontrol_cfg
+Z34 atestbench_arch
+Z35 etestbench
+R2
+R3
+R33
+DA work testbench testbench_arch mY2nMLe@Y=ehN^9>5fg8T2
+R26
+R27
+R4
+R30
+w1234297064
+8UCONTROL_TB.VHD
+FUCONTROL_TB.VHD
+l0
+L287
+Vn5lJT:aXIFhzLbZH?`GKz3
+R7
+31
+M5 ieee std_logic_1164
+M4 ieee std_logic_textio
+M3 std textio
+R11
+R12
+R8
+R9
+Eucontrollcd
+R22
+R3
+R2
+R4
+R23
+R24
+l0
+L1533
+V6>f40X=]:Hb85nHj9lco91
+R7
+31
+R8
+R9
+Abehavior
+R3
+R2
+R4
+DE work ucontrollcd 6>f40X=]:Hb85nHj9lco91
+l1546
+L1540
+V>MjTU9:M2`>GoKNf3lWI41
+R7
+31
+R10
+R20
+R21
+R8
+R9
+Cucontrollcd_cfg
+R34
+R35
+DA work testbench testbench_arch Il7ze4QI?TZWOl_G=2l=32
+R26
+R27
+R4
+R30
+R25
+R28
+R29
+l0
+L641
+Vk`L_Y=A3n7Cej4RK_RLbW3
+R7
+31
+R10
+R31
+R32
+R8
+R9

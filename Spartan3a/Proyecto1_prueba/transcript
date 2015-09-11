@@ -1,0 +1,64 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {prueba_leds_techbench_vhd.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity reloj_ent
+# -- Compiling architecture behavioral of reloj_ent
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity prueba_leds
+# -- Compiling architecture behavioral of prueba_leds
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity prueba_leds_techbench_vhd
+# -- Compiling architecture behavior of prueba_leds_techbench_vhd
+# vsim -lib work -t 1ps prueba_leds_techbench_vhd 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.prueba_leds_techbench_vhd(behavior)
+# Loading work.prueba_leds(behavioral)
+# Loading unisim.vcomponents
+# Loading work.reloj_ent(behavioral)
+# Loading unisim.bufg(bufg_v)
+# Loading unisim.ibufg(ibufg_v)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# Loading unisim.dcm_sp(dcm_sp_v)
+# Loading unisim.dcm_sp_clock_divide_by_2(dcm_sp_clock_divide_by_2_v)
+# Loading unisim.dcm_sp_maximum_period_check(dcm_sp_maximum_period_check_v)
+# Loading unisim.dcm_sp_clock_lost(dcm_sp_clock_lost_v)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Drop insertion failed: sim:/prueba_leds_techbench_vhd/uut/inst_reloj_ent/clk0_bufg_inst/line__1152/*
+# (vish-4014) No objects found matching '/prueba_leds_techbench_vhd/uut/inst_reloj_ent/clk0_bufg_inst/line__1152/*'.
+restart
+run

@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map K.31 on Thu Aug 20 22:03:20 2009
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "lcd_rw" LOCATE = SITE "W13" LEVEL 1;
+COMP "clk" LOCATE = SITE "E12" LEVEL 1;
+COMP "lcd_db<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "lcd_db<1>" LOCATE = SITE "AB18" LEVEL 1;
+COMP "lcd_db<2>" LOCATE = SITE "AB17" LEVEL 1;
+COMP "lcd_db<3>" LOCATE = SITE "AB12" LEVEL 1;
+COMP "lcd_db<4>" LOCATE = SITE "AA12" LEVEL 1;
+COMP "lcd_db<5>" LOCATE = SITE "Y16" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "R20" LEVEL 1;
+COMP "lcd_db<6>" LOCATE = SITE "AB16" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "T19" LEVEL 1;
+COMP "lcd_db<7>" LOCATE = SITE "Y15" LEVEL 1;
+COMP "lcd_e" LOCATE = SITE "AB4" LEVEL 1;
+COMP "rst" LOCATE = SITE "T15" LEVEL 1;
+COMP "lcd_rs" LOCATE = SITE "Y14" LEVEL 1;
+SCHEMATIC END;
+

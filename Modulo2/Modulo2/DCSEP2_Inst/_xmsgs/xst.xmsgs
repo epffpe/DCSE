@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/reader.vhd</arg>&quot; line <arg fmt="%d" index="2">98</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RAM</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DISPLAY.vhd</arg>&quot; line <arg fmt="%d" index="2">182</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">point</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">hertz_en</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">ram_enable</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">Inst_ramdump/Inst_clkscale/contador_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DCSEP2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="unknown" >Node &lt;<arg fmt="%s" index="1">Inst_ramdump/Inst_divisorRAM/contador_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DCSEP2</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="unknown" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

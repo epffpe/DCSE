@@ -1,0 +1,376 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Desings\DCSE\PracticaLCD
+Eclock1562
+Z1 w1233950201
+Z2 DP unisim vcomponents LleKR0SczfnVz2QDcaQZM1
+Z3 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8Clock1562.vhd
+Z6 FClock1562.vhd
+l0
+L28
+VLOXU@XgWoCTO^i57TzfSY1
+Z7 OX;C;6.3c;37
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+DE work clock1562 LOXU@XgWoCTO^i57TzfSY1
+l42
+L36
+VLkXOez0g9@9`o8BeJzZV42
+R7
+31
+Z10 M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 unisim vcomponents
+R8
+R9
+Ecounter
+Z11 w1233975587
+Z12 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z13 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+R4
+Z14 8Counter.vhd
+Z15 FCounter.vhd
+l0
+L30
+Vf`@H6UEYZ_A]aCTkI_:Xz3
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work counter f`@H6UEYZ_A]aCTkI_:Xz3
+l41
+L37
+V<RSki]<=3XgMMK@`^X^0Y2
+R7
+31
+R10
+Z16 M2 ieee std_logic_arith
+Z17 M1 ieee std_logic_unsigned
+R8
+R9
+Edatoslcd
+Z18 w1233955188
+R12
+R13
+R4
+Z19 8DatosLCD.vhd
+Z20 FDatosLCD.vhd
+l0
+L30
+Vd=n3aWih?YJl?MJjN7Lha0
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work datoslcd d=n3aWih?YJl?MJjN7Lha0
+l67
+L38
+VVm5M=LX9hHf?CW[I1=<V:2
+R7
+31
+R10
+R16
+R17
+R8
+R9
+Edebouncer
+Z21 w1228680854
+R12
+R13
+R4
+Z22 8../Pruebas/borrar/DEBOUNCER.vhd
+Z23 F../Pruebas/borrar/DEBOUNCER.vhd
+l0
+L30
+VV3GCZ1Tj94dOBkCFRm`@;1
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work debouncer V3GCZ1Tj94dOBkCFRm`@;1
+l42
+L37
+VOk5h?@25b:OSVIEgN43d?0
+R7
+31
+R10
+R16
+R17
+R8
+R9
+Edireccion
+Z24 w1233958105
+R12
+R13
+R4
+Z25 8Direccion.vhd
+Z26 FDireccion.vhd
+l0
+L30
+VI5RV7JEVg@mi_Q``zNR]11
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work direccion I5RV7JEVg@mi_Q``zNR]11
+l44
+L38
+VkaOUbjP83<=j6K5:NTko52
+R7
+31
+R10
+R16
+R17
+R8
+R9
+Edivdebouncer
+Z27 w1228679210
+R12
+R13
+R4
+Z28 8../Pruebas/borrar/divDEBOUNCER.vhd
+Z29 F../Pruebas/borrar/divDEBOUNCER.vhd
+l0
+L30
+VkmZ^60dWzZLT6I<D:2ig;0
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work divdebouncer kmZ^60dWzZLT6I<D:2ig;0
+l42
+L36
+VcUg?UW2X44ICH]jY;jW]B0
+R7
+31
+R10
+R16
+R17
+R8
+R9
+vglbl
+I<CO4I8APeh1gmnmE3k<0l3
+VnN]4Gon>inod6>M^M2[SV1
+w1202685744
+8C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+FC:/Xilinx/10.1/ISE/verilog/src/glbl.v
+L0 5
+Z30 OX;L;6.3c;37
+r1
+31
+Z31 o+acc -O0
+!s85 0
+Einterfaz
+Z32 w1233969886
+R12
+R13
+R4
+Z33 8Interfaz.vhd
+Z34 FInterfaz.vhd
+l0
+L30
+V1N2zS7Y2ld34jcAAR9BcX3
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work interfaz 1N2zS7Y2ld34jcAAR9BcX3
+l99
+L44
+V5z?7Y_;Dfn[5ISg?cGezi2
+R7
+31
+R10
+R16
+R17
+R8
+R9
+Eleds
+Z35 w1233970999
+R12
+R13
+R4
+Z36 8LEDS.vhd
+Z37 FLEDS.vhd
+l0
+L30
+Vm7]<`Q193ZhL<4aBE8NZj1
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work leds m7]<`Q193ZhL<4aBE8NZj1
+l43
+L41
+VPT:=j3=^Fa]HG=k09B3=f1
+R7
+31
+R10
+R16
+R17
+R8
+R9
+Emodulolcd
+Z38 w1233976366
+R12
+R13
+R4
+Z39 8ModuloLCD.vhd
+Z40 FModuloLCD.vhd
+l0
+L30
+V^<LWlIfJH?UefkG:<K8ZV0
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work modulolcd ^<LWlIfJH?UefkG:<K8ZV0
+l187
+L43
+VG;@MYMf6>=nVz2bA3b@Ri1
+R7
+31
+R10
+R16
+R17
+R8
+R9
+Astructure
+Z41 DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP vital2000 vital_primitives P<o@__YgakiANKimF[boN3
+DP simprim vpackage LkkXhW^RjJHeefPzE6>@B0
+DP vital2000 vital_timing S^n>oJ2GS[H5aTKMo9OkE0
+DP simprim vcomponents Yl]oc5K6Lh?MbW?VPam>L0
+R4
+DE work modulolcd ^ebk4k4fIHPO5N0=7;U;92
+l585
+L56
+V=0gbMDN2jA89?bI>Re[0M2
+R7
+31
+M6 ieee std_logic_1164
+M5 simprim vcomponents
+M4 vital2000 vital_timing
+M3 simprim vpackage
+M2 vital2000 vital_primitives
+Z42 M1 std textio
+R8
+R9
+Fnetgen/map/ModuloLCD_map.vhd
+w1233973174
+8netgen/map/ModuloLCD_map.vhd
+vModuloLCD
+IY84F75F1lgPONfPKjW:8L1
+VCI6UhT@1QQM2JBd4KQ7Ok1
+w1233972792
+8netgen/par/ModuloLCD_timesim.v
+Fnetgen/par/ModuloLCD_timesim.v
+L0 36
+R30
+r1
+31
+R31
+n@modulo@l@c@d
+!s85 0
+Emodulolcd_tb
+Z43 w1233974306
+R3
+R13
+R12
+R4
+Z44 8ModuloLCD_tb.vhd
+Z45 FModuloLCD_tb.vhd
+l0
+L33
+VbH1=_B=kINg[jFl5SB9Ra2
+R7
+31
+R8
+R9
+Abehavior
+R3
+R13
+R12
+R4
+Z46 DE work modulolcd_tb bH1=_B=kINg[jFl5SB9Ra2
+l73
+L36
+Z47 VLTTCIadF?OdCC;8[5iA=A1
+R7
+31
+Z48 M4 ieee std_logic_1164
+Z49 M3 ieee std_logic_unsigned
+R16
+Z50 M1 ieee numeric_std
+R8
+R9
+Eucontrol
+Z51 w1233962674
+R12
+R13
+R4
+Z52 8UControl.vhd
+Z53 FUControl.vhd
+l0
+L30
+V9fgd3c8CQMK5jMQ@m`j@R3
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work ucontrol 9fgd3c8CQMK5jMQ@m`j@R3
+l69
+L54
+V;ADHW<Ng2RD:dKXlE50>Q1
+R7
+31
+R10
+R16
+R17
+R8
+R9

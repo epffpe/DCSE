@@ -1,0 +1,5 @@
+# begin LFP file D:\Designs\DCSE\LCD_Spartan3E\Modulo3.lfp
+designfile Modulo3.vhd
+parttype xc3s500e-4-fg320
+bus_delimiter 0;
+set_busdelim_onsave 1;

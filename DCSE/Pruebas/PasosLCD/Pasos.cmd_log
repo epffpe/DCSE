@@ -1,0 +1,39 @@
+xst -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.xst" -ofn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Pasos.ngc" Pasos.ngd
+map -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Pasos_map.ncd Pasos.ngd Pasos.pcf
+par -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -w -intstyle ise -ol std -t 1 Pasos_map.ncd Pasos.ncd Pasos.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -e 3 -s 4 -xml Pasos Pasos.ncd -o Pasos.twr Pasos.pcf -ucf Pasos.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -f Pasos.ut Pasos.ncd
+par -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -w -intstyle ise -ol std -t 1 Pasos_map.ncd Pasos.ncd Pasos.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -e 3 -s 4 -xml Pasos Pasos.ncd -o Pasos.twr Pasos.pcf -ucf Pasos.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -f Pasos.ut Pasos.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.xst" -ofn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Pasos.ngc" Pasos.ngd
+map -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Pasos_map.ncd Pasos.ngd Pasos.pcf
+par -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -w -intstyle ise -ol std -t 1 Pasos_map.ncd Pasos.ncd Pasos.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -e 3 -s 4 -xml Pasos Pasos.ncd -o Pasos.twr Pasos.pcf -ucf Pasos.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -f Pasos.ut Pasos.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.xst" -ofn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Pasos.ngc" Pasos.ngd
+map -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Pasos_map.ncd Pasos.ngd Pasos.pcf
+par -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -w -intstyle ise -ol std -t 1 Pasos_map.ncd Pasos.ncd Pasos.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -e 3 -s 4 -xml Pasos Pasos.ncd -o Pasos.twr Pasos.pcf -ucf Pasos.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -f Pasos.ut Pasos.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.xst" -ofn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Pasos.ngc" Pasos.ngd
+map -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Pasos_map.ncd Pasos.ngd Pasos.pcf
+par -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -w -intstyle ise -ol std -t 1 Pasos_map.ncd Pasos.ncd Pasos.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -e 3 -s 4 -xml Pasos Pasos.ncd -o Pasos.twr Pasos.pcf -ucf Pasos.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -f Pasos.ut Pasos.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.xst" -ofn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Pasos.ngc" Pasos.ngd
+map -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Pasos_map.ncd Pasos.ngd Pasos.pcf
+par -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -w -intstyle ise -ol std -t 1 Pasos_map.ncd Pasos.ncd Pasos.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -e 3 -s 4 -xml Pasos Pasos.ncd -o Pasos.twr Pasos.pcf -ucf Pasos.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -f Pasos.ut Pasos.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.xst" -ofn "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Pasos.ngc" Pasos.ngd
+map -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Pasos_map.ncd Pasos.ngd Pasos.pcf
+par -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -w -intstyle ise -ol std -t 1 Pasos_map.ncd Pasos.ncd Pasos.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -e 3 -s 4 -xml Pasos Pasos.ncd -o Pasos.twr Pasos.pcf -ucf Pasos.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise" -intstyle ise -f Pasos.ut Pasos.ncd

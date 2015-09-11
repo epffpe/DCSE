@@ -1,0 +1,10 @@
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/kb_monitor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/kb_monitor.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/kb_monitor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/kb_monitor.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "kb_monitor.ngc" kb_monitor.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "kb_monitor.ngc" kb_monitor.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "kb_monitor.ngc" kb_monitor.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "kb_monitor.ngc" kb_monitor.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o kb_monitor_map.ncd kb_monitor.ngd kb_monitor.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -w -intstyle ise -ol std -t 1 kb_monitor_map.ncd kb_monitor.ncd kb_monitor.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -e 3 -s 4 -xml kb_monitor kb_monitor.ncd -o kb_monitor.twr kb_monitor.pcf -ucf kb_monitor.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise" -intstyle ise -f kb_monitor.ut kb_monitor.ncd

@@ -1,0 +1,2 @@
+vhdl work "Reloj.vhd"
+vhdl work "izq_der_leds.vhd"

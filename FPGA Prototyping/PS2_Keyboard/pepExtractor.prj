@@ -1,0 +1,5 @@
+work	fifo.vhd
+work	mod_m_counter.vhd
+work	uart.vhd
+work	uart_rx.vhd
+work	uart_tx.vhd

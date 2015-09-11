@@ -1,0 +1,6 @@
+NET "direction" LOC = V8;
+NET "counter_out<0>" LOC = R20;
+NET "counter_out<1>" LOC = T19;
+NET "counter_out<2>" LOC = U20;
+NET "counter_out<3>" LOC = U19;
+NET "clk50" LOC = E12;

@@ -1,0 +1,257 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\FPGA Prototyping\UART
+Edebounce
+Z1 w1250698354
+Z2 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z3 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8../debounce.vhd
+Z5 F../debounce.vhd
+l0
+L30
+Vf6QLdYkj>RHnezP:LSFMT0
+Z6 OX;C;6.3c;37
+31
+Z7 o-explicit -93 -O0
+Z8 tExplicit 1
+Aimp_fsmd_arch
+R2
+R3
+Z9 DE work debounce f6QLdYkj>RHnezP:LSFMT0
+l44
+L38
+V<X>`G^Ri;P>UEjCnkWHLo1
+R6
+31
+Z10 M2 ieee std_logic_1164
+Z11 M1 ieee numeric_std
+R7
+R8
+Efifo
+Z12 w1250733035
+R2
+R3
+Z13 8../fifo.vhd
+Z14 F../fifo.vhd
+l0
+L31
+VZIjXM?ebYFZCFGQcWI`gU0
+R6
+31
+R7
+R8
+Abehavioral
+R2
+R3
+Z15 DE work fifo ZIjXM?ebYFZCFGQcWI`gU0
+l55
+L46
+VlJjm=_]aFhOJ1BcJ5h^LD2
+R6
+31
+R10
+R11
+R7
+R8
+Emod_m_counter
+Z16 w1250708269
+R2
+R3
+Z17 8mod_m_counter.vhd
+Z18 Fmod_m_counter.vhd
+l0
+L30
+VaFL4C7gL1LNMIRB>gcQSG0
+R6
+31
+R7
+R8
+Abehavioral
+R2
+R3
+Z19 DE work mod_m_counter aFL4C7gL1LNMIRB>gcQSG0
+l43
+L41
+VikHgKg^;Th`hcQeK20<4U3
+R6
+31
+R10
+R11
+R7
+R8
+Emod_m_tb
+Z20 w1250723821
+R2
+Z21 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z22 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+R3
+Z23 8mod_m_tb.vhd
+Z24 Fmod_m_tb.vhd
+l0
+L33
+V[9W40>h:2AXZ>f7mZbBNS3
+R6
+31
+R7
+R8
+Abehavior
+R2
+R21
+R22
+R3
+DE work mod_m_tb [9W40>h:2AXZ>f7mZbBNS3
+l61
+L36
+VGfgK_zP>P@hJg^IngU7XU2
+R6
+31
+Z25 M4 ieee std_logic_1164
+Z26 M3 ieee std_logic_unsigned
+Z27 M2 ieee std_logic_arith
+R11
+R7
+R8
+Euart
+Z28 w1250709321
+R2
+R3
+Z29 8uart.vhd
+Z30 Fuart.vhd
+l0
+L30
+V3aF`mkbe8QWl^SYUZROAi2
+R6
+31
+R7
+R8
+Abehavioral
+Z31 DE work uart_tx KJ3I8G7SlhD[doElk[^`B0
+R15
+Z32 DE work uart_rx IhQiV^SkBP:]MKhBFRURN3
+R19
+R2
+R3
+Z33 DE work uart 3aF`mkbe8QWl^SYUZROAi2
+l58
+L51
+VzG_g9n2k]ADl@YkT36_Hl3
+R6
+31
+R10
+R11
+R7
+R8
+Euart_rx
+Z34 w1250703415
+R2
+R3
+Z35 8uart_rx.vhd
+Z36 Fuart_rx.vhd
+l0
+L30
+VIhQiV^SkBP:]MKhBFRURN3
+R6
+31
+R7
+R8
+Abehavioral
+R2
+R3
+R32
+l49
+L43
+VjWaEPC`km<^<Gb[Zbl>TI1
+R6
+31
+R10
+R11
+R7
+R8
+Euart_test
+Z37 w1250727089
+R2
+R3
+Z38 8uart_test.vhd
+Z39 Fuart_test.vhd
+l0
+L30
+V:^me:I^NO:6Y>7_KK17Mm0
+R6
+31
+R7
+R8
+Abehavioral
+R9
+R33
+R2
+R3
+DE work uart_test :^me:I^NO:6Y>7_KK17Mm0
+l43
+L39
+VG0L`I1Ga9ckT^lQ`3Xz8I3
+R6
+31
+R10
+R11
+R7
+R8
+Euart_test_tb
+Z40 w1250735145
+R2
+R21
+R22
+R3
+Z41 8uart_test_tb.vhd
+Z42 Fuart_test_tb.vhd
+l0
+L33
+VE[cgozf3I35cC][i=kWah2
+R6
+31
+R7
+R8
+Abehavior
+R2
+R21
+R22
+R3
+Z43 DE work uart_test_tb E[cgozf3I35cC][i=kWah2
+l65
+L36
+VZU<fa:VRQ9IGF0GQkN6;J0
+R6
+31
+R25
+R26
+R27
+R11
+R7
+R8
+Euart_tx
+Z44 w1250707282
+R2
+R3
+Z45 8uart_tx.vhd
+Z46 Fuart_tx.vhd
+l0
+L30
+VKJ3I8G7SlhD[doElk[^`B0
+R6
+31
+R7
+R8
+Abehavioral
+R2
+R3
+R31
+l51
+L44
+VSUd_GYzO;76K82JLzRoEV3
+R6
+31
+R10
+R11
+R7
+R8

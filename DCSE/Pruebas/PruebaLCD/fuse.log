@@ -1,0 +1,49 @@
+Determining compilation order of HDL files
+Analyzing Verilog file Clock.v
+Analyzing Verilog file C:/Xilinx/10.1/ISE/verilog/src/glbl.v
+Analyzing VHDL file ModuloLCD.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+WARNING:HDLCompiler:946 - "ModuloLCD.vhd" Line 69. Actual for formal port rst_in
+   is neither a static name nor a globally static expression
+Analyzing VHDL file ModuloLCD_tb.vhd
+Restoring VHDL parse-tree ieee.numeric_std from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Saving VHDL parse-tree work.modulolcd into
+d:/desings/xilinx/pruebalcd/isim/work/modulolcd.vdb
+Saving VHDL parse-tree work.modulolcd_tb into
+d:/desings/xilinx/pruebalcd/isim/work/modulolcd_tb.vdb
+Starting static elaboration
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 867.
+   Range is empty (null range)
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 868.
+   Range is empty (null range)
+Restoring Verilog parse-tree unisims_ver.BUFG from
+c:/xilinx/10.1/ise/verilog/hdp/nt/unisims_ver/unisims_ver.sdbl
+Restoring Verilog parse-tree unisims_ver.IBUFG from
+c:/xilinx/10.1/ise/verilog/hdp/nt/unisims_ver/unisims_ver.sdbl
+Restoring Verilog parse-tree unisims_ver.DCM_SP from
+c:/xilinx/10.1/ise/verilog/hdp/nt/unisims_ver/unisims_ver.sdbl
+Restoring Verilog parse-tree unisims_ver.dcm_sp_clock_divide_by_2 from
+c:/xilinx/10.1/ise/verilog/hdp/nt/unisims_ver/unisims_ver.sdbl
+Restoring Verilog parse-tree unisims_ver.dcm_sp_maximum_period_check from
+c:/xilinx/10.1/ise/verilog/hdp/nt/unisims_ver/unisims_ver.sdbl
+Restoring Verilog parse-tree unisims_ver.dcm_sp_clock_lost from
+c:/xilinx/10.1/ise/verilog/hdp/nt/unisims_ver/unisims_ver.sdbl
+WARNING:HDLCompiler:918 - "ModuloLCD.vhd" Line 67. Size mismatch in mixed
+   language port association, verilog port CLKIN_IN
+Completed static elaboration
+Fuse Memory Usage: 56840 Kb
+Fuse CPU Usage: 1124 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling module glbl

@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+Interfaz instance_name (
+    .clk(clk), 
+    .rotatory_in(rotatory_in), 
+    .rotatory_press_in(rotatory_press_in), 
+    .pb_in(pb_in), 
+    .modo_in(modo_in), 
+    .rst_n(rst_n), 
+    .rotatory_event(rotatory_event), 
+    .rotatory_left(rotatory_left), 
+    .rot_press_out(rot_press_out), 
+    .modo_out(modo_out), 
+    .pb_out(pb_out)
+    );
+
+

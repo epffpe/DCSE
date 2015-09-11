@@ -1,0 +1,66 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\FPGA Prototyping\Tema4
+Esquare_wave_gen
+Z1 w1250313177
+Z2 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z3 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8Square_wave_gen.vhd
+Z6 FSquare_wave_gen.vhd
+l0
+L30
+VIT4Wj:PCm_I=;7Si83R_>3
+Z7 OX;C;6.3c;37
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+DE work square_wave_gen IT4Wj:PCm_I=;7Si83R_>3
+l45
+L37
+V_bO:1dz4:QBzMe5Yc_YoF0
+R7
+31
+Z10 M3 ieee std_logic_1164
+Z11 M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+R8
+R9
+Etb_sq_wave_gen
+Z12 w1250313512
+Z13 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+R3
+R2
+R4
+Z14 8tb_sq_wave_gen.vhd
+Z15 Ftb_sq_wave_gen.vhd
+l0
+L33
+VPB0V3Gem5GlgdLT[@WTA:3
+R7
+31
+R8
+R9
+Abehavior
+R13
+R3
+R2
+R4
+DE work tb_sq_wave_gen PB0V3Gem5GlgdLT[@WTA:3
+l61
+L36
+Va<eB<LE:2P5PjW?0H8FdY2
+R7
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+R11
+M1 ieee numeric_std
+R8
+R9

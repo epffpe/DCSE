@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\netgen.exe -ise D:/Desings/DCSE/PracticaLCD/PracticaLCD.ise -intstyle ise -s 4 -pcf ModuloLCD.pcf -rpw 100 -tpw 0 -ar Structure -tm ModuloLCD -w -dir netgen/map -ofmt vhdl -sim ModuloLCD_map.ncd ModuloLCD_map.vhd
+s
+FormatString
+netgen [-sim] [-ofmt vhdl] [--gm] [-a] [-aka] [-ar <arch_name>] [-bx <BRAM_output_dir>] {-bd <BRAM_data_file>[tag <tagName>]} [-dir <dir_name>] [-fn] [-gp <port_name>] [-intstyle ise|xflow|silent] [-mhf] [-module] [-ngm <ngm_file>] [-pcf <pcf_file>] [-rpw <roc_pulse_width>] [-s <speed>] [-tb] [-ti <top_inst_name>] [-tm <top_module_name>] [-tp <port_name>] [-tpw <toc_pulse_width>] [-w] [--log <log_file>] [--te <top_entity_name>] [--quiet] [--r] [--verbose] [--debug] [--cleanup] [--suh <true_or_false>] [--wraplog <log_file>] [-insert_pp_buffers <true_or_false>] [-extid] [--ub] <infile> [<outfile[.vhd]>] 
+s

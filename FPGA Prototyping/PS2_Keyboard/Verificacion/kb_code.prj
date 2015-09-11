@@ -1,0 +1,3 @@
+vhdl work "ps2_rx.vhd"
+vhdl work "fifo.vhd"
+vhdl work "kb_code.vhd"

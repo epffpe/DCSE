@@ -1,0 +1,29 @@
+Release 10.1 - netgen K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm ModuloLCD
+-w -dir netgen/translate -ofmt vhdl -sim ModuloLCD.ngd ModuloLCD_translate.vhd  
+
+Reading design 'ModuloLCD.ngd' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist
+'D:\Desings\DCSE\PracticaLCD\netgen\translate\ModuloLCD_translate.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM library for correct
+   compilation and simulation. 
+INFO:NetListWriters:678 - Setup Simulation
+INFO:NetListWriters:688 - To perform a setup simulation, specify values in the
+   Maximum (MAX) field with the following command line modifier:
+INFO:NetListWriters:659 - -SDFMAX
+INFO:NetListWriters:669 - Hold Simulation
+INFO:NetListWriters:689 - To perform the most accurate hold simulation, specify
+   values in the Minimum (MIN) field with the following command line modifier:
+INFO:NetListWriters:660 - -SDFMIN
+INFO:NetListWriters:665 - For more information on how to pass the SDF switches
+   to the simulator, see your Simulator tool documentation.
+Number of warnings: 0
+Number of info messages: 8
+Total memory usage is 72128 kilobytes

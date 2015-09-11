@@ -1,0 +1,22 @@
+V3 11
+FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/mod_m_counter.vhd" 2009/08/23.06:27:15 K.31
+EN work/mod_m_counter 1251835335 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/mod_m_counter.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/mod_m_counter/Behavioral 1251835336 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/mod_m_counter.vhd" \
+      EN work/mod_m_counter 1251835335
+FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.vhd" 2009/09/01.20:27:26 K.31
+EN work/receptor 1251835337 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.vhd" \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/receptor/Behavioral 1251835338 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.vhd" EN work/receptor 1251835337 \
+      CP uart_rx CP mod_m_counter
+FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/uart_rx.vhd" 2009/08/19.18:36:55 K.31
+EN work/uart_rx 1251835333 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/uart_rx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_rx/Behavioral 1251835334 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/uart_rx.vhd" EN work/uart_rx 1251835333

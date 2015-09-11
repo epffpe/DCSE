@@ -1,0 +1,8 @@
+vhdl work "D:\Desings\DCSE\Pruebas\Prueba3LCD\LEDS.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueba3LCD\Interfaz.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueba3LCD\Direccion.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueba3LCD\DatosLCD.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueba3LCD\Counter.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueba3LCD\Control.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueba3LCD\Clock.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueba3LCD\ModuloLCD.vhd"

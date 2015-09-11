@@ -1,0 +1,121 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {uart_test_tb.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity uart_tx
+# -- Compiling architecture behavioral of uart_tx
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity uart_rx
+# -- Compiling architecture behavioral of uart_rx
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mod_m_counter
+# -- Compiling architecture behavioral of mod_m_counter
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity fifo
+# -- Compiling architecture behavioral of fifo
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity uart
+# -- Compiling architecture behavioral of uart
+# -- Loading entity mod_m_counter
+# -- Loading entity uart_rx
+# -- Loading entity fifo
+# -- Loading entity uart_tx
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity debounce
+# -- Compiling architecture imp_fsmd_arch of debounce
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity uart_test
+# -- Compiling architecture behavioral of uart_test
+# -- Loading entity uart
+# -- Loading entity debounce
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity uart_test_tb
+# -- Compiling architecture behavior of uart_test_tb
+# ** Warning: [4] uart_test_tb.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] uart_test_tb.vhd(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -t 1ps uart_test_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.uart_test_tb(behavior)
+# Loading work.uart_test(behavioral)
+# Loading work.uart(behavioral)
+# Loading work.mod_m_counter(behavioral)
+# Loading work.uart_rx(behavioral)
+# Loading work.fifo(behavioral)
+# Loading work.uart_tx(behavioral)
+# Loading work.debounce(imp_fsmd_arch)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /uart_test_tb/uut/uart_unit/fifo_tx_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /uart_test_tb/uut/uart_unit/fifo_rx_unit
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /uart_test_tb/uut/uart_unit/baud_gen_unit
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /uart_test_tb/uut/uart_unit/baud_gen_unit
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./uart_test_tb.fdo PAUSED at line 18
+run
+# Break key hit 
+# Simulation stop requested.
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./uart_test_tb.fdo PAUSED at line 18
+run
+# Break key hit 
+# Break in Process line__51 at uart_rx.vhd line 51
+# Simulation Breakpoint: Break in Process line__51 at uart_rx.vhd line 51
+# MACRO ./uart_test_tb.fdo PAUSED at line 18
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /uart_test_tb/uut/uart_unit/fifo_tx_unit
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /uart_test_tb/uut/uart_unit/fifo_rx_unit
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /uart_test_tb/uut/uart_unit/baud_gen_unit
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /uart_test_tb/uut/uart_unit/baud_gen_unit

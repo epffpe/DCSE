@@ -1,0 +1,3 @@
+vhdl isim_temp "Clock.vhd"
+vhdl isim_temp "ModuloLCD.vhd"
+vhdl isim_temp "ModuloLCD_tb.vhd"

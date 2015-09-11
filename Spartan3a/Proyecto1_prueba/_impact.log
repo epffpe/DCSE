@@ -1,0 +1,272 @@
+iMPACT Version: 
+iMPACT log file Started on Sun May 11 00:56:11 2008
+
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.0.0. WinDriver v8.10 Jungo (c) 1997 - 2006 Build Date: Aug 15 2006 X86 32bit SYS14:21:34, version = 810.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.0.0. WinDriver v8.10 Jungo (c) 1997 - 2006 Build Date: Aug 15 2006 X86 32bit SYS14:21:34, version = 810.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.0.0. WinDriver v8.10 Jungo (c) 1997 - 2006 Build Date: Aug 15 2006 X86 32bit SYS14:21:34, version = 810.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.0.0. WinDriver v8.10 Jungo (c) 1997 - 2006 Build Date: Aug 15 2006 X86 32bit SYS14:21:34, version = 810.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\WINDOWS\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ Driver xusbdfwu.sys version: 1021 (1021).
+ Driver windrvr6.sys version = 8.1.0.0. WinDriver v8.10 Jungo (c) 1997 - 2006 Build Date: Aug 15 2006 X86 32bit SYS14:21:34, version = 810.
+ Cable PID = 0008.
+ Max current requested during enumeration is 280 mA.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1021.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =     16 sec.
+Attempting to identify devices in the boundary-scan chain configuration...// *** BATCH CMD : Identify 
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xcf04s, Version : 15
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx91i/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': : Manufacturer's ID =Xilinx xc3s700a, Version : 2
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx91i/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 1 -file"D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.bit"
+'1': Loading file 'D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.bit'...
+done.
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 1 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM matched                                       :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from Done Pin                        :         1
+SEU error                                         :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Program -p 1 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM matched                                       :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from Done Pin                        :         1
+SEU error                                         :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : saveProjectFile -file"D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ipf"
+// *** BATCH CMD : saveProjectFile -file"D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ipf"
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Designs\DCSE\Spartan3a\Proyecto1_prueba/Proyecto1_prueba.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ File C:\WINDOWS\system32\drivers\xusbdfwu.sys not found.
+Driver file not found. Inf file version = 0.
+ Driver xusbdfwu.sys version: 1021 (1021).
+ Driver windrvr6.sys version = 8.1.0.0. WinDriver v8.10 Jungo (c) 1997 - 2006 Build Date: Aug 15 2006 X86 32bit SYS14:21:34, version = 810.
+ Cable PID = 0008.
+ Max current requested during enumeration is 280 mA.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1021.
+CPLD file version = 0012h.
+CPLD version = 0012h.
+'1': Loading file 'D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.bit'...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx91i/spartan3a/data/xc3s700a.bsd...
+WARNING:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the   bitstream stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx91i/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : Program -p 1 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM matched                                       :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from Done Pin                        :         1
+SEU error                                         :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Verify -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_START - Starting Operation.
+ERROR:Bitstream:2 - The input file   "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.msk" does not exist.    Please check that the specified location is correct and that the bitstream   was successfully created.
+ERROR:iMPACT:123 - Mask file   D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.msk is invalid.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Verify -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_START - Starting Operation.
+ERROR:Bitstream:2 - The input file   "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.msk" does not exist.    Please check that the specified location is correct and that the bitstream   was successfully created.
+ERROR:iMPACT:123 - Mask file   D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/prueba_leds.msk is invalid.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Program -p 1 -defaultVersion 0 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM matched                                       :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from Done Pin                        :         1
+SEU error                                         :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+Cable is not connected.
+// *** BATCH CMD : saveProjectFile -file"D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ipf"
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1

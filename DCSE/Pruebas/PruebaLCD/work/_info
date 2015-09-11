@@ -1,0 +1,124 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Desings\Xilinx\PruebaLCD
+Eclock
+Z1 w1233792165
+Z2 DP unisim vcomponents LleKR0SczfnVz2QDcaQZM1
+Z3 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8Clock.vhd
+Z6 FClock.vhd
+l0
+L28
+V79;38fV9gU<O9dg44b;^50
+Z7 OX;C;6.3c;37
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+DE work clock 79;38fV9gU<O9dg44b;^50
+l42
+L36
+V`9g;g>F?81gYf_X:hWlfn1
+R7
+31
+Z10 M3 ieee std_logic_1164
+M2 ieee numeric_std
+M1 unisim vcomponents
+R8
+R9
+Econtrol
+Z11 w1233789646
+Z12 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z13 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+R4
+Z14 8Control.vhd
+Z15 FControl.vhd
+l0
+L30
+VNaGGX@I^Q@h?_<CBDRQ]S0
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work control NaGGX@I^Q@h?_<CBDRQ]S0
+l40
+L38
+V7Ia96D]VVOaHzeedBc9^k0
+R7
+31
+R10
+Z16 M2 ieee std_logic_arith
+Z17 M1 ieee std_logic_unsigned
+R8
+R9
+Emodulolcd
+Z18 w1233794580
+R12
+R13
+R4
+Z19 8ModuloLCD.vhd
+Z20 FModuloLCD.vhd
+l0
+L30
+V_@2Q?UJ:bI;dzIY2PO0Ta3
+R7
+31
+R8
+R9
+Abehavioral
+R12
+R13
+R4
+DE work modulolcd _@2Q?UJ:bI;dzIY2PO0Ta3
+l66
+L39
+V?I^@aZQcB21aoIR`Pa<>^0
+R7
+31
+R10
+R16
+R17
+R8
+R9
+Emodulolcd_tb
+Z21 w1233794839
+R3
+R13
+R12
+R4
+Z22 8ModuloLCD_tb.vhd
+Z23 FModuloLCD_tb.vhd
+l0
+L33
+VbH1=_B=kINg[jFl5SB9Ra2
+R7
+31
+R8
+R9
+Abehavior
+R3
+R13
+R12
+R4
+Z24 DE work modulolcd_tb bH1=_B=kINg[jFl5SB9Ra2
+l65
+L36
+VhQZFA?:mcVOjSYfc0zjmE3
+R7
+31
+Z25 M4 ieee std_logic_1164
+Z26 M3 ieee std_logic_unsigned
+R16
+Z27 M1 ieee numeric_std
+R8
+R9

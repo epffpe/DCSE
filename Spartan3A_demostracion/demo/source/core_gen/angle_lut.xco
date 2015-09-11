@@ -1,0 +1,42 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = False
+SET verilogsim = True
+SET workingdirectory = "C:\coregen\tmp"
+SET speedgrade = -4
+SET simulationfiles = Structural
+SET asysymbol = True
+SET addpads = False
+SET device = xc3s1000
+SET implementationfiletype = Ngc
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = fg456
+SET createndf = False
+SET designentry = Verilog
+SET devicefamily = spartan3
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Sine-Cosine_Look-Up_Table family Xilinx,_Inc. 5.0
+# END Select
+# BEGIN Parameters
+CSET output_symmetry=Symmetric
+CSET create_rpm=false
+CSET output_width=9
+CSET memory_type=Block_ROM
+CSET theta_input_width=8
+CSET clock_enable=false
+CSET sclr_pin=false
+CSET negative_sine=false
+CSET pipeline_stages=1
+CSET component_name=angle_lut
+CSET output_options=Non_Registered
+CSET negative_cosine=false
+CSET function=Sine_and_Cosine
+CSET input_options=Non_Registered
+CSET handshaking_enabled=false
+CSET aclr_pin=false
+# END Parameters
+GENERATE

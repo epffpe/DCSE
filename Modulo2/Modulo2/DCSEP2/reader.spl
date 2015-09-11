@@ -1,0 +1,9 @@
+[Inputs]
+clk
+rst_n
+hold
+up_down
+=DI[7:0]=
+[Outputs]
+=DO[7:0]=
+[BiDir]

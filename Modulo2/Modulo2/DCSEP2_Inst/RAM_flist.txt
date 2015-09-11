@@ -1,0 +1,13 @@
+# Output products list for <RAM>
+RAM.asy
+RAM.mif
+RAM.ngc
+RAM.sym
+RAM.v
+RAM.veo
+RAM.vhd
+RAM.vho
+RAM.xco
+RAM_blk_mem_gen_v2_8_xst_1.ngc_xst.xrpt
+RAM_flist.txt
+RAM_xmdf.tcl

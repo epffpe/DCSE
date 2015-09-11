@@ -1,0 +1,2455 @@
+iMPACT Version: 10.1
+
+iMPACT log file Started on Sat Feb 07 00:52:53 2009
+
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\Pruebas\borrar/borrar.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+'1': Loading file 'D:/Desings/DCSE/Pruebas/borrar/borrar.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\Pruebas\borrar/borrar.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+'1': Loading file 'D:/Desings/DCSE/Pruebas/borrar/borrar.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\Pruebas\borrar/borrar.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+'1': Loading file 'D:/Desings/DCSE/Pruebas/borrar/borrar.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\Pruebas\borrar/borrar.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+'1': Loading file 'D:/Desings/DCSE/Pruebas/borrar/borrar.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+ERROR:ConstraintSystem:1 - The value () given for the 'group name' attribute is   not valid in its current context.
+   The value must be text that matches the regular expression: .+
+
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\Pruebas\borrar/borrar.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+'1': Loading file 'D:/Desings/DCSE/Pruebas/borrar/borrar.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/borrar.vhd" in Library work.
+Entity <borrar> compiled.
+Entity <borrar> (Architecture <Behavioral>) compiled.
+Loading device for application Rf_Device from file '3s700a.nph' in environmentC:\Xilinx\10.1\ISE.
+No DRC error found.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/ModuloLCD.vhd" in Library work.
+Entity <ModuloLCD> compiled.
+Entity <ModuloLCD> (Architecture <Behavioral>) compiled.
+No DRC error found.
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\PracticaLCD/PracticaLCD.ipf"
+'1': Loading file 'D:/Desings/DCSE/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+Cable is not connected.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 60 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1029.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Downloading C:/Xilinx/10.1/ISE/data/xusb_xlp.hex.
+Downloaded firmware version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      4 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\LCD4BIT\PracticaLCD/PracticaLCD.ipf"
+INFO:iMPACT:2676 - base class function getDeviceChain(index) is called.
+'1': Loading file 'D:\Desings\DCSE\LCD4BIT\PracticaLCD\modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 60 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      3 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\LCD4BIT\PracticaLCD/PracticaLCD.ipf"
+INFO:iMPACT:2676 - base class function getDeviceChain(index) is called.
+'1': Loading file 'D:\Desings\DCSE\PracticaLCD\modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 60 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      3 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+Cable is not connected.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\LCD4BIT\PracticaLCD/PracticaLCD.ipf"
+INFO:iMPACT:2676 - base class function getDeviceChain(index) is called.
+'1': Loading file 'D:\Desings\DCSE\LCD4BIT\PracticaLCD\modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : assignFile -p 1 -file"D:/Desings/DCSE/LCD4BIT/PracticaLCD/modulolcd.bit"
+'1': Loading file 'D:/Desings/DCSE/LCD4BIT/PracticaLCD/modulolcd.bit' ...
+done.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+----------------------------------------------------------------------
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1029.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Downloading C:/Xilinx/10.1/ISE/data/xusb_xlp.hex.
+Downloaded firmware version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\LCD4BIT\PracticaLCD/PracticaLCD.ipf"
+INFO:iMPACT:2676 - base class function getDeviceChain(index) is called.
+'1': Loading file 'D:\Desings\DCSE\LCD4BIT\PracticaLCD\modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file"D:\Desings\DCSE\LCD4BIT\PracticaLCD/PracticaLCD.ipf"
+INFO:iMPACT:2676 - base class function getDeviceChain(index) is called.
+'1': Loading file 'D:\Desings\DCSE\LCD4BIT\PracticaLCD\modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB22).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB23).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB24).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =     11 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 60 mA.
+Type = 0x0004.
+write cmdbuffer failed C0000005.
+Loopback test failed. Sent character = F3, Received character = F2.
+Cable connection failed.
+Connecting to cable (Usb Port - USB22).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB23).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB24).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+PROGRESS_END - End Operation.
+Elapsed time =     10 sec.
+Cable autodetection failed.
+WARNING:iMPACT:923 - Can not find cable, check cable setup ! Count ReleaseSemaphore rc = 298.
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1029.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Downloading C:/Xilinx/10.1/ISE/data/xusb_xlp.hex.
+Downloaded firmware version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : ReadIdcode -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': IDCODE is '00100010001000101000000010010011'
+'1': IDCODE is '22228093' (in hex).
+'1': : Manufacturer's ID =Xilinx xc3s700a, Version : 2
+// *** BATCH CMD : ReadIdcode -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': IDCODE is '00100010001000101000000010010011'
+'1': IDCODE is '22228093' (in hex).
+'1': : Manufacturer's ID =Xilinx xc3s700a, Version : 2
+// *** BATCH CMD : ReadStatusRegister -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+// *** BATCH CMD : ReadUsercode -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Usercode is 'ffffffff'
+// *** BATCH CMD : ReadIdcode -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': IDCODE is '00100010001000101000000010010011'
+'1': IDCODE is '22228093' (in hex).
+'1': : Manufacturer's ID =Xilinx xc3s700a, Version : 2
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+INTERNAL_ERROR:PersonalityModule:baspmspec.c:1740:1.75 - Could not load   definition file <virtex5.acd> ERROR:ProjectMgmt:387 - TOE: ITclInterp::ExecuteCmd gave Tcl result 'trueAn   exception took place while calling   GuiI::TclWrapIFileSupervisor::ExecActivateFileEditorWindowCall '.
+   Tcl_ErrnoId: ENOENT
+   Tcl_ErrnoMsg: no such file or directory
+   _cmd: ::xilinx::Dpm::dpm_chViewDesignSummary $piThisInterface
+   errorInfo: trueAn exception took place while calling   GuiI::TclWrapIFileSupervisor::ExecActivateFileEditorWindowCall 
+       while executing
+   "$_FileSuperI ExecActivateFileEditorWindowCall $_filePath"
+       (procedure "dpm_editorCallEditPlugin" line 17)
+       invoked from within
+   "dpm_editorCallEditPlugin $_PluginID $_ProjectPath 0 $_iInterface "
+       (procedure "::xilinx::Dpm::dpm_chViewDesignSummary" line 40)
+       invoked from within
+   "::xilinx::Dpm::dpm_chViewDesignSummary $piThisInterface"
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/ModuloLCD4bits.vhd" in Librarywork.
+Entity <ModuloLCD> compiled.
+Entity <ModuloLCD> (Architecture <Behavioral>) compiled.
+No DRC error found.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+PROGRESS_START - Starting Operation.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT2).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT3).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT4).
+Checking cable driver.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+Cable connection failed.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1029.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Downloading C:/Xilinx/10.1/ISE/data/xusb_xlp.hex.
+Downloaded firmware version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+Attempting to identify devices in the boundary-scan chain configuration...// *** BATCH CMD : Identify 
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xcf04s, Version : 15
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': : Manufacturer's ID =Xilinx xc3s700a, Version : 2
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 1 -file "D:/Desings/DCSE/LCD4BIT/modulolcd.bit"
+'1': Loading file 'D:/Desings/DCSE/LCD4BIT/modulolcd.bit' ...
+done.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+----------------------------------------------------------------------
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : saveProjectFile -file "D:/Desings/DCSE/LCD4BIT/LCD4BIT.ipf"
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : loadProjectFile -file "D:\Desings\DCSE\LCD4BIT/LCD4BIT.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusbdfwu.sys found.
+ Driver version: src=1027, dest=1027.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1302.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+'1': Loading file 'D:/Desings/DCSE/LCD4BIT/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 2
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1

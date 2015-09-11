@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xpwr.exe -ise D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise -intstyle ise Modulo3.ncd Modulo3.pcf -wx Modulo3_xpwr.xml -o Modulo3.pwr
+s
+FormatString
+xpwr							   (<fpgadesign[.ncd]> [<constraints[.pcf]>] [-v [-a]] [-l <limit>] [-x [<userdata[.xml]>]] [-wx [<settings[.xml]>]] [-s [<simdata[.vcd]>]] [-o <report[.pwr]>] [-tcl [<tclscript[.tcl]>]] [-intstyle <type>] [-ise <projectfile>] [-p <xmlReportFile>])							 | (<fpgadesign[.ncd]> [<constraints[.pcf]>] [-v [-a]] [-l <limit>] [-x [<userdata[.xml]>]] [-wx [<settings[.xml]>]] [-s [<simdata[.saif]>]] [-o <report[.pwr]>] [-tcl [<tclscript[.tcl]>]] [-intstyle <type>] [-ise <projectfile>] [-p <xmlReportFile>])							 | (<cplddesign[.cxt]> [-v [-a]] [-l <limit>] [-x [<userdata[.xml]>]] [-wx [<settings[.xml]>]] [-s [<simdata[.vcd]>]] [-o <report[.pwr]>] [-tcl [<tclscript[.tcl]>]] [-intstyle <type>] [-ise <projectfile>] [-p <xmlReportFile>])							 | (<cplddesign[.cxt]> [-v [-a]] [-l <limit>] [-x [<userdata[.xml]>]] [-wx [<settings[.xml]>]] [-s [<simdata[.saif]>]] [-o <report[.pwr]>] [-tcl [<tclscript[.tcl]>]] [-intstyle <type>] [-ise <projectfile>] [-p <xmlReportFile>])							 | ([-ls [-arch <architecture>]] )
+s

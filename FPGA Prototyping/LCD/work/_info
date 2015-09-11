@@ -1,0 +1,63 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\FPGA Prototyping\LCD
+Eprueba_lcd
+Z1 w1250800751
+Z2 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z3 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8Prueba_LCD.vhd
+Z5 FPrueba_LCD.vhd
+l0
+L30
+V6]XMnTAUzM`@4^N<gcdzH0
+Z6 OX;C;6.3c;37
+31
+Z7 o-explicit -93 -O0
+Z8 tExplicit 1
+Abehavioral
+R2
+R3
+DE work prueba_lcd 6]XMnTAUzM`@4^N<gcdzH0
+l59
+L40
+ValdU[i^:[GNHM5V;iSKYo0
+R6
+31
+Z9 M2 ieee std_logic_1164
+Z10 M1 ieee numeric_std
+R7
+R8
+Eprueba_lcd_tb
+Z11 w1250755358
+R2
+Z12 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z13 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+R3
+Z14 8Prueba_LCD_tb.vhd
+Z15 FPrueba_LCD_tb.vhd
+l0
+L33
+VN]nUkXb7Hb>bdAe2G0BDK0
+R6
+31
+R7
+R8
+Abehavior
+R2
+R12
+R13
+R3
+Z16 DE work prueba_lcd_tb N]nUkXb7Hb>bdAe2G0BDK0
+l67
+L36
+Z17 Vl3LeKHh9=9;IOdfQ[BWc:2
+R6
+31
+Z18 M4 ieee std_logic_1164
+Z19 M3 ieee std_logic_unsigned
+Z20 M2 ieee std_logic_arith
+R10
+R7
+R8

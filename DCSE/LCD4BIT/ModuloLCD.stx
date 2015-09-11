@@ -1,0 +1,48 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/divDEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity divdebouncer is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/DEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/Clock1562.vhd" in Library work.
+Architecture behavioral of Entity clock1562 is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/div_control.vhd" in Library work.
+Architecture behavioral of Entity div_control is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/Interfaz.vhd" in Library work.
+Architecture behavioral of Entity interfaz is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/Counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/DatosLCD.vhd" in Library work.
+Architecture behavioral of Entity datoslcd is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/Direccion.vhd" in Library work.
+Architecture behavioral of Entity direccion is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/UControl.vhd" in Library work.
+Architecture behavioral of Entity ucontrol is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/Led_status.vhd" in Library work.
+Architecture behavioral of Entity led_status is up to date.
+Compiling vhdl file "D:/Desings/DCSE/LCD4BIT/ModuloLCD4bits.vhd" in Library work.
+Entity <modulolcd> compiled.
+Entity <modulolcd> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.22 secs
+ 
+--> 
+
+Total memory usage is 141084 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/Desings/DCSE/LCD4BIT/LCD4BIT.ise -intstyle ise -ifn D:/Desings/DCSE/LCD4BIT/ModuloLCD.xst -ofn D:/Desings/DCSE/LCD4BIT/ModuloLCD.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+D:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 izq_der_leds.ngc izq_der_leds.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+izq_der_leds_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

@@ -1,0 +1,3 @@
+xst -ise "D:/Desings/Xilinx/PruebaLCD/PruebaLCD.ise" -intstyle ise -ifn "D:/Desings/Xilinx/PruebaLCD/borrar.xst" -ofn "D:/Desings/Xilinx/PruebaLCD/borrar.syr"
+xst -ise "D:/Desings/Xilinx/PruebaLCD/PruebaLCD.ise" -intstyle ise -ifn "D:/Desings/Xilinx/PruebaLCD/borrar.xst" -ofn "D:/Desings/Xilinx/PruebaLCD/borrar.syr"
+xst -ise "D:/Desings/Xilinx/PruebaLCD/PruebaLCD.ise" -intstyle ise -ifn "D:/Desings/Xilinx/PruebaLCD/borrar.xst" -ofn "D:/Desings/Xilinx/PruebaLCD/borrar.syr"

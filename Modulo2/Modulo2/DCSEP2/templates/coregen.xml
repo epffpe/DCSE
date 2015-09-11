@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootFolder label="COREGEN" treetype="folder" language="COREGEN">
+	<Folder label="VERILOG Component Instantiation" treetype="folder">
+		<Template label="divisorDEBOUNCER" treetype="template">
+		</Template>
+		<Template label="asd" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+asd YourInstanceName (
+    .ce(ce),
+    .clk(clk),
+    .sclr(sclr),
+    .we(we),
+    .data(data), // Bus [26 : 0] 
+    .rdy(rdy),
+    .rfd(rfd),
+    .cosine(cosine)); // Bus [6 : 0] 
+
+ 
+		</Template>
+		<Template label="asdfg" treetype="template">
+		</Template>
+		<Template label="DDS" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+DDS YourInstanceName (
+    .clk(clk),
+    .we(we),
+    .data(data), // Bus [28 : 0] 
+    .rdy(rdy),
+    .rfd(rfd),
+    .cosine(cosine)); // Bus [6 : 0] 
+
+ 
+		</Template>
+		<Template label="aa" treetype="template">
+		</Template>
+		<Template label="RAMBLOCK" treetype="template">
+		</Template>
+		<Template label="ss" treetype="template">
+		</Template>
+	</Folder>
+	<Folder label="VHDL Component Instantiation" treetype="folder">
+		<Template label="divisorDEBOUNCER" treetype="template">
+		</Template>
+		<Template label="asd" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component asd
+    port (
+    ce: IN std_logic;
+    clk: IN std_logic;
+    sclr: IN std_logic;
+    we: IN std_logic;
+    data: IN std_logic_VECTOR(26 downto 0);
+    rdy: OUT std_logic;
+    rfd: OUT std_logic;
+    cosine: OUT std_logic_VECTOR(6 downto 0));
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : asd
+        port map (
+            ce =&gt; ce,
+            clk =&gt; clk,
+            sclr =&gt; sclr,
+            we =&gt; we,
+            data =&gt; data,
+            rdy =&gt; rdy,
+            rfd =&gt; rfd,
+            cosine =&gt; cosine);
+ 
+		</Template>
+		<Template label="asdfg" treetype="template">
+		</Template>
+		<Template label="DDS" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component DDS
+    port (
+    clk: IN std_logic;
+    we: IN std_logic;
+    data: IN std_logic_VECTOR(28 downto 0);
+    rdy: OUT std_logic;
+    rfd: OUT std_logic;
+    cosine: OUT std_logic_VECTOR(6 downto 0));
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : DDS
+        port map (
+            clk =&gt; clk,
+            we =&gt; we,
+            data =&gt; data,
+            rdy =&gt; rdy,
+            rfd =&gt; rfd,
+            cosine =&gt; cosine);
+ 
+		</Template>
+		<Template label="aa" treetype="template">
+		</Template>
+		<Template label="RAMBLOCK" treetype="template">
+		</Template>
+		<Template label="ss" treetype="template">
+		</Template>
+	</Folder>
+</RootFolder>

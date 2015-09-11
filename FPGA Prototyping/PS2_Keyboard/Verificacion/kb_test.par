@@ -1,0 +1,190 @@
+Release 10.1 par K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Supersonic::  Sat Aug 22 05:10:48 2009
+
+par -w -intstyle ise -ol std -t 1 kb_test_map.ncd kb_test.ncd kb_test.pcf 
+
+
+Constraints file: kb_test.pcf.
+Loading device for application Rf_Device from file '3s700a.nph' in environment C:\Xilinx\10.1\ISE.
+   "kb_test" is an NCD, version 3.2, device xc3s700a, package fg484, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. The PAR timing summary will list the performance achieved for each clock. Note: For
+   the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high". For a
+   balance between the fastest runtime and best performance, set the effort level to "med".
+
+Device speed data version:  "PRODUCTION 1.39 2008-01-09".
+
+
+Design Summary Report:
+
+ Number of External IOBs                           5 out of 372     1%
+
+   Number of External Input IOBs                  4
+
+      Number of External Input IBUFs              4
+        Number of LOCed External Input IBUFs      4 out of 4     100%
+
+
+   Number of External Output IOBs                 1
+
+      Number of External Output IOBs              1
+        Number of LOCed External Output IOBs      1 out of 1     100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        1 out of 24      4%
+   Number of Slices                        245 out of 5888    4%
+      Number of SLICEMs                     16 out of 2944    1%
+
+
+
+Overall effort level (-ol):   Standard 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard 
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:989d24) REAL time: 12 secs 
+
+Phase 2.7
+Phase 2.7 (Checksum:1312cfe) REAL time: 12 secs 
+
+Phase 3.31
+Phase 3.31 (Checksum:1c9c37d) REAL time: 12 secs 
+
+Phase 4.2
+
+......
+Phase 4.2 (Checksum:989e4f) REAL time: 13 secs 
+
+Phase 5.30
+Phase 5.30 (Checksum:2faf07b) REAL time: 13 secs 
+
+Phase 6.8
+...........
+.........
+.............................................
+........................................................................................
+Phase 6.8 (Checksum:a35261) REAL time: 17 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 17 secs 
+
+Phase 8.18
+Phase 8.18 (Checksum:4c4b3f8) REAL time: 19 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:55d4a77) REAL time: 19 secs 
+
+REAL time consumed by placer: 19 secs 
+CPU  time consumed by placer: 10 secs 
+Writing design to file kb_test.ncd
+
+
+Total REAL time to Placer completion: 19 secs 
+Total CPU time to Placer completion: 10 secs 
+
+Starting Router
+
+Phase 1: 1651 unrouted;       REAL time: 24 secs 
+
+Phase 2: 1516 unrouted;       REAL time: 25 secs 
+
+Phase 3: 409 unrouted;       REAL time: 25 secs 
+
+Phase 4: 409 unrouted; (11782)      REAL time: 25 secs 
+
+Phase 5: 420 unrouted; (0)      REAL time: 25 secs 
+
+Phase 6: 0 unrouted; (0)      REAL time: 26 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 26 secs 
+
+Phase 8: 0 unrouted; (0)      REAL time: 26 secs 
+
+Phase 9: 0 unrouted; (0)      REAL time: 26 secs 
+
+Phase 10: 0 unrouted; (0)      REAL time: 26 secs 
+
+
+Total REAL time to Router completion: 26 secs 
+Total CPU time to Router completion: 15 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|           clk_BUFGP | BUFGMUX_X2Y11| No   |  134 |  0.127     |  1.135      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 0
+
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no
+   requested value.
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP   |         N/A|     9.847ns|     N/A|           0
+  _BUFGP                                    | HOLD    |     0.862ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 31 secs 
+Total CPU time to PAR completion: 18 secs 
+
+Peak Memory Usage:  173 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 2
+
+Writing design to file kb_test.ncd
+
+
+
+PAR done!

@@ -1,0 +1,26 @@
+U:/Modulo1/clkscale.vhd {1 {vcom -work work -2002 -explicit -vopt U:/Modulo1/clkscale.vhd
+Model Technology ModelSim SE vcom 6.2d Compiler 2006.10 Oct 16 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity clkscale
+-- Compiling architecture compor of clkscale
+
+} {} {}} U:/Modulo1/reader.vhd {1 {vcom -work work -2002 -explicit -vopt U:/Modulo1/reader.vhd
+Model Technology ModelSim SE vcom 6.2d Compiler 2006.10 Oct 16 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity reader
+-- Compiling architecture compor of reader
+
+} {} {}} U:/Modulo1/tickgen.vhd {1 {vcom -work work -2002 -explicit -vopt U:/Modulo1/tickgen.vhd
+Model Technology ModelSim SE vcom 6.2d Compiler 2006.10 Oct 16 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity tickgen
+-- Compiling architecture compor of tickgen
+
+} {} {}}

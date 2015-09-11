@@ -1,0 +1,32 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/Interfaz.vhd" in Library work.
+Architecture behavioral of Entity interfaz is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/LEDS.vhd" in Library work.
+Architecture behavioral of Entity leds is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/borrar.vhd" in Library work.
+Entity <borrar> compiled.
+Entity <borrar> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.47 secs
+ 
+--> 
+
+Total memory usage is 135964 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

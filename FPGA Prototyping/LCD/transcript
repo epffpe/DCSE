@@ -1,0 +1,32 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {Prueba_LCD_tb.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity prueba_lcd
+# -- Compiling architecture behavioral of prueba_lcd
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity prueba_lcd_tb
+# -- Compiling architecture behavior of prueba_lcd_tb
+# ** Warning: [4] Prueba_LCD_tb.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] Prueba_LCD_tb.vhd(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -t 1ps Prueba_LCD_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.prueba_lcd_tb(behavior)
+# Loading work.prueba_lcd(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+restart
+run

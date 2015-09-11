@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">93</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">BUFG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">97</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">IBUFG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">101</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">BUFG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK90</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK180</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK270</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK2X</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK2X180</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKFX</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKFX180</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">STATUS</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LOCKED</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PSDONE</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Reloj_ent.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">DCM_SP</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">leds</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">sw</arg>&gt; is never used or assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">clkdv_int</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">clk_buff</arg>&gt; is assigned but never used.
+</msg>
+
+</messages>
+

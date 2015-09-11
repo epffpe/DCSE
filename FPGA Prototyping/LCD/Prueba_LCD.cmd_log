@@ -1,0 +1,106 @@
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/LCD/Prueba_LCD.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "Prueba_LCD.ngc" Prueba_LCD.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o Prueba_LCD_map.ncd Prueba_LCD.ngd Prueba_LCD.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -w -intstyle ise -ol std -t 1 Prueba_LCD_map.ncd Prueba_LCD.ncd Prueba_LCD.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -e 3 -s 4 -xml Prueba_LCD Prueba_LCD.ncd -o Prueba_LCD.twr Prueba_LCD.pcf -ucf Prueba_LCD.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise" -intstyle ise -f Prueba_LCD.ut Prueba_LCD.ncd

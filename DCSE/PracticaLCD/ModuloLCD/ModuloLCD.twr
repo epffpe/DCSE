@@ -1,0 +1,117 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+D:/Desings/DCSE/ModuloLCD/ModuloLCD.ise -intstyle ise -e 3 -s 4 -xml ModuloLCD
+ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+
+Design file:              ModuloLCD.ncd
+Physical constraint file: ModuloLCD.pcf
+Device,package,speed:     xc3s700a,fg484,-4 (PRODUCTION 1.39 2008-01-09)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_clk50 = PERIOD TIMEGRP "clk50" 20 ns HIGH 50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_Inst_Clock_CLKDV_BUF = PERIOD TIMEGRP 
+"Inst_Clock_CLKDV_BUF" TS_clk50 * 32         HIGH 50%;
+
+ 1716 paths analyzed, 315 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   9.159ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: COMP "LCD_E" OFFSET = OUT 40 ns AFTER COMP "clk50" HIGH;
+
+ 1 path analyzed, 1 endpoint analyzed, 0 failing endpoints
+ 0 timing errors detected.
+ Minimum allowable offset is  31.453ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_clk50
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_clk50                       |     20.000ns|          N/A|      0.286ns|            0|            0|            0|         1716|
+| TS_Inst_Clock_CLKDV_BUF       |    640.000ns|      9.159ns|          N/A|            0|            0|         1716|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk50 to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+LCD_E       |   31.453(R)|clkdv             |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk50          |    9.159|         |         |         |
+---------------+---------+---------+---------+---------+
+
+COMP "LCD_E" OFFSET = OUT 40 ns AFTER COMP "clk50" HIGH;
+Bus Skew: 0.000 ns; 
+-----------------------------------------------+-------------+-------------+
+PAD                                            | Delay (ns)  |Edge Skew (ns)|
+-----------------------------------------------+-------------+-------------+
+LCD_E                                          |       31.453|        0.000|
+-----------------------------------------------+-------------+-------------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 1717 paths, 0 nets, and 627 connections
+
+Design statistics:
+   Minimum period:   9.159ns   (Maximum frequency: 109.182MHz)
+   Minimum output required time after clock:  31.453ns
+
+
+Analysis completed Fri Feb 06 18:42:22 2009 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 122 MB
+
+
+

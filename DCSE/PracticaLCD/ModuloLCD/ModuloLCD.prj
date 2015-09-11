@@ -1,0 +1,8 @@
+vhdl work "LEDS.vhd"
+vhdl work "Interfaz.vhd"
+vhdl work "Direccion.vhd"
+vhdl work "DatosLCD.vhd"
+vhdl work "Counter.vhd"
+vhdl work "Control.vhd"
+vhdl work "Clock.vhd"
+vhdl work "ModuloLCD.vhd"

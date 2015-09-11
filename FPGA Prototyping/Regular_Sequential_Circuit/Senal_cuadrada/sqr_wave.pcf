@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map K.31 on Wed Aug 19 16:31:33 2009
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "E12" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "U8" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "V8" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "U10" LEVEL 1;
+COMP "senal_cuadrada" LOCATE = SITE "U12" LEVEL 1;
+COMP "rst" LOCATE = SITE "T15" LEVEL 1;
+TIMEGRP clk = BEL "m_reg_0" BEL "m_reg_1" BEL "c_reg_0" BEL "c_reg_1" BEL
+        "c_reg_2" BEL "senal_reg" BEL "n_reg_0" BEL "n_reg_1";
+TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 50%;
+SCHEMATIC END;
+

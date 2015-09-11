@@ -1,0 +1,95 @@
+iMPACT Version: 10.1.03
+
+iMPACT log file Started on Fri Oct 31 20:54:43 2008
+
+// *** BATCH CMD : loadProjectFile -file"D:\Designs\DCSE\Spartan3a\Prueba_rotatorio/Prueba_rotatorio.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1029.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1029.
+File version of D:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1303.
+Firmware hex file version = 1303.
+Downloading D:/Xilinx/10.1/ISE/data/xusb_xlp.hex.
+Downloaded firmware version = 1303.
+PLD file version = 0012h.
+ PLD version = 0012h.
+'1': Loading file 'D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.bit'...
+done.
+INFO:iMPACT:1777 - 
+   Reading D:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading D:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+Compiling vhdl file"D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.vhd" in Library work.
+Entity <izq_der_leds> compiled.
+Entity <izq_der_leds> (Architecture <Behavioral>) compiled.
+Loading device for application Rf_Device from file '3s700a.nph' in environmentD:\Xilinx\10.1\ISE.
+No DRC error found.
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_START - Starting Operation.
+'1': Programming device...
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN input from Done Pin                        :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      0 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs

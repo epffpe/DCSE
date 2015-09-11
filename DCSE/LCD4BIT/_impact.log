@@ -1,0 +1,101 @@
+iMPACT Version: 10.1
+
+iMPACT log file Started on Sat Feb 21 21:53:57 2009
+
+// *** BATCH CMD : loadProjectFile -file "D:\Desings\DCSE\LCD4BIT/LCD4BIT.ipf"
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_emb.sys found.
+ Driver version: src=1029, dest=1021.
+Update completed.
+Connecting to cable (Usb Port - USB21).
+ Cable PID = 0008.
+ Max current requested during enumeration is 280 mA.
+Type = 0x0605.
+Cable is being reenumerated. Sending auto-disconnect command. Please wait.
+write cmdbuffer failed C0000011.
+ Driver windrvr6.sys version = 8.1.1.0. WinDriver v8.11 Jungo (c) 1997 - 2006 Build Date: Oct 16 2006 X86 32bit SYS12:35:07, version = 811.
+ Cable PID = 0008.
+ Max current requested during enumeration is 74 mA.
+Type = 0x0004.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 1029.
+File version of C:/Xilinx/10.1/ISE/data/xusb_xlp.hex = 1302.
+Firmware hex file version = 1302.
+Downloading C:/Xilinx/10.1/ISE/data/xusb_xlp.hex.
+Downloaded firmware version = 1302.
+Type = 0x0004.
+ESN option: 00000000000000.
+PLD file version = 0012h.
+ PLD version = 0012h.
+'1': Loading file 'D:/Desings/DCSE/LCD4BIT/modulolcd.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/spartan3a/data/xc3s700a.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+INFO:iMPACT:501 - '1': Added Device xc3s700a successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+INFO:iMPACT:1777 - 
+   Reading C:/Xilinx/10.1/ISE/xcf/data/xcf04s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf04s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Active mode is BS
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : Program -p 1 
+Maximum TCK operating frequency for this device chain: 10000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+done.
+'1': Reading status register contents...
+CRC error                                         :         0
+IDCODE not validated while writing FDRI           :         0
+DCM Locked                                        :         1
+status of GTS_CFG_B                               :         1
+status of GWE                                     :         1
+status of GHIGH                                   :         1
+value of VSEL pin 0                               :         1
+value of VSEL pin 1                               :         1
+value of VSEL pin 2                               :         1
+value of MODE pin M0                              :         1
+value of MODE pin M1                              :         0
+value of MODE pin M2                              :         0
+value of CFG_RDY (INIT_B)                         :         1
+DONEIN inmatchedput from Done Pin                 :         1
+POST_CRC_ERR error                                :         0
+SYNC word not found                               :         0
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1111 1100 1100 
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+----------------------------------------------------------------------
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs

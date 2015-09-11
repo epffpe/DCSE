@@ -1,0 +1,376 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Designs/DCSE/FPGA Prototyping/Tema4/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to D:/Designs/DCSE/FPGA Prototyping/Tema4/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: Square_wave_gen.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Square_wave_gen.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Square_wave_gen"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : Square_wave_gen
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : Square_wave_gen.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Tema4/Square_wave_gen.vhd" in Library work.
+Entity <square_wave_gen> compiled.
+Entity <square_wave_gen> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Square_wave_gen> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Square_wave_gen> in library <work> (Architecture <behavioral>).
+Entity <Square_wave_gen> analyzed. Unit <Square_wave_gen> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Square_wave_gen>.
+    Related source file is "D:/Designs/DCSE/FPGA Prototyping/Tema4/Square_wave_gen.vhd".
+    Found 4-bit adder for signal <c_next$addsub0000> created at line 69.
+    Found 4-bit comparator equal for signal <c_next$cmp_eq0000> created at line 69.
+    Found 4-bit register for signal <c_reg>.
+    Found 3-bit register for signal <contador>.
+    Found 3-bit adder for signal <contador_next$addsub0000> created at line 59.
+    Found 1-bit register for signal <estado>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <Square_wave_gen> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 3-bit register                                        : 1
+ 4-bit register                                        : 1
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s700a.nph' in environment C:\Xilinx\10.1\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Square_wave_gen> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Square_wave_gen, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Square_wave_gen.ngr
+Top Level Output File Name         : Square_wave_gen
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 16
+#      INV                         : 3
+#      LUT2                        : 2
+#      LUT3                        : 4
+#      LUT4                        : 5
+#      LUT4_L                      : 1
+#      MUXF5                       : 1
+# FlipFlops/Latches                : 8
+#      FDE                         : 1
+#      FDR                         : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 8
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                        7  out of   5888     0%  
+ Number of Slice Flip Flops:              8  out of  11776     0%  
+ Number of 4 input LUTs:                 15  out of  11776     0%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    372     2%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.762ns (Maximum Frequency: 209.996MHz)
+   Minimum input arrival time before clock: 4.841ns
+   Maximum output required time after clock: 5.744ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.762ns (frequency: 209.996MHz)
+  Total number of paths / destination ports: 86 / 16
+-------------------------------------------------------------------------
+Delay:               4.762ns (Levels of Logic = 3)
+  Source:            c_reg_3 (FF)
+  Destination:       c_reg_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: c_reg_3 to c_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.674  c_reg_3 (c_reg_3)
+     LUT4:I0->O            1   0.648   0.000  estado_and000026_F (N4)
+     MUXF5:I0->O           1   0.276   0.423  estado_and000026 (estado_and000026)
+     LUT4:I3->O            5   0.648   0.633  estado_and000061 (estado_and0000)
+     FDR:R                     0.869          c_reg_0
+    ----------------------------------------
+    Total                      4.762ns (3.032ns logic, 1.730ns route)
+                                       (63.7% logic, 36.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 40 / 5
+-------------------------------------------------------------------------
+Offset:              4.841ns (Levels of Logic = 4)
+  Source:            n<3> (PAD)
+  Destination:       c_reg_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: n<3> to c_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.500  n_3_IBUF (n_3_IBUF)
+     LUT4:I1->O            1   0.643   0.000  estado_and000026_F (N4)
+     MUXF5:I0->O           1   0.276   0.423  estado_and000026 (estado_and000026)
+     LUT4:I3->O            5   0.648   0.633  estado_and000061 (estado_and0000)
+     FDR:R                     0.869          c_reg_0
+    ----------------------------------------
+    Total                      4.841ns (3.285ns logic, 1.556ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.744ns (Levels of Logic = 1)
+  Source:            estado (FF)
+  Destination:       square (PAD)
+  Source Clock:      clk rising
+
+  Data Path: estado to square
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              5   0.591   0.633  estado (estado)
+     OBUF:I->O                 4.520          square_OBUF (square)
+    ----------------------------------------
+    Total                      5.744ns (5.111ns logic, 0.633ns route)
+                                       (89.0% logic, 11.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.64 secs
+ 
+--> 
+
+Total memory usage is 179636 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

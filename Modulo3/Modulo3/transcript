@@ -1,0 +1,35 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {testbench.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity shell_ucontrollcd
+# -- Compiling architecture behavior of shell_ucontrollcd
+# -- Compiling entity ucontrollcd
+# -- Compiling architecture behavior of ucontrollcd
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package textio
+# -- Loading package std_logic_textio
+# -- Compiling entity testbench
+# -- Compiling architecture testbench_arch of testbench
+# ** Warning: UCONTROLLCD_TB.VHD(17): (vcom-1194) FILE declaration was written using 1076-1987 syntax.
+# -- Compiling configuration ucontrollcd_cfg
+# -- Loading entity testbench
+# -- Loading architecture testbench_arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading entity ucontrollcd
+# vsim -lib work -t 1ps testbench 
+# ** Error: License checkout has been disallowed because
+# only one session is allowed to run on an uncounted nodelock
+# license and an instance of ModelSim is already running with a
+# nodelocked license on this machine.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./testbench.fdo PAUSED at line 7

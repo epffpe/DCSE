@@ -1,0 +1,421 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Desings/Xilinx/PruebaLCD/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Parameter xsthdpdir set to D:/Desings/Xilinx/PruebaLCD/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Reading design: borrar.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "borrar.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "borrar"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : borrar
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : borrar.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desings/Xilinx/PruebaLCD/Control.vhd" in Library work.
+Entity <control> compiled.
+Entity <control> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Desings/Xilinx/PruebaLCD/Counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "D:/Desings/Xilinx/PruebaLCD/ModuloLCD.vhd" in Library work.
+Architecture behavioral of Entity modulolcd is up to date.
+Compiling vhdl file "D:/Desings/Xilinx/PruebaLCD/borrar.vhd" in Library work.
+Architecture behavioral of Entity borrar is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <borrar> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Control> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ModuloLCD> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clock> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <borrar> in library <work> (Architecture <behavioral>).
+Entity <borrar> analyzed. Unit <borrar> generated.
+
+Analyzing Entity <Control> in library <work> (Architecture <behavioral>).
+Entity <Control> analyzed. Unit <Control> generated.
+
+Analyzing Entity <Counter> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/Desings/Xilinx/PruebaLCD/Counter.vhd" line 43: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <tiempo>, <temp>
+Entity <Counter> analyzed. Unit <Counter> generated.
+
+Analyzing Entity <ModuloLCD> in library <work> (Architecture <behavioral>).
+Entity <ModuloLCD> analyzed. Unit <ModuloLCD> generated.
+
+Analyzing Entity <Clock> in library <work> (Architecture <behavioral>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <Clock>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <Clock>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <Clock>.
+    Set user-defined property "CLKDV_DIVIDE =  16.0000000000000000" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  TRUE" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKIN_PERIOD =  40.0000000000000000" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <Clock>.
+Entity <Clock> analyzed. Unit <Clock> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Control>.
+    Related source file is "D:/Desings/Xilinx/PruebaLCD/Control.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <E>.
+    Found 2-bit register for signal <tiempo>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   3 D-type flip-flop(s).
+Unit <Control> synthesized.
+
+
+Synthesizing Unit <Counter>.
+    Related source file is "D:/Desings/Xilinx/PruebaLCD/Counter.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <tic>.
+    Found 15-bit up counter for signal <temp>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Multiplexer(s).
+Unit <Counter> synthesized.
+
+
+Synthesizing Unit <Clock>.
+    Related source file is "D:/Desings/Xilinx/PruebaLCD/Clock.vhd".
+Unit <Clock> synthesized.
+
+
+Synthesizing Unit <ModuloLCD>.
+    Related source file is "D:/Desings/Xilinx/PruebaLCD/ModuloLCD.vhd".
+WARNING:Xst:1305 - Output <LCD_E> is never assigned. Tied to value 0.
+WARNING:Xst:1305 - Output <LCD_RS> is never assigned. Tied to value 0.
+WARNING:Xst:1305 - Output <LCD_RW> is never assigned. Tied to value 0.
+WARNING:Xst:1305 - Output <LCD_DB> is never assigned. Tied to value 00000000.
+WARNING:Xst:646 - Signal <rst_n> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clkdv> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clkbuf> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clk0> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <ModuloLCD> synthesized.
+
+
+Synthesizing Unit <borrar>.
+    Related source file is "D:/Desings/Xilinx/PruebaLCD/borrar.vhd".
+WARNING:Xst:653 - Signal <rst_n> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <clr> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <LCD_RW> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <LCD_RS> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <LCD_E> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <LCD_DB> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <E> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <borrar> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 15-bit up counter                                     : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 2-bit register                                        : 1
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_Control/state/FSM> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 00
+ s1    | 01
+ s2    | 11
+-------------------
+Loading device for application Rf_Device from file '3s700a.nph' in environment C:\Xilinx\10.1\ISE.
+WARNING:Xst:2677 - Node <E> of sequential type is unconnected in block <Inst_Control>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 15-bit up counter                                     : 1
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <Inst_Control/state_FSM_FFd2> of sequential type is unconnected in block <borrar>.
+WARNING:Xst:2677 - Node <Inst_Control/state_FSM_FFd1> of sequential type is unconnected in block <borrar>.
+WARNING:Xst:2677 - Node <Inst_Control/tiempo_1> of sequential type is unconnected in block <borrar>.
+WARNING:Xst:2677 - Node <Inst_Control/tiempo_0> of sequential type is unconnected in block <borrar>.
+WARNING:Xst:2677 - Node <Inst_Control/E> of sequential type is unconnected in block <borrar>.
+
+Optimizing unit <borrar> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block borrar, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : borrar.ngr
+Top Level Output File Name         : borrar
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 2
+
+Cell Usage :
+# BELS                             : 1
+#      GND                         : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 1
+#      IBUFG                       : 1
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                        0  out of   5888     0%  
+ Number of IOs:                           2
+ Number of bonded IOBs:                   1  out of    372     0%  
+ Number of GCLKs:                         2  out of     24     8%  
+ Number of DCMs:                          1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 1.070ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.070ns (Levels of Logic = 1)
+  Source:            clk1 (PAD)
+  Destination:       Inst_ModuloLCD/Inst_Clock/DCM_SP_INST:CLKIN (PAD)
+
+  Data Path: clk1 to Inst_ModuloLCD/Inst_Clock/DCM_SP_INST:CLKIN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFG:I->O            0   1.070   0.000  Inst_ModuloLCD/Inst_Clock/CLKIN_IBUFG_INST (Inst_ModuloLCD/Inst_Clock/CLKIN_IBUFG_OUT)
+    DCM_SP:CLKIN               0.000          Inst_ModuloLCD/Inst_Clock/DCM_SP_INST
+    ----------------------------------------
+    Total                      1.070ns (1.070ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.22 secs
+ 
+--> 
+
+Total memory usage is 185908 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   22 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

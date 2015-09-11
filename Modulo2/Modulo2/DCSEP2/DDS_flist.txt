@@ -1,0 +1,12 @@
+# Output products list for <DDS>
+DDS.asy
+DDS.ngc
+DDS.sym
+DDS.v
+DDS.veo
+DDS.vhd
+DDS.vho
+DDS.xco
+DDS_dds_compiler_v2_1_xst_1.ngc_xst.xrpt
+DDS_flist.txt
+DDS_xmdf.tcl

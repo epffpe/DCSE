@@ -1,0 +1,51 @@
+//! **************************************************************************
+// Written by: Map K.31 on Sat Feb 07 02:06:05 2009
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led<0>" LOCATE = SITE "R20" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "T19" LEVEL 1;
+COMP "modo" LOCATE = SITE "V8" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "U20" LEVEL 1;
+COMP "clk" LOCATE = SITE "E12" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "U19" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "V19" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "V20" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "Y22" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "W21" LEVEL 1;
+COMP "pb<0>" LOCATE = SITE "U15" LEVEL 1;
+COMP "pb<1>" LOCATE = SITE "T16" LEVEL 1;
+COMP "pb<2>" LOCATE = SITE "T15" LEVEL 1;
+COMP "pb<3>" LOCATE = SITE "T14" LEVEL 1;
+COMP "rotatory<0>" LOCATE = SITE "T13" LEVEL 1;
+COMP "rotatory<1>" LOCATE = SITE "R14" LEVEL 1;
+COMP "rotatory<2>" LOCATE = SITE "R13" LEVEL 1;
+TIMEGRP clk = BEL "Inst_LEDS/led_3" BEL "Inst_LEDS/led_2" BEL
+        "Inst_LEDS/led_0" BEL "Inst_Interfaz/Inst_divDEBOUNCER/contador_11"
+        BEL "Inst_Interfaz/Inst_divDEBOUNCER/contador_10" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_9" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_8" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_7" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_6" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_5" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_4" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_3" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_2" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_1" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/contador_0" BEL
+        "Inst_Interfaz/Inst_divDEBOUNCER/clk10ms" BEL
+        "Inst_Interfaz/delay_rotary_q1" BEL "Inst_Interfaz/rotary_left" BEL
+        "Inst_Interfaz/rotary_q2" BEL "Inst_Interfaz/rotary_q1" BEL
+        "Inst_Interfaz/rotary_in_1" BEL "Inst_Interfaz/rotary_in_0" BEL
+        "Inst_Interfaz/rotary_a_in" BEL "Inst_Interfaz/rotary_b_in" BEL
+        "Inst_Interfaz/pb3" BEL "Inst_Interfaz/pb2" BEL "Inst_Interfaz/pb1"
+        BEL "Inst_Interfaz/pb0" BEL "Inst_Interfaz/rotatory_press" BEL
+        "Inst_Interfaz/modo" BEL "Inst_Interfaz/rotary_event" BEL
+        "Inst_LEDS/Mshreg_led_6/SRL16E" BEL "Inst_LEDS/led_6" BEL
+        "Inst_LEDS/Mshreg_led_4/SRL16E" BEL "Inst_LEDS/led_4" BEL
+        "Inst_LEDS/Mshreg_led_5/SRL16E" BEL "Inst_LEDS/led_5" BEL
+        "Inst_LEDS/Mshreg_led_7/SRL16E" BEL "Inst_LEDS/led_7" BEL
+        "Inst_LEDS/Mshreg_led_1/SRL16E" BEL "Inst_LEDS/led_1";
+TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 50%;
+SCHEMATIC END;
+

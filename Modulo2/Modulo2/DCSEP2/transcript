@@ -1,0 +1,38 @@
+# Reading D:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {DCSEP2.ndo} 
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity display
+# -- Compiling architecture behavioral of display
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity dcsep2
+# -- Compiling architecture behavioral of dcsep2
+# vsim -lib work -t 1ps DCSEP2 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.dcsep2(behavioral)
+# ** Warning: (vsim-3473) Component instance "inst_ramdump : ramdump" is not bound.
+#    Time: 0 ps  Iteration: 0  Region: /dcsep2  File: DCSEP2.vhd
+# Loading work.display(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

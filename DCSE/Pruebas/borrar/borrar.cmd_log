@@ -1,0 +1,52 @@
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "borrar.ngc" borrar.ngd
+map -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o borrar_map.ncd borrar.ngd borrar.pcf
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "borrar.ngc" borrar.ngd
+map -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o borrar_map.ncd borrar.ngd borrar.pcf
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "borrar.ngc" borrar.ngd
+map -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o borrar_map.ncd borrar.ngd borrar.pcf
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "borrar.ngc" borrar.ngd
+map -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o borrar_map.ncd borrar.ngd borrar.pcf
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "borrar.ngc" borrar.ngd
+map -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o borrar_map.ncd borrar.ngd borrar.pcf
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "borrar.ngc" borrar.ngd
+map -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o borrar_map.ncd borrar.ngd borrar.pcf
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "borrar.ngc" borrar.ngd
+map -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o borrar_map.ncd borrar.ngd borrar.pcf
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+xst -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -ifn "D:/Desings/DCSE/Pruebas/borrar/borrar.xst" -ofn "D:/Desings/DCSE/Pruebas/borrar/borrar.syr"
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "borrar.ngc" borrar.ngd
+map -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o borrar_map.ncd borrar.ngd borrar.pcf
+par -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -w -intstyle ise -ol std -t 1 borrar_map.ncd borrar.ncd borrar.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -e 3 -s 4 -xml borrar borrar.ncd -o borrar.twr borrar.pcf -ucf borrar.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/borrar/borrar.ise" -intstyle ise -f borrar.ut borrar.ncd

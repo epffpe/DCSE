@@ -1,0 +1,40 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {LCD_control_tb.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity lcd_control
+# -- Compiling architecture behavioral of lcd_control
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity lcd_control_tb
+# -- Compiling architecture behavior of lcd_control_tb
+# ** Warning: [4] LCD_control_tb.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] LCD_control_tb.vhd(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -t 1ps LCD_control_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lcd_control_tb(behavior)
+# Loading work.lcd_control(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+run
+# Break key hit 
+# Simulation stop requested.
+run
+# Break key hit 
+# Break in Process clk_process at LCD_control_tb.vhd line 107
+restart
+run
+# Break key hit 
+# Simulation stop requested.

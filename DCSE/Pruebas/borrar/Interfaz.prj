@@ -1,0 +1,3 @@
+vhdl work "divDEBOUNCER.vhd"
+vhdl work "DEBOUNCER.vhd"
+vhdl work "Interfaz.vhd"

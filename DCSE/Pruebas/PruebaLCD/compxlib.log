@@ -1,0 +1,30 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 10.1 (K.31)
+   \   \         APPLICATION : compxlib
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    CREATED ON  : Wed Feb 04 23:06:37 2009
+   \___\/\___\
+
+Library Source => 'C:\Xilinx\10.1\ISE'
+
+Compilation Mode = FAST
+Scheduling library compilation for SPARTAN3A 
+
+Signature:-
+------------------------------------------------------------------------------
+compxlib -s mti_se
+         -arch spartan3a
+         -lib unisim
+         -lib unimacro
+         -lib simprim
+         -lib xilinxcorelib
+         -l vhdl
+         -dir C:\Xilinx\10.1\ISE
+         -log compxlib.log
+         -w
+------------------------------------------------------------------------------
+ERROR:CAEInterfaces:418 - COMPXLIB[env]: unable to automatically find simulator (mti_se) executables.
+

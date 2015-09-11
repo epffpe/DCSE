@@ -1,0 +1,5 @@
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\Modulo3\uart_tx.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\Modulo3\uart_rx.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\Modulo3\mod_m_counter.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\Modulo3\fifo.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\Modulo3\uart.vhd"

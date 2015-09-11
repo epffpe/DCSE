@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------
+Release 9.1i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx91i\bin\nt\trce.exe -ise
+D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise -intstyle ise
+-e 3 -s 4 -xml prueba_leds prueba_leds.ncd -o prueba_leds.twr prueba_leds.pcf
+-ucf prueba_leds.ucf
+
+Design file:              prueba_leds.ncd
+Physical constraint file: prueba_leds.pcf
+Device,package,speed:     xc3s700a,fg484,-4 (ADVANCED 1.31 2006-11-06)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_clk50in = PERIOD TIMEGRP "clk50in" 20 ns HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_Inst_Reloj_ent_CLK0_BUF = PERIOD TIMEGRP "Inst_Reloj_ent_CLK0_BUF"
+        TS_clk50in HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+No constraints were found to generate data for the Data Sheet Report section.
+Use the Advanced Analysis (-a) option or generate global constraints for each
+clock, its pad to setup and clock to pad paths, and a pad to pad constraint.
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 0 paths, 0 nets, and 0 connections
+
+Design statistics:
+No global statistics to report.
+
+Analysis completed Sun May 11 00:54:58 2008
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 148 MB
+
+
+

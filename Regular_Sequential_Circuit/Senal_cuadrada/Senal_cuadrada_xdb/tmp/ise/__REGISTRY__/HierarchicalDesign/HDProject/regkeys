@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 sqr_wave.ngc sqr_wave.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+sqr_wave_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

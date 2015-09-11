@@ -1,0 +1,2 @@
+vhdl work "debounce.vhd"
+vhdl work "Control_interfaz.vhd"

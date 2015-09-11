@@ -1,0 +1,13 @@
+NET "clk" LOC = E12;
+NET "clk" IOSTANDARD = "LVCMOS33";
+NET "ps2c" LOC = W12;
+NET "ps2d" LOC = V11;
+NET "ps2c" IOSTANDARD = "LVTTL";
+NET "ps2d" IOSTANDARD = "LVTTL";
+NET "tx" LOC = F15;
+NET "tx" IOSTANDARD = "LVTTL";
+NET "tx" DRIVE = 4;
+NET "tx" SLEW = SLOW;
+NET "reset" LOC = T15;
+NET "reset" IOSTANDARD = "LVTTL";
+NET "reset" PULLDOWN;

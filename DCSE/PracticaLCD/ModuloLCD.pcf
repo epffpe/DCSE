@@ -1,0 +1,44 @@
+//! **************************************************************************
+// Written by: Map K.31 on Sat Feb 07 06:16:25 2009
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk50" LOCATE = SITE "E12" LEVEL 1;
+COMP "lcd_rs_out" LOCATE = SITE "Y14" LEVEL 1;
+COMP "leds_out<0>" LOCATE = SITE "R20" LEVEL 1;
+COMP "leds_out<1>" LOCATE = SITE "T19" LEVEL 1;
+COMP "leds_out<2>" LOCATE = SITE "U20" LEVEL 1;
+COMP "rot_press_in" LOCATE = SITE "R13" LEVEL 1;
+COMP "leds_out<3>" LOCATE = SITE "U19" LEVEL 1;
+COMP "leds_out<4>" LOCATE = SITE "V19" LEVEL 1;
+COMP "leds_out<5>" LOCATE = SITE "V20" LEVEL 1;
+COMP "leds_out<6>" LOCATE = SITE "Y22" LEVEL 1;
+COMP "leds_out<7>" LOCATE = SITE "W21" LEVEL 1;
+COMP "pb_in<0>" LOCATE = SITE "U15" LEVEL 1;
+COMP "pb_in<1>" LOCATE = SITE "T16" LEVEL 1;
+COMP "pb_in<2>" LOCATE = SITE "T15" LEVEL 1;
+COMP "pb_in<3>" LOCATE = SITE "T14" LEVEL 1;
+COMP "rot_in<0>" LOCATE = SITE "T13" LEVEL 1;
+COMP "rot_in<1>" LOCATE = SITE "R14" LEVEL 1;
+COMP "lcd_data_out<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "lcd_data_out<1>" LOCATE = SITE "AB18" LEVEL 1;
+COMP "lcd_data_out<2>" LOCATE = SITE "AB17" LEVEL 1;
+COMP "lcd_rw_out" LOCATE = SITE "W13" LEVEL 1;
+COMP "lcd_data_out<3>" LOCATE = SITE "AB12" LEVEL 1;
+COMP "lcd_e_out" LOCATE = SITE "AB4" LEVEL 1;
+COMP "lcd_data_out<4>" LOCATE = SITE "AA12" LEVEL 1;
+COMP "lcd_data_out<5>" LOCATE = SITE "Y16" LEVEL 1;
+COMP "lcd_data_out<6>" LOCATE = SITE "AB16" LEVEL 1;
+COMP "lcd_data_out<7>" LOCATE = SITE "Y15" LEVEL 1;
+COMP "modo_in" LOCATE = SITE "V8" LEVEL 1;
+TIMEGRP LCD_E = BEL "lcd_e_out";
+TIMEGRP LCD_DB = BEL "lcd_data_out<0>" BEL "lcd_data_out<1>" BEL
+        "lcd_data_out<2>" BEL "lcd_data_out<3>" BEL "lcd_data_out<4>" BEL
+        "lcd_data_out<5>" BEL "lcd_data_out<6>" BEL "lcd_data_out<7>";
+TIMEGRP LEDS = BEL "leds_out<0>" BEL "leds_out<1>" BEL "leds_out<2>" BEL
+        "leds_out<3>" BEL "leds_out<4>" BEL "leds_out<5>" BEL "leds_out<6>"
+        BEL "leds_out<7>";
+TIMEGRP PB = BEL "pb_in<0>" BEL "pb_in<1>" BEL "pb_in<2>" BEL "pb_in<3>";
+TIMEGRP Rotatory = BEL "rot_in<0>" BEL "rot_in<1>" BEL "rot_press_in";
+SCHEMATIC END;
+

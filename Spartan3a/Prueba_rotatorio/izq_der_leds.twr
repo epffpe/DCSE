@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+Release 10.1.03 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise -intstyle ise
+-v 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr
+izq_der_leds.pcf -ucf izq_der_leds.ucf
+
+Design file:              izq_der_leds.ncd
+Physical constraint file: izq_der_leds.pcf
+Device,package,speed:     xc3s700a,fg484,-4 (PRODUCTION 1.41 2008-07-25)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_in
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+rotary_a    |    3.883(R)|   -2.004(R)|clk               |   0.000|
+rotary_b    |    3.705(R)|   -1.884(R)|clk               |   0.000|
+rotary_press|    4.117(R)|   -2.168(R)|clk               |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk_in to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+led<0>      |   32.802(R)|clk               |   0.000|
+led<1>      |   32.757(R)|clk               |   0.000|
+led<2>      |   32.914(R)|clk               |   0.000|
+led<3>      |   32.791(R)|clk               |   0.000|
+led<4>      |   33.211(R)|clk               |   0.000|
+led<5>      |   33.044(R)|clk               |   0.000|
+led<6>      |   33.222(R)|clk               |   0.000|
+led<7>      |   33.042(R)|clk               |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_in         |    3.030|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Oct 31 20:54:24 2008 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 119 MB
+
+
+

@@ -1,0 +1,2 @@
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Tema4/Tema4.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Tema4/Square_wave_gen.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Tema4/Square_wave_gen.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Tema4/Tema4.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Tema4/Square_wave_gen.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Tema4/Square_wave_gen.syr"

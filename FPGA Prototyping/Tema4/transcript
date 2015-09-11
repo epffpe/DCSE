@@ -1,0 +1,73 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {tb_sq_wave_gen.fdo} 
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity square_wave_gen
+# -- Compiling architecture behavioral of square_wave_gen
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity tb_sq_wave_gen
+# -- Compiling architecture behavior of tb_sq_wave_gen
+# ** Warning: [4] tb_sq_wave_gen.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -t 1ps tb_sq_wave_gen 
+# Licensing checkout error with feature xe-starter. (Error code -9.)
+# The hostid of the license does not match the hostid for this machine.
+# One of the following is likely:
+#    -The license is intended for another machine.
+#    -A dongle is not plugged into this machine.
+#    -The dongle driver is not installed or is not functioning properly.
+#    -The hostid mechanism has been changed or removed from this machine.
+# ** Error: Failure to obtain a VHDL simulation license.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./tb_sq_wave_gen.fdo PAUSED at line 7
+vsim work.tb_sq_wave_gen
+# vsim work.tb_sq_wave_gen 
+# Licensing checkout error with feature xe-starter. (Error code -9.)
+# The hostid of the license does not match the hostid for this machine.
+# One of the following is likely:
+#    -The license is intended for another machine.
+#    -A dongle is not plugged into this machine.
+#    -The dongle driver is not installed or is not functioning properly.
+#    -The hostid mechanism has been changed or removed from this machine.
+# ** Error: Failure to obtain a VHDL simulation license.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./tb_sq_wave_gen.fdo PAUSED at line 7
+vsim work.tb_sq_wave_gen(behavior)
+# vsim work.tb_sq_wave_gen(behavior) 
+# Licensing checkout error with feature xe-starter. (Error code -9.)
+# The hostid of the license does not match the hostid for this machine.
+# One of the following is likely:
+#    -The license is intended for another machine.
+#    -A dongle is not plugged into this machine.
+#    -The dongle driver is not installed or is not functioning properly.
+#    -The hostid mechanism has been changed or removed from this machine.
+# ** Error: Failure to obtain a VHDL simulation license.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./tb_sq_wave_gen.fdo PAUSED at line 7
+vsim work.tb_sq_wave_gen(behavior)
+# vsim work.tb_sq_wave_gen(behavior) 
+# Licensing checkout error with feature xe-starter. (Error code -9.)
+# The hostid of the license does not match the hostid for this machine.
+# One of the following is likely:
+#    -The license is intended for another machine.
+#    -A dongle is not plugged into this machine.
+#    -The dongle driver is not installed or is not functioning properly.
+#    -The hostid mechanism has been changed or removed from this machine.
+# ** Error: Failure to obtain a VHDL simulation license.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./tb_sq_wave_gen.fdo PAUSED at line 7

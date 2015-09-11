@@ -1,0 +1,6 @@
+AR mod_m_counter behavioral "D:/Designs/DCSE/FPGA Prototyping/UART_RX/mod_m_counter.vhd" sub00/vhpl03 1251835336
+EN receptor NULL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.vhd" sub00/vhpl04 1251835337
+AR receptor behavioral "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.vhd" sub00/vhpl05 1251835338
+AR uart_rx behavioral "D:/Designs/DCSE/FPGA Prototyping/UART_RX/uart_rx.vhd" sub00/vhpl01 1251835334
+EN uart_rx NULL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/uart_rx.vhd" sub00/vhpl00 1251835333
+EN mod_m_counter NULL "D:/Designs/DCSE/FPGA Prototyping/UART_RX/mod_m_counter.vhd" sub00/vhpl02 1251835335

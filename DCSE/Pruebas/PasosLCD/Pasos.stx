@@ -1,0 +1,41 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/PasosLCD/divDEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity divdebouncer is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/PasosLCD/DEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/PasosLCD/clock.vhd" in Library work.
+Architecture behavioral of Entity clock is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/PasosLCD/UControl.vhd" in Library work.
+Architecture behavioral of Entity ucontrol is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/PasosLCD/Interfaz.vhd" in Library work.
+Architecture behavioral of Entity interfaz is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/PasosLCD/Led_status.vhd" in Library work.
+Entity <led_status> compiled.
+Entity <led_status> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/PasosLCD/Pasos.vhd" in Library work.
+Entity <pasos> compiled.
+Entity <pasos> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.80 secs
+ 
+--> 
+
+Total memory usage is 141084 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

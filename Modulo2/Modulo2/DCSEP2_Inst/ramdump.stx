@@ -1,0 +1,40 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/RAM.vhd" in Library work.
+Architecture ram_a of Entity ram is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/clkscale.vhd" in Library work.
+Architecture compor of Entity clkscale is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/tickgen.vhd" in Library work.
+Architecture compor of Entity tickgen is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/divisorRAM.vhd" in Library work.
+Architecture behavioral of Entity divisorram is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/divDEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity divdebouncer is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/reader.vhd" in Library work.
+Entity <reader> compiled.
+ERROR:HDLParsers:800 - "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/reader.vhd" Line 241. Type of wea is incompatible with type of write_enable.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.70 secs
+ 
+--> 
+
+Total memory usage is 139884 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

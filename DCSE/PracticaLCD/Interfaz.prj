@@ -1,0 +1,3 @@
+vhdl work "../Pruebas/borrar/divDEBOUNCER.vhd"
+vhdl work "../Pruebas/borrar/DEBOUNCER.vhd"
+vhdl work "Interfaz.vhd"

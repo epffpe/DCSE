@@ -1,0 +1,759 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.92 secs
+ 
+--> Parameter xsthdpdir set to D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.92 secs
+ 
+--> Reading design: DCSEP2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DCSEP2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DCSEP2"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : DCSEP2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : DCSEP2.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/RAM.vhd" in Library work.
+Architecture ram_a of Entity ram is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/clkscale.vhd" in Library work.
+Entity <clkscale> compiled.
+Entity <clkscale> (Architecture <compor>) compiled.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/tickgen.vhd" in Library work.
+Entity <tickgen> compiled.
+Entity <tickgen> (Architecture <compor>) compiled.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/divisorRAM.vhd" in Library work.
+Entity <divisorram> compiled.
+Entity <divisorram> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/divDEBOUNCER.vhd" in Library work.
+Entity <divdebouncer> compiled.
+Entity <divdebouncer> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DEBOUNCER.vhd" in Library work.
+Entity <debouncer> compiled.
+Entity <debouncer> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/reader.vhd" in Library work.
+Entity <reader> compiled.
+Entity <reader> (Architecture <compor>) compiled.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/ramdump.vhd" in Library work.
+Architecture compor of Entity ramdump is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DISPLAY.vhd" in Library work.
+Architecture behavioral of Entity display is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DCSEP2.vhd" in Library work.
+Entity <dcsep2> compiled.
+Entity <dcsep2> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DCSEP2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ramdump> in library <work> (architecture <compor>).
+
+Analyzing hierarchy for entity <DISPLAY> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clkscale> in library <work> (architecture <compor>).
+
+Analyzing hierarchy for entity <tickgen> in library <work> (architecture <compor>).
+
+Analyzing hierarchy for entity <divisorRAM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <divDEBOUNCER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <reader> in library <work> (architecture <compor>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DCSEP2> in library <work> (Architecture <behavioral>).
+Entity <DCSEP2> analyzed. Unit <DCSEP2> generated.
+
+Analyzing Entity <ramdump> in library <work> (Architecture <compor>).
+Entity <ramdump> analyzed. Unit <ramdump> generated.
+
+Analyzing Entity <clkscale> in library <work> (Architecture <compor>).
+Entity <clkscale> analyzed. Unit <clkscale> generated.
+
+Analyzing Entity <tickgen> in library <work> (Architecture <compor>).
+Entity <tickgen> analyzed. Unit <tickgen> generated.
+
+Analyzing Entity <divisorRAM> in library <work> (Architecture <behavioral>).
+Entity <divisorRAM> analyzed. Unit <divisorRAM> generated.
+
+Analyzing Entity <divDEBOUNCER> in library <work> (Architecture <behavioral>).
+Entity <divDEBOUNCER> analyzed. Unit <divDEBOUNCER> generated.
+
+Analyzing Entity <DEBOUNCER> in library <work> (Architecture <behavioral>).
+Entity <DEBOUNCER> analyzed. Unit <DEBOUNCER> generated.
+
+Analyzing Entity <reader> in library <work> (Architecture <compor>).
+WARNING:Xst:2211 - "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/reader.vhd" line 98: Instantiating black box module <RAM>.
+Entity <reader> analyzed. Unit <reader> generated.
+
+Analyzing Entity <DISPLAY> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DISPLAY.vhd" line 182: Mux is complete : default of case is discarded
+Entity <DISPLAY> analyzed. Unit <DISPLAY> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DISPLAY>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DISPLAY.vhd".
+WARNING:Xst:1780 - Signal <point> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <hertz_en> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 3-bit register for signal <cd>.
+    Found 2-bit adder for signal <cd_1_0$add0000> created at line 157.
+    Found 4-bit register for signal <curr>.
+    Found 4-bit 4-to-1 multiplexer for signal <curr$mux0001> created at line 159.
+    Found 4-bit register for signal <digit>.
+    Found 1-of-4 decoder for signal <digit$mux0001> created at line 159.
+    Found 10-bit up counter for signal <hertz_count>.
+    Found 10-bit up counter for signal <khertz_count>.
+    Found 1-bit register for signal <khertz_en>.
+    Found 6-bit up counter for signal <mhertz_count>.
+    Found 1-bit register for signal <mhertz_en>.
+    Found 8-bit register for signal <seg>.
+    Summary:
+	inferred   3 Counter(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Decoder(s).
+Unit <DISPLAY> synthesized.
+
+
+Synthesizing Unit <clkscale>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/clkscale.vhd".
+    Found 8-bit up counter for signal <contador>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <clkscale> synthesized.
+
+
+Synthesizing Unit <tickgen>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/tickgen.vhd".
+    Found 1-bit register for signal <tick>.
+    Found 16-bit up counter for signal <contador>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <tickgen> synthesized.
+
+
+Synthesizing Unit <divisorRAM>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/divisorRAM.vhd".
+    Found 1-bit register for signal <clk2Hz>.
+    Found 3-bit up counter for signal <contador>.
+    Found 3-bit up counter for signal <contador1>.
+    Found 1-bit 3-to-1 multiplexer for signal <rate>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <divisorRAM> synthesized.
+
+
+Synthesizing Unit <divDEBOUNCER>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/divDEBOUNCER.vhd".
+    Found 1-bit register for signal <clk10ms>.
+    Found 12-bit up counter for signal <contador>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <divDEBOUNCER> synthesized.
+
+
+Synthesizing Unit <DEBOUNCER>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DEBOUNCER.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk10ms (rising_edge)                          |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <DEBOUNCER> synthesized.
+
+
+Synthesizing Unit <reader>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/reader.vhd".
+WARNING:Xst:646 - Signal <ram_enable> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit updown counter for signal <addr>.
+    Found 1-bit register for signal <hold>.
+    Found 1-bit register for signal <state<0>>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <reader> synthesized.
+
+
+Synthesizing Unit <ramdump>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/ramdump.vhd".
+Unit <ramdump> synthesized.
+
+
+Synthesizing Unit <DCSEP2>.
+    Related source file is "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2_Inst/DCSEP2.vhd".
+Unit <DCSEP2> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 2-bit adder                                           : 1
+# Counters                                             : 9
+ 10-bit up counter                                     : 2
+ 12-bit up counter                                     : 1
+ 16-bit up counter                                     : 1
+ 3-bit up counter                                      : 2
+ 6-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+ 8-bit updown counter                                  : 1
+# Registers                                            : 13
+ 1-bit register                                        : 10
+ 4-bit register                                        : 2
+ 8-bit register                                        : 1
+# Multiplexers                                         : 2
+ 1-bit 3-to-1 multiplexer                              : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_ramdump/Inst_DEBOUNCER/state/FSM> on signal <state[1:2]> with speed1 encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 10
+ s1    | 00
+ s2    | 01
+-------------------
+Loading device for application Rf_Device from file '3s700a.nph' in environment D:\Xilinx\10.1\ISE.
+Reading core <RAM.ngc>.
+Loading core <RAM> for timing and area information for instance <U0>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 2-bit adder                                           : 1
+# Counters                                             : 8
+ 10-bit up counter                                     : 1
+ 12-bit up counter                                     : 1
+ 16-bit up counter                                     : 1
+ 3-bit up counter                                      : 2
+ 6-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+ 8-bit updown counter                                  : 1
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+# Multiplexers                                         : 2
+ 1-bit 3-to-1 multiplexer                              : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <Inst_ramdump/Inst_clkscale/contador_7> of sequential type is unconnected in block <DCSEP2>.
+WARNING:Xst:2677 - Node <Inst_ramdump/Inst_divisorRAM/contador_2> of sequential type is unconnected in block <DCSEP2>.
+
+Optimizing unit <DCSEP2> ...
+
+Optimizing unit <DISPLAY> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DCSEP2, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 92
+ Flip-Flops                                            : 92
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DCSEP2.ngr
+Top Level Output File Name         : DCSEP2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 264
+#      GND                         : 2
+#      INV                         : 12
+#      LUT1                        : 41
+#      LUT2                        : 54
+#      LUT2_L                      : 1
+#      LUT3                        : 10
+#      LUT3_L                      : 2
+#      LUT4                        : 24
+#      LUT4_D                      : 4
+#      LUT4_L                      : 8
+#      MUXCY                       : 48
+#      MUXF5                       : 3
+#      VCC                         : 2
+#      XORCY                       : 53
+# FlipFlops/Latches                : 92
+#      FDC                         : 53
+#      FDC_1                       : 2
+#      FDCE                        : 20
+#      FDP                         : 13
+#      FDR                         : 4
+# RAMS                             : 1
+#      RAMB16BWE                   : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 5
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                       81  out of   5888     1%  
+ Number of Slice Flip Flops:             92  out of  11776     0%  
+ Number of 4 input LUTs:                156  out of  11776     1%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    372     4%  
+ Number of BRAMs:                         1  out of     20     5%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                                                     | Clock buffer(FF name)                                                                                           | Load  |
+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+-------+
+Inst_ramdump/clkRAM(Inst_ramdump/Inst_divisorRAM/Mmux_rate1_f5:O)| NONE(*)(Inst_ramdump/Inst_reader/U0/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3a_init.ram/spram.ram)| 11    |
+Inst_ramdump/Inst_divDEBOUNCER/clk10ms                           | NONE(Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1)                                                                | 2     |
+Inst_ramdump/Inst_clkscale/contador_61                           | BUFG                                                                                                            | 30    |
+Inst_ramdump/Inst_tickgen/tick                                   | NONE(Inst_ramdump/Inst_divisorRAM/clk2Hz)                                                                       | 4     |
+clk50                                                            | BUFGP                                                                                                           | 44    |
+Inst_ramdump/Inst_divisorRAM/clk2Hz                              | NONE(Inst_ramdump/Inst_divisorRAM/contador_0)                                                                   | 2     |
+-----------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------------------+--------------------------------------+-------+
+Control Signal                                                                 | Buffer(FF name)                      | Load  |
+-------------------------------------------------------------------------------+--------------------------------------+-------+
+Inst_DISPLAY/rst_n_inv(Inst_ramdump/Inst_DEBOUNCER/state_FSM_Acst_inv1_INV_0:O)| NONE(Inst_ramdump/Inst_reader/addr_7)| 88    |
+-------------------------------------------------------------------------------+--------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.545ns (Maximum Frequency: 180.343MHz)
+   Minimum input arrival time before clock: 4.510ns
+   Maximum output required time after clock: 5.531ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ramdump/clkRAM'
+  Clock period: 5.456ns (frequency: 183.284MHz)
+  Total number of paths / destination ports: 90 / 34
+-------------------------------------------------------------------------
+Delay:               2.728ns (Levels of Logic = 1)
+  Source:            Inst_ramdump/Inst_reader/hold (FF)
+  Destination:       Inst_ramdump/Inst_reader/addr_0 (FF)
+  Source Clock:      Inst_ramdump/clkRAM falling
+  Destination Clock: Inst_ramdump/clkRAM rising
+
+  Data Path: Inst_ramdump/Inst_reader/hold to Inst_ramdump/Inst_reader/addr_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            1   0.591   0.420  Inst_ramdump/Inst_reader/hold (Inst_ramdump/Inst_reader/hold)
+     INV:I->O              8   0.648   0.757  Inst_ramdump/Inst_reader/hold_inv1_INV_0 (Inst_ramdump/Inst_reader/hold_inv)
+     FDCE:CE                   0.312          Inst_ramdump/Inst_reader/addr_0
+    ----------------------------------------
+    Total                      2.728ns (1.551ns logic, 1.177ns route)
+                                       (56.9% logic, 43.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ramdump/Inst_divDEBOUNCER/clk10ms'
+  Clock period: 1.986ns (frequency: 503.525MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.986ns (Levels of Logic = 1)
+  Source:            Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1 (FF)
+  Destination:       Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd2 (FF)
+  Source Clock:      Inst_ramdump/Inst_divDEBOUNCER/clk10ms rising
+  Destination Clock: Inst_ramdump/Inst_divDEBOUNCER/clk10ms rising
+
+  Data Path: Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1 to Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.591   0.500  Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1 (Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1)
+     LUT2:I1->O            1   0.643   0.000  Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd2-In1 (Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd2-In)
+     FDC:D                     0.252          Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd2
+    ----------------------------------------
+    Total                      1.986ns (1.486ns logic, 0.500ns route)
+                                       (74.8% logic, 25.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ramdump/Inst_clkscale/contador_61'
+  Clock period: 5.545ns (frequency: 180.343MHz)
+  Total number of paths / destination ports: 642 / 30
+-------------------------------------------------------------------------
+Delay:               5.545ns (Levels of Logic = 17)
+  Source:            Inst_ramdump/Inst_tickgen/contador_1 (FF)
+  Destination:       Inst_ramdump/Inst_tickgen/contador_15 (FF)
+  Source Clock:      Inst_ramdump/Inst_clkscale/contador_61 rising
+  Destination Clock: Inst_ramdump/Inst_clkscale/contador_61 rising
+
+  Data Path: Inst_ramdump/Inst_tickgen/contador_1 to Inst_ramdump/Inst_tickgen/contador_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.590  Inst_ramdump/Inst_tickgen/contador_1 (Inst_ramdump/Inst_tickgen/contador_1)
+     LUT1:I0->O            1   0.648   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<1>_rt (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<1>_rt)
+     MUXCY:S->O            1   0.632   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<1> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<2> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<3> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<4> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<5> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<6> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<7> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<8> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<9> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<10> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<11> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<12> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<13> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<13>)
+     MUXCY:CI->O           0   0.065   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_cy<14> (Inst_ramdump/Inst_tickgen/Mcount_contador_cy<14>)
+     XORCY:CI->O           1   0.844   0.500  Inst_ramdump/Inst_tickgen/Mcount_contador_xor<15> (Result<15>)
+     LUT2:I1->O            1   0.643   0.000  Inst_ramdump/Inst_tickgen/Mcount_contador_eqn_151 (Inst_ramdump/Inst_tickgen/Mcount_contador_eqn_15)
+     FDC:D                     0.252          Inst_ramdump/Inst_tickgen/contador_15
+    ----------------------------------------
+    Total                      5.545ns (4.455ns logic, 1.090ns route)
+                                       (80.3% logic, 19.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ramdump/Inst_tickgen/tick'
+  Clock period: 3.313ns (frequency: 301.841MHz)
+  Total number of paths / destination ports: 18 / 7
+-------------------------------------------------------------------------
+Delay:               3.313ns (Levels of Logic = 1)
+  Source:            Inst_ramdump/Inst_divisorRAM/contador1_2 (FF)
+  Destination:       Inst_ramdump/Inst_divisorRAM/contador1_0 (FF)
+  Source Clock:      Inst_ramdump/Inst_tickgen/tick rising
+  Destination Clock: Inst_ramdump/Inst_tickgen/tick rising
+
+  Data Path: Inst_ramdump/Inst_divisorRAM/contador1_2 to Inst_ramdump/Inst_divisorRAM/contador1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.591   0.674  Inst_ramdump/Inst_divisorRAM/contador1_2 (Inst_ramdump/Inst_divisorRAM/contador1_2)
+     LUT3:I0->O            3   0.648   0.531  Inst_ramdump/Inst_divisorRAM/contador1_cmp_eq00001 (Inst_ramdump/Inst_divisorRAM/contador1_cmp_eq0000)
+     FDR:R                     0.869          Inst_ramdump/Inst_divisorRAM/contador1_0
+    ----------------------------------------
+    Total                      3.313ns (2.108ns logic, 1.205ns route)
+                                       (63.6% logic, 36.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk50'
+  Clock period: 5.155ns (frequency: 193.986MHz)
+  Total number of paths / destination ports: 311 / 55
+-------------------------------------------------------------------------
+Delay:               5.155ns (Levels of Logic = 11)
+  Source:            Inst_DISPLAY/khertz_count_1 (FF)
+  Destination:       Inst_DISPLAY/khertz_count_9 (FF)
+  Source Clock:      clk50 rising
+  Destination Clock: clk50 rising
+
+  Data Path: Inst_DISPLAY/khertz_count_1 to Inst_DISPLAY/khertz_count_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.591   0.590  Inst_DISPLAY/khertz_count_1 (Inst_DISPLAY/khertz_count_1)
+     LUT1:I0->O            1   0.648   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<1>_rt (Inst_DISPLAY/Mcount_khertz_count_cy<1>_rt)
+     MUXCY:S->O            1   0.632   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<1> (Inst_DISPLAY/Mcount_khertz_count_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<2> (Inst_DISPLAY/Mcount_khertz_count_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<3> (Inst_DISPLAY/Mcount_khertz_count_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<4> (Inst_DISPLAY/Mcount_khertz_count_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<5> (Inst_DISPLAY/Mcount_khertz_count_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<6> (Inst_DISPLAY/Mcount_khertz_count_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<7> (Inst_DISPLAY/Mcount_khertz_count_cy<7>)
+     MUXCY:CI->O           0   0.065   0.000  Inst_DISPLAY/Mcount_khertz_count_cy<8> (Inst_DISPLAY/Mcount_khertz_count_cy<8>)
+     XORCY:CI->O           1   0.844   0.500  Inst_DISPLAY/Mcount_khertz_count_xor<9> (Inst_DISPLAY/Result<9>)
+     LUT2:I1->O            1   0.643   0.000  Inst_DISPLAY/Mcount_khertz_count_eqn_91 (Inst_DISPLAY/Mcount_khertz_count_eqn_9)
+     FDCE:D                    0.252          Inst_DISPLAY/khertz_count_9
+    ----------------------------------------
+    Total                      5.155ns (4.065ns logic, 1.090ns route)
+                                       (78.9% logic, 21.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_ramdump/Inst_divisorRAM/clk2Hz'
+  Clock period: 2.442ns (frequency: 409.500MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               2.442ns (Levels of Logic = 1)
+  Source:            Inst_ramdump/Inst_divisorRAM/contador_0 (FF)
+  Destination:       Inst_ramdump/Inst_divisorRAM/contador_0 (FF)
+  Source Clock:      Inst_ramdump/Inst_divisorRAM/clk2Hz rising
+  Destination Clock: Inst_ramdump/Inst_divisorRAM/clk2Hz rising
+
+  Data Path: Inst_ramdump/Inst_divisorRAM/contador_0 to Inst_ramdump/Inst_divisorRAM/contador_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.591   0.531  Inst_ramdump/Inst_divisorRAM/contador_0 (Inst_ramdump/Inst_divisorRAM/contador_0)
+     INV:I->O              1   0.648   0.420  Inst_ramdump/Inst_divisorRAM/Mcount_contador_xor<0>11_INV_0 (Result<0>1)
+     FDC:D                     0.252          Inst_ramdump/Inst_divisorRAM/contador_0
+    ----------------------------------------
+    Total                      2.442ns (1.491ns logic, 0.951ns route)
+                                       (61.1% logic, 38.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ramdump/Inst_divDEBOUNCER/clk10ms'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.616ns (Levels of Logic = 2)
+  Source:            hold (PAD)
+  Destination:       Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1 (FF)
+  Destination Clock: Inst_ramdump/Inst_divDEBOUNCER/clk10ms rising
+
+  Data Path: hold to Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.849   0.447  hold_IBUF (hold_IBUF)
+     INV:I->O              1   0.648   0.420  Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1-In1_INV_0 (Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1-In)
+     FDP:D                     0.252          Inst_ramdump/Inst_DEBOUNCER/state_FSM_FFd1
+    ----------------------------------------
+    Total                      2.616ns (1.749ns logic, 0.867ns route)
+                                       (66.9% logic, 33.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_ramdump/clkRAM'
+  Total number of paths / destination ports: 44 / 8
+-------------------------------------------------------------------------
+Offset:              4.510ns (Levels of Logic = 10)
+  Source:            up_down (PAD)
+  Destination:       Inst_ramdump/Inst_reader/addr_7 (FF)
+  Destination Clock: Inst_ramdump/clkRAM rising
+
+  Data Path: up_down to Inst_ramdump/Inst_reader/addr_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.849   0.900  up_down_IBUF (up_down_IBUF)
+     LUT2:I1->O            1   0.643   0.000  Inst_ramdump/Inst_reader/Mcount_addr_lut<0> (Inst_ramdump/Inst_reader/Mcount_addr_lut<0>)
+     MUXCY:S->O            1   0.632   0.000  Inst_ramdump/Inst_reader/Mcount_addr_cy<0> (Inst_ramdump/Inst_reader/Mcount_addr_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_reader/Mcount_addr_cy<1> (Inst_ramdump/Inst_reader/Mcount_addr_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_reader/Mcount_addr_cy<2> (Inst_ramdump/Inst_reader/Mcount_addr_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_reader/Mcount_addr_cy<3> (Inst_ramdump/Inst_reader/Mcount_addr_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_reader/Mcount_addr_cy<4> (Inst_ramdump/Inst_reader/Mcount_addr_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_ramdump/Inst_reader/Mcount_addr_cy<5> (Inst_ramdump/Inst_reader/Mcount_addr_cy<5>)
+     MUXCY:CI->O           0   0.065   0.000  Inst_ramdump/Inst_reader/Mcount_addr_cy<6> (Inst_ramdump/Inst_reader/Mcount_addr_cy<6>)
+     XORCY:CI->O           1   0.844   0.000  Inst_ramdump/Inst_reader/Mcount_addr_xor<7> (Result<7>3)
+     FDCE:D                    0.252          Inst_ramdump/Inst_reader/addr_7
+    ----------------------------------------
+    Total                      4.510ns (3.610ns logic, 0.900ns route)
+                                       (80.0% logic, 20.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk50'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              5.531ns (Levels of Logic = 1)
+  Source:            Inst_DISPLAY/seg_7 (FF)
+  Destination:       seg_out<7> (PAD)
+  Source Clock:      clk50 rising
+
+  Data Path: Inst_DISPLAY/seg_7 to seg_out<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.591   0.420  Inst_DISPLAY/seg_7 (Inst_DISPLAY/seg_7)
+     OBUF:I->O                 4.520          seg_out_7_OBUF (seg_out<7>)
+    ----------------------------------------
+    Total                      5.531ns (5.111ns logic, 0.420ns route)
+                                       (92.4% logic, 7.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.67 secs
+ 
+--> 
+
+Total memory usage is 187908 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

@@ -1,0 +1,13 @@
+work	Control_interfaz.vhd
+work	LCD_Control.vhd
+work	Modulo3.vhd
+work	debounce.vhd
+work	fifo.vhd
+work	kb_code.vhd
+work	kb_test.vhd
+work	key2ascii.vhd
+work	mod_m_counter.vhd
+work	ps2_rx.vhd
+work	uart.vhd
+work	uart_rx.vhd
+work	uart_tx.vhd

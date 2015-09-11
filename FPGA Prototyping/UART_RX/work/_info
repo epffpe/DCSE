@@ -1,0 +1,177 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\FPGA Prototyping\UART_RX
+Ecounter_tb
+Z1 w1251005509
+Z2 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z3 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z4 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z5 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z6 8counter_tb.vhd
+Z7 Fcounter_tb.vhd
+l0
+L33
+V=[P@`0MYg367kE^dLkJ310
+Z8 OX;C;6.3c;37
+31
+Z9 o-explicit -93 -O0
+Z10 tExplicit 1
+Abehavior
+R2
+R3
+R4
+R5
+DE work counter_tb =[P@`0MYg367kE^dLkJ310
+l61
+L36
+V?<8[I?eN37d]`EJiGX?ea1
+R8
+31
+Z11 M4 ieee std_logic_1164
+Z12 M3 ieee std_logic_unsigned
+Z13 M2 ieee std_logic_arith
+Z14 M1 ieee numeric_std
+R9
+R10
+Emod_m_counter
+Z15 w1251005235
+R2
+R5
+Z16 8mod_m_counter.vhd
+Z17 Fmod_m_counter.vhd
+l0
+L30
+Vfj<6Ho@K[D]Y12F3dnCNn1
+R8
+31
+R9
+R10
+Abehavioral
+R2
+R5
+DE work mod_m_counter fj<6Ho@K[D]Y12F3dnCNn1
+l43
+L41
+VikHgKg^;Th`hcQeK20<4U3
+R8
+31
+Z18 M2 ieee std_logic_1164
+R14
+R9
+R10
+Ereceptor
+Z19 w1251834270
+Z20 DP std textio K]Z^fghZ6B=BjnK5NomDT3
+Z21 DP vital2000 vital_primitives P<o@__YgakiANKimF[boN3
+Z22 DP simprim vpackage LkkXhW^RjJHeefPzE6>@B0
+Z23 DP vital2000 vital_timing S^n>oJ2GS[H5aTKMo9OkE0
+Z24 DP simprim vcomponents Yl]oc5K6Lh?MbW?VPam>L0
+R5
+Z25 8netgen/par/receptor_timesim.vhd
+Z26 Fnetgen/par/receptor_timesim.vhd
+l0
+L41
+V^H_oP^aJRAXZ5Qa1WC@;B3
+R8
+31
+R9
+R10
+Astructure
+R20
+R21
+R22
+R23
+R24
+R5
+DE work receptor ^H_oP^aJRAXZ5Qa1WC@;B3
+l233
+L50
+V=^Uoa[CUN=[38D[63SZc51
+R8
+31
+M6 ieee std_logic_1164
+M5 simprim vcomponents
+M4 vital2000 vital_timing
+M3 simprim vpackage
+M2 vital2000 vital_primitives
+Z27 M1 std textio
+R9
+R10
+Abehavioral
+R4
+R3
+R5
+DE work receptor kB0]iC6ZWWTD@n`:K0?Yf1
+l62
+L37
+V95cC`:2oh1GGW:c=`B`6j2
+R8
+31
+Z28 M3 ieee std_logic_1164
+R13
+M1 ieee std_logic_unsigned
+R9
+R10
+Freceptor.vhd
+w1251006907
+8receptor.vhd
+Ereceptor_tb
+Z29 w1251005951
+R2
+R3
+R4
+R5
+Z30 8receptor_tb.vhd
+Z31 Freceptor_tb.vhd
+l0
+L33
+Vn8OB3oS9MkEF4PSNYJTjC1
+R8
+31
+R9
+R10
+Abehavior
+R2
+R3
+R4
+R5
+Z32 DE work receptor_tb n8OB3oS9MkEF4PSNYJTjC1
+l61
+L36
+Z33 V55@6W6GgOzR4TPY[6W1AN1
+R8
+31
+R11
+R12
+R13
+R14
+R9
+R10
+Euart_rx
+Z34 w1250703415
+R2
+R5
+Z35 8uart_rx.vhd
+Z36 Fuart_rx.vhd
+l0
+L30
+VIhQiV^SkBP:]MKhBFRURN3
+R8
+31
+R9
+R10
+Abehavioral
+R2
+R5
+DE work uart_rx IhQiV^SkBP:]MKhBFRURN3
+l49
+L43
+VjWaEPC`km<^<Gb[Zbl>TI1
+R8
+31
+R18
+R14
+R9
+R10

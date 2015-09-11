@@ -1,0 +1,34 @@
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+netgen -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ar Structure -tm DCSEP2 -w -dir netgen/synthesis -ofmt vhdl -sim DCSEP2.ngc DCSEP2_synthesis.vhd
+ngdbuild -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "DCSEP2.ngc" DCSEP2.ngd
+map -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o DCSEP2_map.ncd DCSEP2.ngd DCSEP2.pcf
+par -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -w -intstyle ise -ol std -t 1 DCSEP2_map.ncd DCSEP2.ncd DCSEP2.pcf
+trce -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -v 3 -s 4 -xml DCSEP2 DCSEP2.ncd -o DCSEP2.twr DCSEP2.pcf
+netgen -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm DCSEP2 -w -dir netgen/translate -ofmt vhdl -sim DCSEP2.ngd DCSEP2_translate.vhd
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+netgen -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ar Structure -tm DCSEP2 -w -dir netgen/synthesis -ofmt vhdl -sim DCSEP2.ngc DCSEP2_synthesis.vhd
+ngdbuild -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "DCSEP2.ngc" DCSEP2.ngd
+map -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o DCSEP2_map.ncd DCSEP2.ngd DCSEP2.pcf
+par -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -w -intstyle ise -ol std -t 1 DCSEP2_map.ncd DCSEP2.ncd DCSEP2.pcf
+trce -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -v 3 -s 4 -xml DCSEP2 DCSEP2.ncd -o DCSEP2.twr DCSEP2.pcf
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.syr"
+netgen -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ar Structure -tm DCSEP2 -w -dir netgen/synthesis -ofmt vhdl -sim DCSEP2.ngc DCSEP2_synthesis.vhd
+ngdbuild -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "DCSEP2.ngc" DCSEP2.ngd
+map -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o DCSEP2_map.ncd DCSEP2.ngd DCSEP2.pcf
+par -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -w -intstyle ise -ol std -t 1 DCSEP2_map.ncd DCSEP2.ncd DCSEP2.pcf
+trce -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -v 3 -s 4 -xml DCSEP2 DCSEP2.ncd -o DCSEP2.twr DCSEP2.pcf -ucf DCSEP2.ucf
+bitgen -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -f DCSEP2.ut DCSEP2.ncd

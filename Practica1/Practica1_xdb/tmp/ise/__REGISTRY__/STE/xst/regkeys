@@ -1,0 +1,6 @@
+CommandLine
+D:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/Designs/DCSE/Practica1/Practica1.ise -intstyle ise -ifn reader.xst -ofn reader.stx -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

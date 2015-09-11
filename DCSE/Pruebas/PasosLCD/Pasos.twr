@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+D:/Desings/DCSE/Pruebas/PasosLCD/PasosLCD.ise -intstyle ise -e 3 -s 4 -xml
+Pasos Pasos.ncd -o Pasos.twr Pasos.pcf -ucf Pasos.ucf
+
+Design file:              Pasos.ncd
+Physical constraint file: Pasos.pcf
+Device,package,speed:     xc3s700a,fg484,-4 (PRODUCTION 1.39 2008-01-09)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk50
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+pb_in<0>    |    3.529(R)|   -1.866(R)|reloj             |   0.000|
+pb_in<1>    |    3.720(R)|   -2.019(R)|reloj             |   0.000|
+pb_in<2>    |    4.096(R)|   -2.343(R)|reloj             |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk50 to Pad
+---------------+------------+------------------+--------+
+               | clk (edge) |                  | Clock  |
+Destination    |   to PAD   |Internal Clock(s) | Phase  |
+---------------+------------+------------------+--------+
+lcd_data_out<0>|   32.647(R)|reloj             |   0.000|
+lcd_data_out<1>|   31.806(R)|reloj             |   0.000|
+lcd_data_out<2>|   31.509(R)|reloj             |   0.000|
+lcd_data_out<3>|   32.615(R)|reloj             |   0.000|
+lcd_data_out<4>|   32.482(R)|reloj             |   0.000|
+lcd_data_out<5>|   31.545(R)|reloj             |   0.000|
+lcd_e_out      |   32.430(R)|reloj             |   0.000|
+lcd_rs_out     |   32.039(R)|reloj             |   0.000|
+leds_out<0>    |   32.180(R)|reloj             |   0.000|
+leds_out<1>    |   32.135(R)|reloj             |   0.000|
+leds_out<2>    |   33.137(R)|reloj             |   0.000|
+leds_out<3>    |   33.087(R)|reloj             |   0.000|
+leds_out<4>    |   31.927(R)|reloj             |   0.000|
+leds_out<5>    |   31.884(R)|reloj             |   0.000|
+leds_out<6>    |   31.909(R)|reloj             |   0.000|
+leds_out<7>    |   32.198(R)|reloj             |   0.000|
+---------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk50
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk50          |    3.403|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sat Feb 07 19:25:36 2009 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 120 MB
+
+
+

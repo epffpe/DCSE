@@ -1,0 +1,64 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {receptor_tb.tdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vcomponents
+# -- Loading package vital_primitives
+# -- Loading package textio
+# -- Loading package vpackage
+# -- Compiling entity receptor
+# -- Compiling architecture structure of receptor
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity receptor_tb
+# -- Compiling architecture behavior of receptor_tb
+# ** Warning: [4] receptor_tb.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] receptor_tb.vhd(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -sdfmax /UUT=netgen/par/receptor_timesim.sdf -t 1ps receptor_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.receptor_tb(behavior)
+# Loading std.textio(body)
+# Loading vital2000.vital_timing(body)
+# Loading simprim.vcomponents
+# Loading vital2000.vital_primitives(body)
+# Loading simprim.vpackage(body)
+# Loading work.receptor(structure)
+# Loading simprim.x_buf(x_buf_v)
+# Loading simprim.x_lut4(x_lut4_v)
+# Loading simprim.x_obuf(x_obuf_v)
+# Loading simprim.x_pd(x_pd_v)
+# Loading simprim.x_bufgmux(x_bufgmux_v)
+# Loading simprim.x_inv(x_inv_v)
+# Loading simprim.x_mux2(x_mux2_v)
+# Loading simprim.x_ff(x_ff_v)
+# Loading simprim.x_one(x_one_v)
+# Loading simprim.x_zero(x_zero_v)
+# Loading simprim.x_roc(x_roc_v)
+# Loading simprim.x_toc(x_toc_v)
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /receptor_tb  File: receptor_tb.vhd
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+run

@@ -1,0 +1,223 @@
+Release 10.1 Map K.31 (nt)
+Xilinx Mapping Report File for Design 'Modulo3'
+
+Design Information
+------------------
+Command Line   : map -ise D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise
+-intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o
+Modulo3_map.ncd Modulo3.ngd Modulo3.pcf 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.46 $
+Mapped Date    : Tue Sep 08 17:09:39 2009
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:           574 out of   9,312    6%
+  Number of 4 input LUTs:             1,264 out of   9,312   13%
+Logic Distribution:
+  Number of occupied Slices:            792 out of   4,656   17%
+    Number of Slices containing only related logic:     792 out of     792 100%
+    Number of Slices containing unrelated logic:          0 out of     792   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,302 out of   9,312   13%
+    Number used as logic:             1,264
+    Number used as a route-thru:         38
+  Number of bonded IOBs:                 31 out of     232   13%
+  Number of BUFGMUXs:                     1 out of      24    4%
+
+Peak Memory Usage:  177 MB
+Total REAL time to MAP completion:  15 secs 
+Total CPU time to MAP completion:   5 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Control Set Information
+Section 14 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:986 - The SAVE constraint for nets has been made more strict
+   starting in 10.1, such that the net driver and load blocks will be preserved
+   as well. To revert to the original behavior please set XIL_MAP_OLD_SAVE.
+INFO:MapLib:984 - SAVE has been detected on the following signal(s):
+   lcd_CE0.
+INFO:MapLib:159 - Net Timing constraints on signal clk are pushed forward
+   through input buffer.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |             | Strength | Rate |              |          | Delay    |
++----------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IBUF             | INPUT     | LVTTL       |          |      |              |          | 0 / 0    |
+| lcd_CE0                            | IOB              | OUTPUT    | LVCMOS33    | 4        | SLOW |              |          | 0 / 0    |
+| lcd_db<0>                          | IOB              | OUTPUT    | LVCMOS33    | 4        | SLOW |              |          | 0 / 0    |
+| lcd_db<1>                          | IOB              | OUTPUT    | LVCMOS33    | 4        | SLOW |              |          | 0 / 0    |
+| lcd_db<2>                          | IOB              | OUTPUT    | LVCMOS33    | 4        | SLOW |              |          | 0 / 0    |
+| lcd_db<3>                          | IOB              | OUTPUT    | LVCMOS33    | 4        | SLOW |              |          | 0 / 0    |
+| lcd_e                              | IOB              | OUTPUT    | LVCMOS33    | 4        | SLOW |              |          | 0 / 0    |
+| lcd_rs                             | IOB              | OUTPUT    | LVCMOS33    | 4        | SLOW |              |          | 0 / 0    |
+| lcd_rw                             | IOB              | OUTPUT    | LVCMOS33    | 4        | SLOW |              |          | 0 / 0    |
+| leds<0>                            | IOB              | OUTPUT    | LVTTL       | 4        | SLOW |              |          | 0 / 0    |
+| leds<1>                            | IOB              | OUTPUT    | LVTTL       | 4        | SLOW |              |          | 0 / 0    |
+| leds<2>                            | IOB              | OUTPUT    | LVTTL       | 4        | SLOW |              |          | 0 / 0    |
+| leds<3>                            | IOB              | OUTPUT    | LVTTL       | 4        | SLOW |              |          | 0 / 0    |
+| leds<4>                            | IOB              | OUTPUT    | LVTTL       | 4        | SLOW |              |          | 0 / 0    |
+| leds<5>                            | IOB              | OUTPUT    | LVTTL       | 4        | SLOW |              |          | 0 / 0    |
+| leds<6>                            | IOB              | OUTPUT    | LVTTL       | 4        | SLOW |              |          | 0 / 0    |
+| leds<7>                            | IOB              | OUTPUT    | LVTTL       | 4        | SLOW |              |          | 0 / 0    |
+| modo<0>                            | IBUF             | INPUT     | LVTTL       |          |      |              | PULLUP   | 0 / 0    |
+| modo<1>                            | IBUF             | INPUT     | LVTTL       |          |      |              | PULLUP   | 0 / 0    |
+| modo<2>                            | IBUF             | INPUT     | LVTTL       |          |      |              | PULLUP   | 0 / 0    |
+| pb<0>                              | IBUF             | INPUT     | LVTTL       |          |      |              | PULLDOWN | 0 / 0    |
+| pb<1>                              | IBUF             | INPUT     | LVTTL       |          |      |              | PULLDOWN | 0 / 0    |
+| pb<2>                              | IBUF             | INPUT     | LVTTL       |          |      |              | PULLDOWN | 0 / 0    |
+| pb<3>                              | IBUF             | INPUT     | LVTTL       |          |      |              | PULLDOWN | 0 / 0    |
+| ps2c                               | IBUF             | INPUT     | LVCMOS33    |          |      |              |          | 0 / 0    |
+| ps2d                               | IBUF             | INPUT     | LVCMOS33    |          |      |              |          | 0 / 0    |
+| rot_a                              | IBUF             | INPUT     | LVTTL       |          |      |              | PULLUP   | 0 / 0    |
+| rot_b                              | IBUF             | INPUT     | LVTTL       |          |      |              | PULLUP   | 0 / 0    |
+| rot_press                          | IBUF             | INPUT     | LVTTL       |          |      |              | PULLDOWN | 0 / 0    |
+| rx                                 | IBUF             | INPUT     | LVTTL       |          |      |              |          | 0 / 0    |
+| tx                                 | IOB              | OUTPUT    | LVTTL       | 8        | SLOW |              |          | 0 / 0    |
++----------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 14 - Utilization by Hierarchy
+-------------------------------------
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Module                | Partition | Slices        | Slice Reg     | LUTs          | LUTRAM        | BRAM      | MULT18X18 | BUFG  | DCM   | Full Hierarchical Name                          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Modulo3/              |           | 141/957       | 0/574         | 41/1302       | 0/0           | 0/0       | 0/0       | 1/1   | 0/0   | Modulo3                                         |
+| +Control_interfaz_uni |           | 9/237         | 9/193         | 5/436         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit                   |
+| ++btn_e_unit          |           | 29/29         | 23/23         | 56/56         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit/btn_e_unit        |
+| ++btn_n_unit          |           | 30/30         | 23/23         | 56/56         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit/btn_n_unit        |
+| ++btn_press_unit      |           | 30/30         | 23/23         | 56/56         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit/btn_press_unit    |
+| ++btn_s_unit          |           | 30/30         | 23/23         | 56/56         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit/btn_s_unit        |
+| ++btn_w_unit          |           | 31/31         | 23/23         | 57/57         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit/btn_w_unit        |
+| ++sw0_unit            |           | 26/26         | 23/23         | 50/50         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit/sw0_unit          |
+| ++sw1_unit            |           | 26/26         | 23/23         | 50/50         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit/sw1_unit          |
+| ++sw2_unit            |           | 26/26         | 23/23         | 50/50         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/Control_interfaz_unit/sw2_unit          |
+| +LCD_Control_unit     |           | 276/276       | 105/105       | 467/467       | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/LCD_Control_unit                        |
+| +kb_test_unit         |           | 1/303         | 0/276         | 1/358         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit                            |
+| ++kb_code_unit        |           | 3/140         | 1/163         | 4/129         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/kb_code_unit               |
+| +++fifo_key_unit      |           | 118/118       | 138/138       | 106/106       | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/kb_code_unit/fifo_key_unit |
+| +++ps2_rx_unit        |           | 19/19         | 24/24         | 19/19         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/kb_code_unit/ps2_rx_unit   |
+| ++key2a_unit          |           | 39/39         | 0/0           | 75/75         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/key2a_unit                 |
+| ++uart_unit           |           | 0/123         | 0/113         | 0/153         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/uart_unit                  |
+| +++baud_gen_unit      |           | 8/8           | 8/8           | 13/13         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/uart_unit/baud_gen_unit    |
+| +++fifo_rx_unit       |           | 30/30         | 37/37         | 26/26         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/uart_unit/fifo_rx_unit     |
+| +++fifo_tx_unit       |           | 36/36         | 34/34         | 31/31         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/uart_unit/fifo_tx_unit     |
+| +++uart_rx_unit       |           | 25/25         | 17/17         | 37/37         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/uart_unit/uart_rx_unit     |
+| +++uart_tx_unit       |           | 24/24         | 17/17         | 46/46         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | Modulo3/kb_test_unit/uart_unit/uart_tx_unit     |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+* Slices can be packed with basic elements from multiple hierarchies.
+  Therefore, a slice will be counted in every hierarchical module
+  that each of its packed basic elements belong to.
+** For each column, there are two numbers reported <A>/<B>.
+   <A> is the number of elements that belong to that specific hierarchical module.
+   <B> is the total number of elements from that hierarchical module and any lower level
+   hierarchical modules below.
+*** The LUTRAM column counts all LUTs used as memory including RAM, ROM, and shift registers.

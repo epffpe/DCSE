@@ -1,0 +1,4 @@
+vhdl work "ModuloLCD.vhd"
+vhdl work "Counter.vhd"
+vhdl work "Control.vhd"
+vhdl work "borrar.vhd"

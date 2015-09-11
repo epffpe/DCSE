@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/Designs/DCSE/boton_rotatorio/boton_rotatorio.ise -intstyle ise -ifn D:/Designs/DCSE/boton_rotatorio/left_right_leds.xst -ofn D:/Designs/DCSE/boton_rotatorio/left_right_leds.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

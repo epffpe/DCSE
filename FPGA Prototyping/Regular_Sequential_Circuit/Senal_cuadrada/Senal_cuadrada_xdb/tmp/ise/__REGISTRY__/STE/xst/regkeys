@@ -1,0 +1,6 @@
+CommandLine
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xst.exe -ise D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise -intstyle ise -ifn D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.xst -ofn D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

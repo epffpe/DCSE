@@ -1,0 +1,63 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\FPGA Prototyping\Modulo3
+Edebounce
+Z1 w1250816011
+Z2 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z3 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8debounce.vhd
+Z5 Fdebounce.vhd
+l0
+L30
+Vf6QLdYkj>RHnezP:LSFMT0
+Z6 OX;C;6.3c;37
+31
+Z7 o-explicit -93 -O0
+Z8 tExplicit 1
+Aimp_fsmd_arch
+R2
+R3
+DE work debounce f6QLdYkj>RHnezP:LSFMT0
+l44
+L38
+VJ>CQ_PJ@?97lT1nU6OTYY1
+R6
+31
+Z9 M2 ieee std_logic_1164
+Z10 M1 ieee numeric_std
+R7
+R8
+Edebpimce_tb
+Z11 w1250816198
+R2
+Z12 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z13 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+R3
+Z14 8debpimce_tb.vhd
+Z15 Fdebpimce_tb.vhd
+l0
+L33
+VUEQ=deHW49bP9TOhCMo?=3
+R6
+31
+R7
+R8
+Abehavior
+R2
+R12
+R13
+R3
+DE work debpimce_tb UEQ=deHW49bP9TOhCMo?=3
+l63
+L36
+VEbXZDT53d6U[P_OQj7N273
+R6
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+M2 ieee std_logic_arith
+R10
+R7
+R8

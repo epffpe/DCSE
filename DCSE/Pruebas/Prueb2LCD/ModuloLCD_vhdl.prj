@@ -1,0 +1,4 @@
+vhdl work "D:\Desings\DCSE\Pruebas\Prueb2LCD\Counter.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueb2LCD\Control.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueb2LCD\Clock.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\Prueb2LCD\ModuloLCD.vhd"

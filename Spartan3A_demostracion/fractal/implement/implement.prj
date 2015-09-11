@@ -1,0 +1,5 @@
+vhdl    work ../source/frac_controller.vhd
+vhdl    work ../source/pixel_calc.vhd
+vhdl    work ../source/vga_timing.vhd
+vhdl    work ../source/clocking.vhd
+verilog work ../source/picoboot.v

@@ -1,0 +1,10 @@
+[Inputs]
+clk50
+rst_n
+hold
+up_down
+=inter[1:0]=
+[Outputs]
+=seg_out[7:0]=
+=digit_out[3:0]=
+[BiDir]

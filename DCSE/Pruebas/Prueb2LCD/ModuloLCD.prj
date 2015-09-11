@@ -1,0 +1,4 @@
+vhdl work "Counter.vhd"
+vhdl work "Control.vhd"
+vhdl work "Clock.vhd"
+vhdl work "ModuloLCD.vhd"

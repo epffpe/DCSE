@@ -1,0 +1,881 @@
+;;============================================================================
+;; Copyright (c) 2006 Xilinx, Inc.
+;; This design is confidential and proprietary of Xilinx, All Rights Reserved.
+;;============================================================================
+;;   ____  ____
+;;  /   /\/   /
+;; /___/  \  /   Vendor:        Xilinx
+;; \   \   \/    Version:       1.0.0
+;;  \   \        Filename:      picocode.psm
+;;  /   /        Date Created:  December 25, 2006
+;; /___/   /\    Last Modified: December 25, 2006
+;; \   \  /  \
+;;  \___\/\___\
+;;
+;; Devices:   Spartan-3 Generation FPGA
+;; Purpose:   Dumb terminal controller program
+;; Contact:   crabill@xilinx.com
+;; Reference: None
+;;
+;; Revision History:
+;;   Rev 1.0.0 - (crabill) First created December 25, 2006.
+;;
+;;============================================================================
+;;
+;; LIMITED WARRANTY AND DISCLAIMER. These designs are provided to you "as is".
+;; Xilinx and its licensors make and you receive no warranties or conditions,
+;; express, implied, statutory or otherwise, and Xilinx specifically disclaims
+;; any implied warranties of merchantability, non-infringement, or fitness for
+;; a particular purpose. Xilinx does not warrant that the functions contained
+;; in these designs will meet your requirements, or that the operation of
+;; these designs will be uninterrupted or error free, or that defects in the
+;; designs will be corrected. Furthermore, Xilinx does not warrant or make any
+;; representations regarding use or the results of the use of the designs in
+;; terms of correctness, accuracy, reliability, or otherwise.
+;;
+;; LIMITATION OF LIABILITY. In no event will Xilinx or its licensors be liable
+;; for any loss of data, lost profits, cost or procurement of substitute goods
+;; or services, or for any special, incidental, consequential, or indirect
+;; damages arising from the use or operation of the designs or accompanying
+;; documentation, however caused and on any theory of liability. This
+;; limitation will apply even if Xilinx has been advised of the possibility
+;; of such damage. This limitation shall apply not-withstanding the failure
+;; of the essential purpose of any limited remedies herein.
+;;
+;;============================================================================
+;; Copyright (c) 2006 Xilinx, Inc.
+;; This design is confidential and proprietary of Xilinx, All Rights Reserved.
+;;============================================================================
+
+CONSTANT ascii_BEL        , 07    ; ascii code (bell)
+CONSTANT ascii_BS         , 08    ; ascii code (backspace)
+CONSTANT ascii_LF         , 0A    ; ascii code (line feed)
+CONSTANT ascii_CR         , 0D    ; ascii code (carriage return)
+
+CONSTANT ascii_SPACE      , 20    ; ascii code
+CONSTANT ascii_EXCLAIM    , 21    ; ascii code
+CONSTANT ascii_DBLQUOT    , 22    ; ascii code
+CONSTANT ascii_NUMSIGN    , 23    ; ascii code
+CONSTANT ascii_DOLLAR     , 24    ; ascii code
+CONSTANT ascii_PERCENT    , 25    ; ascii code
+CONSTANT ascii_AMP        , 26    ; ascii code
+CONSTANT ascii_SINQUOT    , 27    ; ascii code
+CONSTANT ascii_LPAREN     , 28    ; ascii code
+CONSTANT ascii_RPAREN     , 29    ; ascii code
+CONSTANT ascii_ASTERISK   , 2A    ; ascii code
+CONSTANT ascii_PLUS       , 2B    ; ascii code
+CONSTANT ascii_COMMA      , 2C    ; ascii code
+CONSTANT ascii_MINUS      , 2D    ; ascii code
+CONSTANT ascii_PERIOD     , 2E    ; ascii code
+CONSTANT ascii_FWDSLASH   , 2F    ; ascii code
+
+CONSTANT ascii_0          , 30    ; ascii code
+CONSTANT ascii_1          , 31    ; ascii code
+CONSTANT ascii_2          , 32    ; ascii code
+CONSTANT ascii_3          , 33    ; ascii code
+CONSTANT ascii_4          , 34    ; ascii code
+CONSTANT ascii_5          , 35    ; ascii code
+CONSTANT ascii_6          , 36    ; ascii code
+CONSTANT ascii_7          , 37    ; ascii code
+CONSTANT ascii_8          , 38    ; ascii code
+CONSTANT ascii_9          , 39    ; ascii code
+CONSTANT ascii_COLON      , 3A    ; ascii code
+CONSTANT ascii_SEMI       , 3B    ; ascii code
+CONSTANT ascii_LESS       , 3C    ; ascii code
+CONSTANT ascii_EQUAL      , 3D    ; ascii code
+CONSTANT ascii_GREATER    , 3E    ; ascii code
+CONSTANT ascii_QUESTION   , 3F    ; ascii code
+
+CONSTANT ascii_CIRCAT     , 40    ; ascii code
+CONSTANT ascii_A          , 41    ; ascii code
+CONSTANT ascii_B          , 42    ; ascii code
+CONSTANT ascii_C          , 43    ; ascii code
+CONSTANT ascii_D          , 44    ; ascii code
+CONSTANT ascii_E          , 45    ; ascii code
+CONSTANT ascii_F          , 46    ; ascii code
+CONSTANT ascii_G          , 47    ; ascii code
+CONSTANT ascii_H          , 48    ; ascii code
+CONSTANT ascii_I          , 49    ; ascii code
+CONSTANT ascii_J          , 4A    ; ascii code
+CONSTANT ascii_K          , 4B    ; ascii code
+CONSTANT ascii_L          , 4C    ; ascii code
+CONSTANT ascii_M          , 4D    ; ascii code
+CONSTANT ascii_N          , 4E    ; ascii code
+CONSTANT ascii_O          , 4F    ; ascii code
+
+CONSTANT ascii_P          , 50    ; ascii code
+CONSTANT ascii_Q          , 51    ; ascii code
+CONSTANT ascii_R          , 52    ; ascii code
+CONSTANT ascii_S          , 53    ; ascii code
+CONSTANT ascii_T          , 54    ; ascii code
+CONSTANT ascii_U          , 55    ; ascii code
+CONSTANT ascii_V          , 56    ; ascii code
+CONSTANT ascii_W          , 57    ; ascii code
+CONSTANT ascii_X          , 58    ; ascii code
+CONSTANT ascii_Y          , 59    ; ascii code
+CONSTANT ascii_Z          , 5A    ; ascii code
+CONSTANT ascii_LBKT       , 5B    ; ascii code
+CONSTANT ascii_BKSLASH    , 5C    ; ascii code
+CONSTANT ascii_RBKT       , 5D    ; ascii code
+CONSTANT ascii_CARET      , 5E    ; ascii code
+CONSTANT ascii_UNDER      , 5F    ; ascii code
+
+CONSTANT ascii_TICK       , 60    ; ascii code
+CONSTANT ascii_a          , 61    ; ascii code
+CONSTANT ascii_b          , 62    ; ascii code
+CONSTANT ascii_c          , 63    ; ascii code
+CONSTANT ascii_d          , 64    ; ascii code
+CONSTANT ascii_e          , 65    ; ascii code
+CONSTANT ascii_f          , 66    ; ascii code
+CONSTANT ascii_g          , 67    ; ascii code
+CONSTANT ascii_h          , 68    ; ascii code
+CONSTANT ascii_i          , 69    ; ascii code
+CONSTANT ascii_j          , 6A    ; ascii code
+CONSTANT ascii_k          , 6B    ; ascii code
+CONSTANT ascii_l          , 6C    ; ascii code
+CONSTANT ascii_m          , 6D    ; ascii code
+CONSTANT ascii_n          , 6E    ; ascii code
+CONSTANT ascii_o          , 6F    ; ascii code
+
+CONSTANT ascii_p          , 70    ; ascii code
+CONSTANT ascii_q          , 71    ; ascii code
+CONSTANT ascii_r          , 72    ; ascii code
+CONSTANT ascii_s          , 73    ; ascii code
+CONSTANT ascii_t          , 74    ; ascii code
+CONSTANT ascii_u          , 75    ; ascii code
+CONSTANT ascii_v          , 76    ; ascii code
+CONSTANT ascii_w          , 77    ; ascii code
+CONSTANT ascii_x          , 78    ; ascii code
+CONSTANT ascii_y          , 79    ; ascii code
+CONSTANT ascii_z          , 7A    ; ascii code
+CONSTANT ascii_LBRACE     , 7B    ; ascii code
+CONSTANT ascii_VBAR       , 7C    ; ascii code
+CONSTANT ascii_RBRACE     , 7D    ; ascii code
+CONSTANT ascii_TILDE      , 7E    ; ascii code
+CONSTANT ascii_DEL        , 7F    ; ascii code
+
+CONSTANT scan_BAT         , AA    ; scan code
+CONSTANT scan_BEL         , 76    ; scan code (bell via escape)
+CONSTANT scan_BELx        , F6    ; scan code (bell via escape)
+CONSTANT scan_BS          , 66    ; scan code (backspace)
+CONSTANT scan_BSx         , E6    ; scan code (backspace)
+CONSTANT scan_CR          , 5A    ; scan code (carriage return)
+CONSTANT scan_CRx         , DA    ; scan code (carriage return)
+CONSTANT scan_SPACE       , 29    ; scan code (space)
+CONSTANT scan_SPACEx      , A9    ; scan code (space)
+
+CONSTANT scan_EXCLAIM     , 96    ; scan code
+CONSTANT scan_DBLQUOT     , D2    ; scan code
+CONSTANT scan_NUMSIGN     , A6    ; scan code
+CONSTANT scan_DOLLAR      , A5    ; scan code
+CONSTANT scan_PERCENT     , AE    ; scan code
+CONSTANT scan_AMP         , BD    ; scan code
+CONSTANT scan_SINQUOT     , 52    ; scan code
+CONSTANT scan_LPAREN      , C6    ; scan code
+CONSTANT scan_RPAREN      , C5    ; scan code
+CONSTANT scan_ASTERISK    , BE    ; scan code
+CONSTANT scan_PLUS        , D5    ; scan code
+CONSTANT scan_COMMA       , 41    ; scan code
+CONSTANT scan_MINUS       , 4E    ; scan code
+CONSTANT scan_PERIOD      , 49    ; scan code
+CONSTANT scan_FWDSLASH    , 4A    ; scan code
+
+CONSTANT scan_0           , 45    ; scan code
+CONSTANT scan_1           , 16    ; scan code
+CONSTANT scan_2           , 1E    ; scan code
+CONSTANT scan_3           , 26    ; scan code
+CONSTANT scan_4           , 25    ; scan code
+CONSTANT scan_5           , 2E    ; scan code
+CONSTANT scan_6           , 36    ; scan code
+CONSTANT scan_7           , 3D    ; scan code
+CONSTANT scan_8           , 3E    ; scan code
+CONSTANT scan_9           , 46    ; scan code
+CONSTANT scan_COLON       , CC    ; scan code
+CONSTANT scan_SEMI        , 4C    ; scan code
+CONSTANT scan_LESS        , C1    ; scan code
+CONSTANT scan_EQUAL       , 55    ; scan code
+CONSTANT scan_GREATER     , C9    ; scan code
+CONSTANT scan_QUESTION    , CA    ; scan code
+
+CONSTANT scan_CIRCAT      , 9E    ; scan code
+CONSTANT scan_A           , 9C    ; scan code
+CONSTANT scan_B           , B2    ; scan code
+CONSTANT scan_C           , A1    ; scan code
+CONSTANT scan_D           , A3    ; scan code
+CONSTANT scan_E           , A4    ; scan code
+CONSTANT scan_F           , AB    ; scan code
+CONSTANT scan_G           , B4    ; scan code
+CONSTANT scan_H           , B3    ; scan code
+CONSTANT scan_I           , C3    ; scan code
+CONSTANT scan_J           , BB    ; scan code
+CONSTANT scan_K           , C2    ; scan code
+CONSTANT scan_L           , CB    ; scan code
+CONSTANT scan_M           , BA    ; scan code
+CONSTANT scan_N           , B1    ; scan code
+CONSTANT scan_O           , C4    ; scan code
+
+CONSTANT scan_P           , CD    ; scan code
+CONSTANT scan_Q           , 95    ; scan code
+CONSTANT scan_R           , AD    ; scan code
+CONSTANT scan_S           , 9B    ; scan code
+CONSTANT scan_T           , AC    ; scan code
+CONSTANT scan_U           , BC    ; scan code
+CONSTANT scan_V           , AA    ; scan code
+CONSTANT scan_W           , 9D    ; scan code
+CONSTANT scan_X           , A2    ; scan code
+CONSTANT scan_Y           , B5    ; scan code
+CONSTANT scan_Z           , 9A    ; scan code
+CONSTANT scan_LBKT        , 54    ; scan code
+CONSTANT scan_BKSLASH     , 5D    ; scan code
+CONSTANT scan_RBKT        , 5B    ; scan code
+CONSTANT scan_CARET       , B6    ; scan code
+CONSTANT scan_UNDER       , CE    ; scan code
+
+CONSTANT scan_TICK        , 0E    ; scan code
+CONSTANT scan_a           , 1c    ; scan code
+CONSTANT scan_b           , 32    ; scan code
+CONSTANT scan_c           , 21    ; scan code
+CONSTANT scan_d           , 23    ; scan code
+CONSTANT scan_e           , 24    ; scan code
+CONSTANT scan_f           , 2B    ; scan code
+CONSTANT scan_g           , 34    ; scan code
+CONSTANT scan_h           , 33    ; scan code
+CONSTANT scan_i           , 43    ; scan code
+CONSTANT scan_j           , 3B    ; scan code
+CONSTANT scan_k           , 42    ; scan code
+CONSTANT scan_l           , 4B    ; scan code
+CONSTANT scan_m           , 3A    ; scan code
+CONSTANT scan_n           , 31    ; scan code
+CONSTANT scan_o           , 44    ; scan code
+
+CONSTANT scan_p           , 4D    ; scan code
+CONSTANT scan_q           , 15    ; scan code
+CONSTANT scan_r           , 2D    ; scan code
+CONSTANT scan_s           , 1B    ; scan code
+CONSTANT scan_t           , 2C    ; scan code
+CONSTANT scan_u           , 3C    ; scan code
+CONSTANT scan_v           , 2A    ; scan code
+CONSTANT scan_w           , 1D    ; scan code
+CONSTANT scan_x           , 22    ; scan code
+CONSTANT scan_y           , 35    ; scan code
+CONSTANT scan_z           , 1A    ; scan code
+CONSTANT scan_LBRACE      , D4    ; scan code
+CONSTANT scan_VBAR        , DD    ; scan code
+CONSTANT scan_RBRACE      , DB    ; scan code
+CONSTANT scan_TILDE       , 8E    ; scan code
+
+CONSTANT extend0          , E0    ; extended
+CONSTANT extend1          , E1    ; extended
+CONSTANT keyup            , F0    ; break code
+CONSTANT shiftl           , 12    ; shift left code
+CONSTANT shiftr           , 59    ; shift right code
+CONSTANT capslock         , 58    ; capslock code
+CONSTANT makescan         , 7F    ; make code bits
+
+;;============================================================================
+;; Ports and related constants.
+;;============================================================================
+
+CONSTANT uart_tx_data     , 21    ; transmit data port
+CONSTANT audio            , 24    ; output strobe
+CONSTANT xpos             , 04    ; cursor position
+CONSTANT ypos             , 05    ; cursor position
+CONSTANT char_tx_data     , 06    ; display output port
+
+CONSTANT switches         , 20    ; switch input port
+CONSTANT uart_rx_data     , 21    ; receive data port
+CONSTANT uart_tx_stat     , 22    ; tx buffer full (lsb)
+CONSTANT uart_rx_stat     , 23    ; rx buffer pres (lsb)
+CONSTANT kbrd_rx_data     , 25    ; receive data port
+CONSTANT kbrd_rx_stat     , 26    ; rx buffer pres (lsb)
+CONSTANT char_rx_data     , 06    ; display input port
+
+CONSTANT zero             , 00    ; define zero
+CONSTANT one              , 01    ; define one
+CONSTANT two              , 02    ; define two
+CONSTANT nonzero          , FF    ; for logical tests
+
+CONSTANT ascii            , 80    ; for validity test
+CONSTANT printable        , 20    ; for printable test
+
+CONSTANT cursor           , 7F    ; cursor block
+CONSTANT disp_wide        , 64    ; display wide
+CONSTANT disp_tall        , 4B    ; display tall
+
+;;============================================================================
+;; Notes so that you do not forget:
+;; * s0 is the object of interest register
+;; * s1 is a global register used for ypos (cursor)
+;; * s2 is a global register used for xpos (cursor)
+;; * s3 is a global register used for capslock (bit 0)
+;; * s4 is a global register used for local echo (bit 0)
+;; * s5 is a global register used for left-shift (bit 0)
+;; * s6 is a global register used for right-shift (bit 0)
+;; * s7 and beyond are temporary crap registers
+;; The only non-printable scan characters handled are:
+;; * Bell (ctrl-g) but as ESC on local keyboard
+;; * Backspace (ctrl-h)
+;; * Linefeed (ctrl-j)
+;; * Carriage Return (ctrl-m)
+;; The "enter" key generates CR+LF.  The remote terminal
+;; should also send us a CR+LF for "enter".
+;;============================================================================
+
+cold_start:     LOAD s1, zero              ; initial ypos
+                LOAD s2, zero              ; initial xpos
+                OUTPUT   s1, ypos          ; set ypos value
+                OUTPUT   s2, xpos          ; set xpos value
+                LOAD     s0, ascii_BEL     ; load ascii character
+                OUTPUT   s0, audio         ; create alert audio
+                OUTPUT   s0, uart_tx_data  ; write uart only
+                LOAD     s0, ascii_CR      ; load ascii character
+                OUTPUT   s0, uart_tx_data  ; write uart only
+                LOAD     s0, ascii_LF      ; load ascii character
+                OUTPUT   s0, uart_tx_data  ; write uart only
+                LOAD     s0, ascii_T       ; load ascii character
+                CALL     msg_subrtn        ; write display and uart
+                LOAD     s0, ascii_e       ; load ascii character
+                CALL     msg_subrtn        ; write display and uart
+                LOAD     s0, ascii_r       ; load ascii character
+                CALL     msg_subrtn        ; write display and uart
+                LOAD     s0, ascii_m       ; load ascii character
+                CALL     msg_subrtn        ; write display and uart
+                LOAD     s0, ascii_i       ; load ascii character
+                CALL     msg_subrtn        ; write display and uart
+                LOAD     s0, ascii_n       ; load ascii character
+                CALL     msg_subrtn        ; write display and uart
+                LOAD     s0, ascii_a       ; load ascii character
+                CALL     msg_subrtn        ; write display and uart
+                LOAD     s0, ascii_l       ; load ascii character
+                CALL     msg_subrtn        ; write display and uart
+                LOAD     s0, ascii_CR      ; load ascii character
+                OUTPUT   s0, uart_tx_data  ; write uart only
+                LOAD     s0, ascii_LF      ; load ascii character
+                OUTPUT   s0, uart_tx_data  ; write uart only
+                LOAD     s2, zero          ; xpos return to zero
+                ADD      s1, two           ; ypos advance two lines
+                OUTPUT   s1, ypos          ; update ypos
+                OUTPUT   s2, xpos          ; update xpos
+                LOAD     s0, cursor        ; load cursor value
+                OUTPUT   s0, char_tx_data  ; write display
+                LOAD     s3, zero          ; zero out reg s3, capslk
+                LOAD     s5, zero          ; zero out reg s5, lshift
+                LOAD     s6, zero          ; zero out reg s6, rshift
+                JUMP     loop              ; start main loop
+
+;;============================================================================
+;; Subroutine for sending a character to both output devices.
+;;============================================================================
+
+msg_subrtn:     OUTPUT   s0, uart_tx_data  ; write uart
+                OUTPUT   s0, char_tx_data  ; write display
+                ADD      s2, one           ; increment xpos
+                OUTPUT   s2, xpos          ; update xpos
+                RETURN                     ; return from subroutine
+
+;;============================================================================
+;; Start of main loop.
+;;============================================================================
+
+loop:           INPUT    s4, switches      ; read switch, local echo
+                INPUT    s0, uart_rx_stat  ; check for data rx
+                TEST     s0, one           ; used to set flags
+                CALL NZ, got_uart          ; uart receive subrtn
+                INPUT    s0, kbrd_rx_stat  ; check for data rx
+                TEST     s0, one           ; used to set flags
+                CALL NZ, got_kbrd          ; kbrd receive subrtn
+                JUMP     loop              ; loop again
+
+;;============================================================================
+;; Routine for handling data from uart.
+;;============================================================================
+
+got_uart:       INPUT    s0, uart_rx_data  ; read the data
+                CALL     ascii2disp        ; get it on screen
+                RETURN                     ; return to loop
+
+;;============================================================================
+;; Routine for handling data from keyboard.
+;;============================================================================
+
+got_kbrd:       CALL     kbrd2ascii        ; figure out what arrived
+                TEST     s0, nonzero       ; is it zero (null data)?
+                RETURN Z                   ; if so, just bail out
+                COMPARE  s0, ascii_CR      ; is this the enter key?
+                JUMP Z,  crspecial         ; if so, do special things              
+                CALL     ascii2uart        ; now send it to the uart
+                TEST     s4, one           ; is it one (echo off)?
+                RETURN NZ                  ; if not, just bail out
+                CALL     ascii2disp        ; get it on screen
+                RETURN                     ; return to loop
+
+;;============================================================================
+;; Helper routines below here.
+;;============================================================================
+
+crspecial:      CALL     ascii2uart        ; send ascii_CR to uart
+                LOAD     s0, ascii_LF      ; then force a line feed
+                CALL     ascii2uart        ; send ascii_LF to uart
+                TEST     s4, one           ; is it one (echo off)?
+                RETURN   NZ                ; if not, just bail out
+                LOAD     s0, ascii_CR      ; put the ascii_CR back
+                CALL     ascii2disp        ; get it on screen
+                LOAD     s0, ascii_LF      ; send ascii_LF to disp
+                CALL     ascii2disp        ; get it on screen
+                RETURN
+
+ascii2uart:     INPUT    s7, uart_tx_stat  ; get tx buffer full
+                TEST     s7, one           ; check if full
+                JUMP NZ, ascii2uart        ; if full, sit and spin
+                OUTPUT   s0, uart_tx_data  ; space avail, write it
+                RETURN                     ; just exit for now
+
+ascii2disp:     TEST     s0, ascii         ; is it valid ascii?
+                RETURN NZ                  ; if not, return
+                COMPARE  s0, ascii_BEL     ; is it the bell character?
+                JUMP NZ, a2d_notabel       ; if not, go to next test
+                OUTPUT   s0, audio         ; ring the bell, fool!
+                RETURN                     ; we are done with this
+
+a2d_notabel:    COMPARE  s0, ascii_CR      ; is it the carriage return?
+                JUMP NZ, a2d_notacr        ; if not, go to next test
+                LOAD     s7, ascii_SPACE   ; get the ascii space char
+                OUTPUT   s7, char_tx_data  ; overwrite the cursor
+                LOAD     s2, zero          ; return xpos to zero
+                OUTPUT   s2, xpos          ; update the display
+                ; cursor is destructive, so don't replace
+                ; the cursor -- will make CR+LF (enter)
+                ; work but a plain carriage return will
+                ; lose the cursor until next character
+                ; LOAD   s7, cursor        ; load cursor value
+                ; OUTPUT s7, char_tx_data  ; write display
+                RETURN                     ; we are done with this
+
+a2d_notacr:     COMPARE  s0, ascii_LF      ; is it the linefeed?
+                JUMP NZ, a2d_notalf        ; if not, go to next test
+                ; if this comes following a carriage
+                ; return there is no cursor to erase
+                ; simply move down and replace cursor
+                ; LOAD   s7, ascii_SPACE   ; get the ascii space char
+                ; OUTPUT s7, char_tx_data  ; overwrite the cursor
+                ADD      s1, one           ; increment ypos, down
+                OUTPUT   s1, ypos          ; update the display
+                LOAD     s7, cursor        ; load cursor value
+                OUTPUT   s7, char_tx_data  ; write display
+                CALL     scroll_it         ; scroll if needed
+                RETURN                     ; we are done with this
+
+a2d_notalf:     COMPARE  s0, ascii_BS      ; is it the backspace?
+                JUMP NZ, a2d_notabs        ; if not, go to next test
+                COMPARE  s2, zero          ; are we at left edge?
+                RETURN Z                   ; do nothing and return
+                LOAD     s7, ascii_SPACE   ; get the ascii space char
+                OUTPUT   s7, char_tx_data  ; overwrite the cursor
+                SUB      s2, one           ; subtract one from xpos
+normalbs:       OUTPUT   s2, xpos          ; update the display
+                LOAD     s7, cursor        ; load cursor value
+                OUTPUT   s7, char_tx_data  ; write display
+                RETURN                     ; we are done with this
+
+a2d_notabs:     COMPARE  s0, printable     ; check if printable
+                RETURN C                   ; if not, return
+                OUTPUT   s0, char_tx_data  ; write it to the display
+                ADD      s2, one           ; add one to xpos
+                COMPARE  s2, disp_wide     ; did we go off edge?
+                JUMP NZ, normalpr          ; complete the update
+                LOAD     s2, zero          ; return to left edge
+                ADD      s1, one           ; go to next line
+normalpr:       OUTPUT   s2, xpos          ; update the display
+                OUTPUT   s1, ypos          ; update the display
+                LOAD     s7, cursor        ; load cursor value
+                OUTPUT   s7, char_tx_data  ; write display
+                CALL     scroll_it         ; scroll if needed
+                RETURN                     ; we are done with this
+
+scroll_it:      COMPARE  s1, disp_tall     ; did we go off bottom?
+                RETURN NZ                  ; if not, no scroll needed
+                LOAD     s8, zero          ; s8 major loop for ypos
+scr_majorl:     LOAD     s9, zero          ; s9 minor loop for xpos
+scr_minorl:     OUTPUT   s9, xpos          ; set xpos value
+                ADD      s8, one           ; temp add one to ypos 
+                OUTPUT   s8, ypos          ; update display
+                SUB      s8, one           ; restore ypos
+                INPUT    s7, char_rx_data  ; read the char "below"
+                OUTPUT   s8, ypos          ; update display
+                OUTPUT   s7, char_tx_data  ; copy it here
+                ADD      s9, one           ; increment xpos
+                COMPARE  s9, disp_wide     ; did we go off edge?
+                JUMP NZ, scr_minorl        ; do until line complete
+                ADD      s8, one           ; increment ypos
+                COMPARE  s8, disp_tall     ; did we go off bottom?
+                JUMP NZ, scr_majorl        ; do until screen complete
+                SUB      s1, one           ; pop up to last line
+                OUTPUT   s1, ypos          ; refresh ypos
+                OUTPUT   s2, xpos          ; refresh xpos
+                RETURN                     ; we are done with this
+
+getmore:        INPUT    s0, kbrd_rx_stat  ; check for data rx
+                TEST     s0, one           ; check if data present
+                JUMP Z,  getmore           ; if empty, sit and spin
+                INPUT    s0, kbrd_rx_data  ; pick up the data
+                RETURN                     ; just exit for now
+gotextend:      CALL     getmore           ; there's another byte
+                COMPARE  s0, keyup         ; check for break code
+                JUMP NZ, tidyextend        ; if not, cleanup and exit
+                CALL     getmore           ; there's another byte
+tidyextend:     LOAD     s0, zero          ; exit code for nothing
+                RETURN                     ; we are done with this
+
+shifty:         CALL     getmore           ; there's another byte
+                COMPARE  s0, shiftl        ; release of left shift?
+                JUMP NZ, sh_byp1           ; if not, skip next step
+                LOAD     s5, zero          ; clear the left shift
+sh_byp1:        COMPARE  s0, shiftr        ; release of right shift?
+                JUMP NZ, sh_byp2           ; if not, skip next step
+                LOAD     s6, zero          ; clear the right shift
+sh_byp2:        COMPARE  s0, capslock      ; release of capslock?
+                JUMP NZ, sh_byp3           ; if not, skip next step
+                XOR      s3, one           ; toggle capslock state
+sh_byp3:        LOAD     s0, zero          ; exit code for nothing
+                RETURN                     ; we are done with this
+
+;;============================================================================
+;; This is effectively a look up table.
+;;============================================================================
+
+kbrd2ascii:     CALL     getmore           ; scan code returns in s0
+                COMPARE  s0, extend0       ; is it an extended sequence?
+                JUMP Z,  gotextend         ; if so, take care and exit
+                COMPARE  s0, extend1       ; is it an extended sequence?
+                JUMP Z,  gotextend         ; if so, take care and exit
+                COMPARE  s0, keyup         ; is it a keyup event?
+                JUMP Z,  shifty            ; if so, check shiftup, exit
+presschk:       COMPARE  s0, shiftl        ; press of left shift?
+                JUMP NZ, sl_byp            ; if not, skip next step
+                LOAD     s5, one           ; set the left shift
+                LOAD     s0, zero          ; exit code for nothing
+                RETURN                     ; and exit
+sl_byp:         COMPARE  s0, shiftr        ; press of right shift?
+                JUMP NZ, sr_byp            ; if not, skip next step
+                LOAD     s6, one           ; set the right shift
+                LOAD     s0, zero          ; exit code for nothing
+                RETURN                     ; and exit
+sr_byp:         COMPARE  s0, scan_BAT      ; power-on bat status code?
+                JUMP NZ, bat_byp           ; if not, skip next step
+                LOAD     s0, zero          ; exit code for nothing
+                RETURN                     ; and exit
+bat_byp:        LOAD     s7, s5            ; copy shiftl state
+                OR       s7, s6            ; sum with shiftr state
+                XOR      s7, s3            ; toggle with capslock
+                AND      s7, one           ; clear other bits (in case)
+                RR       s7                ; shifted is now msb
+                AND      s0, makescan      ; clear other bits (in case)
+                OR       s7, s0            ; made unique key code
+                LOAD     s0, ascii_BEL     ; prepare return code
+                COMPARE  s7, scan_BEL      ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                COMPARE  s7, scan_BELx     ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_BS      ; prepare return code
+                COMPARE  s7, scan_BS       ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                COMPARE  s7, scan_BSx      ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_CR      ; prepare return code
+                COMPARE  s7, scan_CR       ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                COMPARE  s7, scan_CRx      ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_SPACE   ; prepare return code
+                COMPARE  s7, scan_SPACE    ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                COMPARE  s7, scan_SPACEx   ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+lookup:         LOAD     s0, ascii_EXCLAIM ; prepare return code
+                COMPARE  s7, scan_EXCLAIM  ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_DBLQUOT ; prepare return code
+                COMPARE  s7, scan_DBLQUOT  ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_NUMSIGN ; prepare return code
+                COMPARE  s7, scan_NUMSIGN  ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_DOLLAR  ; prepare return code
+                COMPARE  s7, scan_DOLLAR   ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_PERCENT ; prepare return code
+                COMPARE  s7, scan_PERCENT  ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_AMP     ; prepare return code
+                COMPARE  s7, scan_AMP      ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_SINQUOT ; prepare return code
+                COMPARE  s7, scan_SINQUOT  ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_LPAREN  ; prepare return code
+                COMPARE  s7, scan_LPAREN   ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_RPAREN  ; prepare return code
+                COMPARE  s7, scan_RPAREN   ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_ASTERISK; prepare return code
+                COMPARE  s7, scan_ASTERISK ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_PLUS    ; prepare return code
+                COMPARE  s7, scan_PLUS     ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_COMMA   ; prepare return code
+                COMPARE  s7, scan_COMMA    ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_MINUS   ; prepare return code
+                COMPARE  s7, scan_MINUS    ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_PERIOD  ; prepare return code
+                COMPARE  s7, scan_PERIOD   ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_FWDSLASH; prepare return code
+                COMPARE  s7, scan_FWDSLASH ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_0       ; prepare return code
+                COMPARE  s7, scan_0        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_1       ; prepare return code
+                COMPARE  s7, scan_1        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_2       ; prepare return code
+                COMPARE  s7, scan_2        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_3       ; prepare return code
+                COMPARE  s7, scan_3        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_4       ; prepare return code
+                COMPARE  s7, scan_4        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_5       ; prepare return code
+                COMPARE  s7, scan_5        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_6       ; prepare return code
+                COMPARE  s7, scan_6        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_7       ; prepare return code
+                COMPARE  s7, scan_7        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_8       ; prepare return code
+                COMPARE  s7, scan_8        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_9       ; prepare return code
+                COMPARE  s7, scan_9        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_COLON   ; prepare return code
+                COMPARE  s7, scan_COLON    ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_SEMI    ; prepare return code
+                COMPARE  s7, scan_SEMI     ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_LESS    ; prepare return code
+                COMPARE  s7, scan_LESS     ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_EQUAL   ; prepare return code
+                COMPARE  s7, scan_EQUAL    ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_GREATER ; prepare return code
+                COMPARE  s7, scan_GREATER  ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_QUESTION; prepare return code
+                COMPARE  s7, scan_QUESTION ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_CIRCAT  ; prepare return code
+                COMPARE  s7, scan_CIRCAT   ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_A       ; prepare return code
+                COMPARE  s7, scan_A        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_B       ; prepare return code
+                COMPARE  s7, scan_B        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_C       ; prepare return code
+                COMPARE  s7, scan_C        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_D       ; prepare return code
+                COMPARE  s7, scan_D        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_E       ; prepare return code
+                COMPARE  s7, scan_E        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_F       ; prepare return code
+                COMPARE  s7, scan_F        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_G       ; prepare return code
+                COMPARE  s7, scan_G        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_H       ; prepare return code
+                COMPARE  s7, scan_H        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_I       ; prepare return code
+                COMPARE  s7, scan_I        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_J       ; prepare return code
+                COMPARE  s7, scan_J        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_K       ; prepare return code
+                COMPARE  s7, scan_K        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_L       ; prepare return code
+                COMPARE  s7, scan_L        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_M       ; prepare return code
+                COMPARE  s7, scan_M        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_N       ; prepare return code
+                COMPARE  s7, scan_N        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_O       ; prepare return code
+                COMPARE  s7, scan_O        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_P       ; prepare return code
+                COMPARE  s7, scan_P        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_Q       ; prepare return code
+                COMPARE  s7, scan_Q        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_R       ; prepare return code
+                COMPARE  s7, scan_R        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_S       ; prepare return code
+                COMPARE  s7, scan_S        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_T       ; prepare return code
+                COMPARE  s7, scan_T        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_U       ; prepare return code
+                COMPARE  s7, scan_U        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_V       ; prepare return code
+                COMPARE  s7, scan_V        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_W       ; prepare return code
+                COMPARE  s7, scan_W        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_X       ; prepare return code
+                COMPARE  s7, scan_X        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_Y       ; prepare return code
+                COMPARE  s7, scan_Y        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_Z       ; prepare return code
+                COMPARE  s7, scan_Z        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_LBKT    ; prepare return code
+                COMPARE  s7, scan_LBKT     ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_BKSLASH ; prepare return code
+                COMPARE  s7, scan_BKSLASH  ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_RBKT    ; prepare return code
+                COMPARE  s7, scan_RBKT     ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_CARET   ; prepare return code
+                COMPARE  s7, scan_CARET    ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_UNDER   ; prepare return code
+                COMPARE  s7, scan_UNDER    ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_TICK    ; prepare return code
+                COMPARE  s7, scan_TICK     ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_a       ; prepare return code
+                COMPARE  s7, scan_a        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_b       ; prepare return code
+                COMPARE  s7, scan_b        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_c       ; prepare return code
+                COMPARE  s7, scan_c        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_d       ; prepare return code
+                COMPARE  s7, scan_d        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_e       ; prepare return code
+                COMPARE  s7, scan_e        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_f       ; prepare return code
+                COMPARE  s7, scan_f        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_g       ; prepare return code
+                COMPARE  s7, scan_g        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_h       ; prepare return code
+                COMPARE  s7, scan_h        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_i       ; prepare return code
+                COMPARE  s7, scan_i        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_j       ; prepare return code
+                COMPARE  s7, scan_j        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_k       ; prepare return code
+                COMPARE  s7, scan_k        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_l       ; prepare return code
+                COMPARE  s7, scan_l        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_m       ; prepare return code
+                COMPARE  s7, scan_m        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_n       ; prepare return code
+                COMPARE  s7, scan_n        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_o       ; prepare return code
+                COMPARE  s7, scan_o        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_p       ; prepare return code
+                COMPARE  s7, scan_p        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_q       ; prepare return code
+                COMPARE  s7, scan_q        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_r       ; prepare return code
+                COMPARE  s7, scan_r        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_s       ; prepare return code
+                COMPARE  s7, scan_s        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_t       ; prepare return code
+                COMPARE  s7, scan_t        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_u       ; prepare return code
+                COMPARE  s7, scan_u        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_v       ; prepare return code
+                COMPARE  s7, scan_v        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_w       ; prepare return code
+                COMPARE  s7, scan_w        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_x       ; prepare return code
+                COMPARE  s7, scan_x        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_y       ; prepare return code
+                COMPARE  s7, scan_y        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_z       ; prepare return code
+                COMPARE  s7, scan_z        ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_LBRACE  ; prepare return code
+                COMPARE  s7, scan_LBRACE   ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_VBAR    ; prepare return code
+                COMPARE  s7, scan_VBAR     ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_RBRACE  ; prepare return code
+                COMPARE  s7, scan_RBRACE   ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, ascii_TILDE   ; prepare return code
+                COMPARE  s7, scan_TILDE    ; does scan code match?
+                RETURN Z                   ; if so, simply exit
+                LOAD     s0, zero          ; exit code for nothing
+                RETURN                     ; return to loop
+
+;;============================================================================
+;;
+;;============================================================================

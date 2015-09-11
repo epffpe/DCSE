@@ -1,0 +1,237 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\Practica1
+Eclkscale
+Z1 w1225768561
+Z2 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z3 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8clkscale.vhd
+Z6 Fclkscale.vhd
+l0
+L17
+VGf8CYWI:U?N9c9c4@oX9[0
+Z7 OX;C;6.3c;37
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+Acompor
+R2
+R3
+R4
+DE work clkscale Gf8CYWI:U?N9c9c4@oX9[0
+l27
+L23
+V=lRcXl=z5_]_aU[offJDW1
+R7
+31
+Z10 M3 ieee std_logic_1164
+Z11 M2 ieee std_logic_unsigned
+Z12 M1 ieee std_logic_arith
+R8
+R9
+Eramdump
+Z13 w1225762156
+R4
+Z14 8ramdump.vhd
+Z15 Framdump.vhd
+l0
+L15
+V48Hg4jj:=97S9[C^enjBV1
+R7
+31
+R8
+R9
+Acompor
+R4
+DE work ramdump 48Hg4jj:=97S9[C^enjBV1
+l49
+L21
+VN651F0Ag5R7mKLDL0XanI2
+R7
+31
+Z16 M1 ieee std_logic_1164
+R8
+R9
+Ereader
+Z17 w1225844547
+R2
+R3
+R4
+Z18 8reader.vhd
+Z19 Freader.vhd
+l0
+L17
+V83nLR4lg7e[RORa>`Dk^90
+R7
+31
+R8
+R9
+Acompor
+R2
+R3
+R4
+DE work reader 83nLR4lg7e[RORa>`Dk^90
+l34
+L23
+Vo6gGCFlNGL_^840GJ:ho=3
+R7
+31
+R10
+R11
+R12
+R8
+R9
+Etb_clkscale
+Z20 w1225825916
+Z21 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+R2
+R3
+R4
+Z22 8tb_clkscale.vhd
+Z23 Ftb_clkscale.vhd
+l0
+L33
+Vnid?FMPQ080`RVPcz[Sak2
+R7
+31
+R8
+R9
+Abehavior
+R21
+R2
+R3
+R4
+DE work tb_clkscale nid?FMPQ080`RVPcz[Sak2
+l61
+L36
+VhT[[M8a6ei5zCgPh:Lidb1
+R7
+31
+Z24 M4 ieee std_logic_1164
+Z25 M3 ieee std_logic_unsigned
+Z26 M2 ieee std_logic_arith
+Z27 M1 ieee numeric_std
+R8
+R9
+Etb_ramdump
+Z28 w1225827561
+R21
+R2
+R3
+R4
+Z29 8tb_ramdump.vhd
+Z30 Ftb_ramdump.vhd
+l0
+L33
+VLkb1^T[A?8h`ji=anj3ZE2
+R7
+31
+R8
+R9
+Abehavior
+R21
+R2
+R3
+R4
+DE work tb_ramdump Lkb1^T[A?8h`ji=anj3ZE2
+l61
+L36
+VPRVe?RaSOhYc7LUQSOk1T0
+R7
+31
+R24
+R25
+R26
+R27
+R8
+R9
+Etb_reader
+Z31 w1225844649
+R21
+R2
+R3
+R4
+Z32 8tb_reader.vhd
+Z33 Ftb_reader.vhd
+l0
+L33
+Vo^lW;3^PWD^L^?F4;dj1d0
+R7
+31
+R8
+R9
+Abehavior
+R21
+R2
+R3
+R4
+Z34 DE work tb_reader o^lW;3^PWD^L^?F4;dj1d0
+l61
+L36
+V80i]dceR2<PaN89EHE?<61
+R7
+31
+R24
+R25
+R26
+R27
+R8
+R9
+Etb_tickgen
+Z35 w1225825946
+R21
+R2
+R3
+R4
+Z36 8tb_tickgen.vhd
+Z37 Ftb_tickgen.vhd
+l0
+L33
+Vle9abJXUn=41ajE`:RSH`1
+R7
+31
+R8
+R9
+Abehavior
+R21
+R2
+R3
+R4
+DE work tb_tickgen le9abJXUn=41ajE`:RSH`1
+l59
+L36
+VgAP52NF0nh^Q89^GWVh9Y3
+R7
+31
+R24
+R25
+R26
+R27
+R8
+R9
+Etickgen
+Z38 w1225769046
+R4
+Z39 8tickgen.vhd
+Z40 Ftickgen.vhd
+l0
+L15
+V]Q8]NU;[P<mAKY5B5o:No3
+R7
+31
+R8
+R9
+Acompor
+R4
+DE work tickgen ]Q8]NU;[P<mAKY5B5o:No3
+l24
+L20
+VCYmhRZ=PcWTdH<gN_X1_>0
+R7
+31
+R16
+R8
+R9

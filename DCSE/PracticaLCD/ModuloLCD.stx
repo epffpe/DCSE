@@ -1,0 +1,49 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/divDEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity divdebouncer is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/DEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/Clock1562.vhd" in Library work.
+Architecture behavioral of Entity clock1562 is up to date.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/div_control.vhd" in Library work.
+Entity <div_control> compiled.
+Entity <div_control> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/Interfaz.vhd" in Library work.
+Architecture behavioral of Entity interfaz is up to date.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/Counter.vhd" in Library work.
+Architecture behavioral of Entity counter is up to date.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/DatosLCD.vhd" in Library work.
+Architecture behavioral of Entity datoslcd is up to date.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/Direccion.vhd" in Library work.
+Architecture behavioral of Entity direccion is up to date.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/UControl.vhd" in Library work.
+Architecture behavioral of Entity ucontrol is up to date.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/LEDS.vhd" in Library work.
+Architecture behavioral of Entity leds is up to date.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/ModuloLCD.vhd" in Library work.
+Entity <modulolcd> compiled.
+Entity <modulolcd> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.13 secs
+ 
+--> 
+
+Total memory usage is 141084 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

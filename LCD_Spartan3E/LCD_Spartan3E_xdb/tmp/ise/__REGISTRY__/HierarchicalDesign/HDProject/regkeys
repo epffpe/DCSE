@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Modulo3.ngc Modulo3.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+Modulo3_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

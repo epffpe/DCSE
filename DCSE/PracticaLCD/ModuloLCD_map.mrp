@@ -1,0 +1,218 @@
+Release 10.1 Map K.31 (nt)
+Xilinx Mapping Report File for Design 'ModuloLCD'
+
+Design Information
+------------------
+Command Line   : map -ise D:/Desings/DCSE/PracticaLCD/PracticaLCD.ise -intstyle
+ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o ModuloLCD_map.ncd
+ModuloLCD.ngd ModuloLCD.pcf 
+Target Device  : xc3s700a
+Target Package : fg484
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.46 $
+Mapped Date    : Sat Feb 07 06:16:21 2009
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:            93 out of  11,776    1%
+  Number of 4 input LUTs:                56 out of  11,776    1%
+Logic Distribution:
+  Number of occupied Slices:             63 out of   5,888    1%
+    Number of Slices containing only related logic:      63 out of      63 100%
+    Number of Slices containing unrelated logic:          0 out of      63   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:          81 out of  11,776    1%
+    Number used as logic:                48
+    Number used as a route-thru:         25
+    Number used as Shift registers:       8
+  Number of bonded IOBs:                 28 out of     372    7%
+    IOB Flip Flops:                       1
+  Number of BUFGMUXs:                     2 out of      24    8%
+  Number of DCMs:                         1 out of       8   12%
+
+Peak Memory Usage:  183 MB
+Total REAL time to MAP completion:  5 secs 
+Total CPU time to MAP completion:   4 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Control Set Information
+Section 14 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:986 - The SAVE constraint for nets has been made more strict
+   starting in 10.1, such that the net driver and load blocks will be preserved
+   as well. To revert to the original behavior please set XIL_MAP_OLD_SAVE.
+INFO:MapLib:985 - SAVE has been detected on the following signals (maximum 5
+   shown):
+   rot_press_in,
+   modo_in,
+   pb_in<3>,
+   pb_in<2>,
+   rot_in<1>.
+   To list all affected signals, run Map -detail.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  10 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard | Drive    | Slew    | Reg (s)      | Resistor | IBUF/IFD | SUSPEND          |
+|                                    |                  |           |             | Strength | Rate    |              |          | Delay    |                  |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk50                              | IBUF             | INPUT     | LVCMOS25    |          |         |              |          | 0 / 0    |                  |
+| lcd_data_out<0>                    | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_data_out<1>                    | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_data_out<2>                    | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_data_out<3>                    | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_data_out<4>                    | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_data_out<5>                    | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_data_out<6>                    | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_data_out<7>                    | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_e_out                          | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO | OFF1         |          | 0 / 0    | 3STATE           |
+| lcd_rs_out                         | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| lcd_rw_out                         | IOB              | OUTPUT    | LVCMOS33    | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| leds_out<0>                        | IOB              | OUTPUT    | LVTTL       | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| leds_out<1>                        | IOB              | OUTPUT    | LVTTL       | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| leds_out<2>                        | IOB              | OUTPUT    | LVTTL       | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| leds_out<3>                        | IOB              | OUTPUT    | LVTTL       | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| leds_out<4>                        | IOB              | OUTPUT    | LVTTL       | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| leds_out<5>                        | IOB              | OUTPUT    | LVTTL       | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| leds_out<6>                        | IOB              | OUTPUT    | LVTTL       | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| leds_out<7>                        | IOB              | OUTPUT    | LVTTL       | 4        | QUIETIO |              |          | 0 / 0    | 3STATE           |
+| modo_in                            | IBUF             | INPUT     | LVTTL       |          |         |              | PULLUP   | 0 / 0    |                  |
+| pb_in<0>                           | IBUF             | INPUT     | LVTTL       |          |         |              | PULLDOWN | 0 / 0    |                  |
+| pb_in<1>                           | IBUF             | INPUT     | LVTTL       |          |         |              | PULLDOWN | 0 / 0    |                  |
+| pb_in<2>                           | IBUF             | INPUT     | LVTTL       |          |         |              | PULLDOWN | 0 / 0    |                  |
+| pb_in<3>                           | IBUF             | INPUT     | LVTTL       |          |         |              | PULLDOWN | 0 / 0    |                  |
+| rot_in<0>                          | IBUF             | INPUT     | LVTTL       |          |         |              | PULLUP   | 0 / 0    |                  |
+| rot_in<1>                          | IBUF             | INPUT     | LVTTL       |          |         |              | PULLUP   | 0 / 0    |                  |
+| rot_press_in                       | IBUF             | INPUT     | LVTTL       |          |         |              | PULLDOWN | 0 / 0    |                  |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 14 - Utilization by Hierarchy
+-------------------------------------
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Module               | Partition | Slices        | Slice Reg     | LUTs          | LUTRAM        | BRAM      | MULT18X18 | BUFG  | DCM   | Full Hierarchical Name                      |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ModuloLCD/           |           | 24/78         | 16/93         | 31/81         | 6/8           | 0/0       | 0/0       | 0/2   | 0/1   | ModuloLCD                                   |
+| +Inst_Clock1562      |           | 0/0           | 0/0           | 0/0           | 0/0           | 0/0       | 0/0       | 2/2   | 1/1   | ModuloLCD/Inst_Clock1562                    |
+| +Inst_Counter        |           | 9/9           | 15/15         | 3/3           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_Counter                      |
+| +Inst_Interfaz       |           | 11/26         | 13/36         | 7/18          | 2/2           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_Interfaz                     |
+| ++Inst_divDEBOUNCER  |           | 10/10         | 13/13         | 6/6           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_Interfaz/Inst_divDEBOUNCER   |
+| ++Inst_pb0           |           | 1/1           | 2/2           | 1/1           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_Interfaz/Inst_pb0            |
+| ++Inst_pb1           |           | 1/1           | 2/2           | 1/1           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_Interfaz/Inst_pb1            |
+| ++Inst_pb2           |           | 1/1           | 2/2           | 1/1           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_Interfaz/Inst_pb2            |
+| ++Inst_pb3           |           | 1/1           | 2/2           | 1/1           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_Interfaz/Inst_pb3            |
+| ++Inst_rotatory_pres |           | 1/1           | 2/2           | 1/1           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_Interfaz/Inst_rotatory_press |
+| +Inst_LEDS           |           | 2/2           | 2/2           | 0/0           | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_LEDS                         |
+| +Inst_UControl       |           | 10/10         | 16/16         | 18/18         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_UControl                     |
+| +Inst_div_control    |           | 7/7           | 8/8           | 11/11         | 0/0           | 0/0       | 0/0       | 0/0   | 0/0   | ModuloLCD/Inst_div_control                  |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+* Slices can be packed with basic elements from multiple hierarchies.
+  Therefore, a slice will be counted in every hierarchical module
+  that each of its packed basic elements belong to.
+** For each column, there are two numbers reported <A>/<B>.
+   <A> is the number of elements that belong to that specific hierarchical module.
+   <B> is the total number of elements from that hierarchical module and any lower level
+   hierarchical modules below.
+*** The LUTRAM column counts all LUTs used as memory including RAM, ROM, and shift registers.

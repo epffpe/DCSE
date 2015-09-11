@@ -1,0 +1,3 @@
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART_RX\uart_rx.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART_RX\mod_m_counter.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART_RX\receptor.vhd"

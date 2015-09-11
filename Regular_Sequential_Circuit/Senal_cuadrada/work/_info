@@ -1,0 +1,63 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\Regular_Sequential_Circuit\Senal_cuadrada
+Esqr_wave
+Z1 w1250695407
+Z2 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z3 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 8sqr_wave.vhd
+Z5 Fsqr_wave.vhd
+l0
+L31
+VJGLVbl`1EM=GfFGeABn;X3
+Z6 OX;C;6.3c;37
+31
+Z7 o-explicit -93 -O0
+Z8 tExplicit 1
+Abehavioral
+R2
+R3
+DE work sqr_wave JGLVbl`1EM=GfFGeABn;X3
+l45
+L40
+VI0=<]b4O;EBiMVnCZ?8Sb2
+R6
+31
+Z9 M2 ieee std_logic_1164
+Z10 M1 ieee numeric_std
+R7
+R8
+Esqr_wave_tb
+Z11 w1250652716
+R2
+Z12 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z13 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+R3
+Z14 8sqr_wave_tb.vhd
+Z15 Fsqr_wave_tb.vhd
+l0
+L33
+VFnh<gAC62RYWZgbEW_cDM0
+R6
+31
+R7
+R8
+Abehavior
+R2
+R12
+R13
+R3
+Z16 DE work sqr_wave_tb Fnh<gAC62RYWZgbEW_cDM0
+l63
+L36
+Z17 V2hz<bIj6PJXmK9fLH7=VB1
+R6
+31
+Z18 M4 ieee std_logic_1164
+Z19 M3 ieee std_logic_unsigned
+Z20 M2 ieee std_logic_arith
+R10
+R7
+R8

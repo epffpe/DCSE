@@ -1,0 +1,497 @@
+sch2vhdl -intstyle ise -family spartan3a -flat -suppress -w "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.sch" LCD_Spartan3A.vhf
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "LCD_Spartan3A.ngc" LCD_Spartan3A.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o LCD_Spartan3A_map.ncd LCD_Spartan3A.ngd LCD_Spartan3A.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -w -intstyle ise -ol std -t 1 LCD_Spartan3A_map.ncd LCD_Spartan3A.ncd LCD_Spartan3A.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -e 3 -s 4 -xml LCD_Spartan3A LCD_Spartan3A.ncd -o LCD_Spartan3A.twr LCD_Spartan3A.pcf -ucf LCD_Spartan3A.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Modulo3.ise" -intstyle ise -f LCD_Spartan3A.ut LCD_Spartan3A.ncd

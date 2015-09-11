@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">93</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">BUFG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">97</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">IBUFG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">101</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">BUFG</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK90</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK180</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK270</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK2X</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLK2X180</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKFX</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">CLKFX180</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">STATUS</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LOCKED</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">PSDONE</arg>&apos; of component &apos;<arg fmt="%s" index="4">DCM_SP</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Clock.vhd</arg>&quot; line <arg fmt="%d" index="2">105</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">DCM_SP</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="unknown" >Register &lt;<arg fmt="%s" index="1">RS</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Control</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Desings/Xilinx/PruebaLCD/Counter.vhd</arg>&quot; line <arg fmt="%d" index="2">43</arg>: The following signals are missing in the process sensitivity list:
+<arg fmt="%s" index="3">tiempo, temp</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">clk0</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">clkbuf</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">DB_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_Control</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">DB_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Inst_Control</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="unknown" >FF/Latch  &lt;<arg fmt="%s" index="1">Inst_Control/DB_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ModuloLCD</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="unknown" >Due to other FF/Latch trimming, FF/Latch  &lt;<arg fmt="%s" index="1">Inst_Control/DB_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">ModuloLCD</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="unknown" >The FF/Latch &lt;<arg fmt="%s" index="1">Inst_Control/DB_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ModuloLCD</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Inst_Control/DB_4&gt; </arg>
+</msg>
+
+</messages>
+

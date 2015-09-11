@@ -1,0 +1,9 @@
+xst -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -intstyle ise -ifn prueba_leds.xst -ofn prueba_leds.syr
+xst -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -intstyle ise -ifn prueba_leds.xst -ofn prueba_leds.syr
+xst -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -intstyle ise -ifn prueba_leds.xst -ofn prueba_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 "prueba_leds.ngc" prueba_leds.ngd
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -intstyle ise -dd _ngo -nt timestamp -uc "prueba_leds.ucf" -p xc3s700a-fg484-4 "prueba_leds.ngc" prueba_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o prueba_leds_map.ncd prueba_leds.ngd prueba_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -w -intstyle ise -ol std -t 1 prueba_leds_map.ncd prueba_leds.ncd prueba_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -intstyle ise -e 3 -s 4 -xml prueba_leds prueba_leds.ncd -o prueba_leds.twr prueba_leds.pcf -ucf prueba_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Proyecto1_prueba/Proyecto1_prueba.ise" -intstyle ise -f prueba_leds.ut prueba_leds.ncd

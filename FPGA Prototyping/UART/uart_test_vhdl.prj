@@ -1,0 +1,7 @@
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART\uart_tx.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART\uart_rx.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART\mod_m_counter.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART\fifo.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART\uart.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART\debounce.vhd"
+vhdl work "D:\Designs\DCSE\FPGA Prototyping\UART\uart_test.vhd"

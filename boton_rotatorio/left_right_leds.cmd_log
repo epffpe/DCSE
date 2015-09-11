@@ -1,0 +1,6 @@
+xst -ise "D:/Designs/DCSE/boton_rotatorio/boton_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/boton_rotatorio/left_right_leds.xst" -ofn "D:/Designs/DCSE/boton_rotatorio/left_right_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/boton_rotatorio/boton_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "left_right_leds.ngc" left_right_leds.ngd
+map -ise "D:/Designs/DCSE/boton_rotatorio/boton_rotatorio.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o left_right_leds_map.ncd left_right_leds.ngd left_right_leds.pcf
+par -ise "D:/Designs/DCSE/boton_rotatorio/boton_rotatorio.ise" -w -intstyle ise -ol std -t 1 left_right_leds_map.ncd left_right_leds.ncd left_right_leds.pcf
+trce -ise "D:/Designs/DCSE/boton_rotatorio/boton_rotatorio.ise" -intstyle ise -e 3 -s 4 -xml left_right_leds left_right_leds.ncd -o left_right_leds.twr left_right_leds.pcf -ucf left_right_leds.ucf
+bitgen -ise "D:/Designs/DCSE/boton_rotatorio/boton_rotatorio.ise" -intstyle ise -f left_right_leds.ut left_right_leds.ncd

@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Counter instance_name (
+    .clk(clk), 
+    .clr(clr), 
+    .tiempo(tiempo), 
+    .tic(tic)
+    );
+
+

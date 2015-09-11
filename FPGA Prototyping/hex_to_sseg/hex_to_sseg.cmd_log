@@ -1,0 +1,7 @@
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.syr"

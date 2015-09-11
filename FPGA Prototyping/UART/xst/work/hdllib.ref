@@ -1,0 +1,16 @@
+AR fifo behavioral "D:/Designs/DCSE/FPGA Prototyping/UART/fifo.vhd" sub00/vhpl09 1251245111
+AR mod_m_counter behavioral "D:/Designs/DCSE/FPGA Prototyping/UART/mod_m_counter.vhd" sub00/vhpl07 1251245107
+EN flag_buf NULL "D:/Designs/DCSE/FPGA Prototyping/UART/flag_buf.vhd" sub00/vhpl02 1250704703
+AR uart_tx behavioral "D:/Designs/DCSE/FPGA Prototyping/UART/uart_tx.vhd" sub00/vhpl05 1251245113
+EN debounce NULL "D:/Designs/DCSE/FPGA Prototyping/UART/debounce.vhd" sub00/vhpl12 1251245116
+EN uart_test NULL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.vhd" sub00/vhpl14 1251245118
+AR uart_test behavioral "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.vhd" sub00/vhpl15 1251245119
+AR uart_rx behavioral "D:/Designs/DCSE/FPGA Prototyping/UART/uart_rx.vhd" sub00/vhpl01 1251245109
+AR flag_buf behavioral "D:/Designs/DCSE/FPGA Prototyping/UART/flag_buf.vhd" sub00/vhpl03 1250704704
+AR uart behavioral "D:/Designs/DCSE/FPGA Prototyping/UART/uart.vhd" sub00/vhpl11 1251245115
+AR debounce imp_fsmd_arch "D:/Designs/DCSE/FPGA Prototyping/UART/debounce.vhd" sub00/vhpl13 1251245117
+EN fifo NULL "D:/Designs/DCSE/FPGA Prototyping/UART/fifo.vhd" sub00/vhpl08 1251245110
+EN uart NULL "D:/Designs/DCSE/FPGA Prototyping/UART/uart.vhd" sub00/vhpl10 1251245114
+EN uart_rx NULL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_rx.vhd" sub00/vhpl00 1251245108
+EN uart_tx NULL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_tx.vhd" sub00/vhpl04 1251245112
+EN mod_m_counter NULL "D:/Designs/DCSE/FPGA Prototyping/UART/mod_m_counter.vhd" sub00/vhpl06 1251245106

@@ -1,0 +1,518 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Designs/DCSE/FPGA Prototyping/Modulo3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to D:/Designs/DCSE/FPGA Prototyping/Modulo3/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: Control_interfaz.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Control_interfaz.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Control_interfaz"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : Control_interfaz
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : Control_interfaz.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/debounce.vhd" in Library work.
+Architecture imp_fsmd_arch of Entity debounce is up to date.
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Control_interfaz.vhd" in Library work.
+Architecture behavioral of Entity control_interfaz is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Control_interfaz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <imp_fsmd_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Control_interfaz> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Control_interfaz.vhd" line 114: Unconnected output port 'db_tick' of component 'debounce'.
+WARNING:Xst:753 - "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Control_interfaz.vhd" line 121: Unconnected output port 'db_level' of component 'debounce'.
+INFO:Xst:1561 - "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Control_interfaz.vhd" line 162: Mux is complete : default of case is discarded
+Entity <Control_interfaz> analyzed. Unit <Control_interfaz> generated.
+
+Analyzing Entity <debounce> in library <work> (Architecture <imp_fsmd_arch>).
+Entity <debounce> analyzed. Unit <debounce> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <debounce>.
+    Related source file is "D:/Designs/DCSE/FPGA Prototyping/Modulo3/debounce.vhd".
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | zero                                           |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 21-bit subtractor for signal <q_next$share0000> created at line 63.
+    Found 21-bit register for signal <q_reg>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <debounce> synthesized.
+
+
+Synthesizing Unit <Control_interfaz>.
+    Related source file is "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Control_interfaz.vhd".
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 1-bit register for signal <rotary_a_in>.
+    Found 1-bit register for signal <rotary_b_in>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 2-bit register for signal <rotary_in>.
+    Found 1-bit register for signal <rotary_left>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 150.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 150.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Control_interfaz> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 21-bit subtractor                                     : 6
+# Registers                                            : 14
+ 1-bit register                                        : 7
+ 2-bit register                                        : 1
+ 21-bit register                                       : 6
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <btn_n_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+Optimizing FSM <btn_e_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+Optimizing FSM <btn_s_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+Optimizing FSM <btn_w_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+Optimizing FSM <btn_sw_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+Optimizing FSM <btn_press_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 10
+ one   | 11
+ wait1 | 01
+-------------------
+Loading device for application Rf_Device from file '3s700a.nph' in environment C:\Xilinx\10.1\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 21-bit subtractor                                     : 6
+# Registers                                            : 147
+ Flip-Flops                                            : 147
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Control_interfaz> ...
+
+Optimizing unit <debounce> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Control_interfaz, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 147
+ Flip-Flops                                            : 147
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Control_interfaz.ngr
+Top Level Output File Name         : Control_interfaz
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 22
+
+Cell Usage :
+# BELS                             : 672
+#      GND                         : 1
+#      INV                         : 120
+#      LUT1                        : 6
+#      LUT2                        : 3
+#      LUT2_D                      : 10
+#      LUT3                        : 22
+#      LUT3_D                      : 12
+#      LUT4                        : 203
+#      LUT4_D                      : 6
+#      MUXCY                       : 156
+#      MUXF5                       : 6
+#      VCC                         : 1
+#      XORCY                       : 126
+# FlipFlops/Latches                : 147
+#      FD                          : 7
+#      FDC                         : 138
+#      FDE                         : 1
+#      FDR                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 8
+#      OBUF                        : 13
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                      206  out of   5888     3%  
+ Number of Slice Flip Flops:            147  out of  11776     1%  
+ Number of 4 input LUTs:                382  out of  11776     3%  
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    372     5%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 147   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+-------------------------+-------+
+Control Signal                     | Buffer(FF name)         | Load  |
+-----------------------------------+-------------------------+-------+
+N0(XST_GND:G)                      | NONE(btn_n_unit/q_reg_7)| 138   |
+-----------------------------------+-------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.895ns (Maximum Frequency: 112.423MHz)
+   Minimum input arrival time before clock: 8.776ns
+   Maximum output required time after clock: 13.612ns
+   Maximum combinational path delay: 13.493ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.895ns (frequency: 112.423MHz)
+  Total number of paths / destination ports: 3854 / 140
+-------------------------------------------------------------------------
+Delay:               8.895ns (Levels of Logic = 26)
+  Source:            btn_press_unit/q_reg_0 (FF)
+  Destination:       btn_press_unit/state_reg_FSM_FFd1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: btn_press_unit/q_reg_0 to btn_press_unit/state_reg_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.590  btn_press_unit/q_reg_0 (btn_press_unit/q_reg_0)
+     LUT1:I0->O            1   0.648   0.000  btn_press_unit/Msub_q_next_share0000_cy<0>_rt (btn_press_unit/Msub_q_next_share0000_cy<0>_rt)
+     MUXCY:S->O            1   0.632   0.000  btn_press_unit/Msub_q_next_share0000_cy<0> (btn_press_unit/Msub_q_next_share0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<1> (btn_press_unit/Msub_q_next_share0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<2> (btn_press_unit/Msub_q_next_share0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<3> (btn_press_unit/Msub_q_next_share0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<4> (btn_press_unit/Msub_q_next_share0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<5> (btn_press_unit/Msub_q_next_share0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<6> (btn_press_unit/Msub_q_next_share0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<7> (btn_press_unit/Msub_q_next_share0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<8> (btn_press_unit/Msub_q_next_share0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<9> (btn_press_unit/Msub_q_next_share0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<10> (btn_press_unit/Msub_q_next_share0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<11> (btn_press_unit/Msub_q_next_share0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<12> (btn_press_unit/Msub_q_next_share0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<13> (btn_press_unit/Msub_q_next_share0000_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<14> (btn_press_unit/Msub_q_next_share0000_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<15> (btn_press_unit/Msub_q_next_share0000_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<16> (btn_press_unit/Msub_q_next_share0000_cy<16>)
+     XORCY:CI->O           1   0.844   0.423  btn_press_unit/Msub_q_next_share0000_xor<17> (btn_press_unit/q_next_share0000<17>)
+     LUT4:I3->O            2   0.648   0.450  btn_press_unit/q_next<17>1 (btn_press_unit/q_next<17>)
+     LUT4:I3->O            1   0.648   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_lut<2> (btn_press_unit/state_reg_cmp_eq0000_wg_lut<2>)
+     MUXCY:S->O            1   0.632   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_cy<2> (btn_press_unit/state_reg_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_cy<3> (btn_press_unit/state_reg_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_cy<4> (btn_press_unit/state_reg_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           2   0.269   0.450  btn_press_unit/state_reg_cmp_eq0000_wg_cy<5> (btn_press_unit/state_reg_cmp_eq0000)
+     LUT4:I3->O            1   0.648   0.000  btn_press_unit/state_reg_FSM_FFd1-In1 (btn_press_unit/state_reg_FSM_FFd1-In)
+     FDC:D                     0.252          btn_press_unit/state_reg_FSM_FFd1
+    ----------------------------------------
+    Total                      8.895ns (6.982ns logic, 1.913ns route)
+                                       (78.5% logic, 21.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 506 / 140
+-------------------------------------------------------------------------
+Offset:              8.776ns (Levels of Logic = 7)
+  Source:            rotary_press (PAD)
+  Destination:       btn_press_unit/state_reg_FSM_FFd1 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rotary_press to btn_press_unit/state_reg_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.849   0.963  rotary_press_IBUF (rotary_press_IBUF)
+     LUT2_D:I0->O         24   0.648   1.284  btn_press_unit/q_next<0>11 (btn_press_unit/N0)
+     LUT4:I2->O            2   0.648   0.479  btn_press_unit/q_next<1>1 (btn_press_unit/q_next<1>)
+     LUT4:I2->O            1   0.648   0.423  btn_press_unit/q_next<20>1_SW0 (N2)
+     LUT4:I3->O            1   0.648   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_lut<5> (btn_press_unit/state_reg_cmp_eq0000_wg_lut<5>)
+     MUXCY:S->O            2   0.836   0.450  btn_press_unit/state_reg_cmp_eq0000_wg_cy<5> (btn_press_unit/state_reg_cmp_eq0000)
+     LUT4:I3->O            1   0.648   0.000  btn_press_unit/state_reg_FSM_FFd1-In1 (btn_press_unit/state_reg_FSM_FFd1-In)
+     FDC:D                     0.252          btn_press_unit/state_reg_FSM_FFd1
+    ----------------------------------------
+    Total                      8.776ns (5.177ns logic, 3.599ns route)
+                                       (59.0% logic, 41.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1634 / 13
+-------------------------------------------------------------------------
+Offset:              13.612ns (Levels of Logic = 27)
+  Source:            btn_press_unit/q_reg_0 (FF)
+  Destination:       press_tick (PAD)
+  Source Clock:      clk rising
+
+  Data Path: btn_press_unit/q_reg_0 to press_tick
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.590  btn_press_unit/q_reg_0 (btn_press_unit/q_reg_0)
+     LUT1:I0->O            1   0.648   0.000  btn_press_unit/Msub_q_next_share0000_cy<0>_rt (btn_press_unit/Msub_q_next_share0000_cy<0>_rt)
+     MUXCY:S->O            1   0.632   0.000  btn_press_unit/Msub_q_next_share0000_cy<0> (btn_press_unit/Msub_q_next_share0000_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<1> (btn_press_unit/Msub_q_next_share0000_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<2> (btn_press_unit/Msub_q_next_share0000_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<3> (btn_press_unit/Msub_q_next_share0000_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<4> (btn_press_unit/Msub_q_next_share0000_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<5> (btn_press_unit/Msub_q_next_share0000_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<6> (btn_press_unit/Msub_q_next_share0000_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<7> (btn_press_unit/Msub_q_next_share0000_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<8> (btn_press_unit/Msub_q_next_share0000_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<9> (btn_press_unit/Msub_q_next_share0000_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<10> (btn_press_unit/Msub_q_next_share0000_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<11> (btn_press_unit/Msub_q_next_share0000_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<12> (btn_press_unit/Msub_q_next_share0000_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<13> (btn_press_unit/Msub_q_next_share0000_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<14> (btn_press_unit/Msub_q_next_share0000_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<15> (btn_press_unit/Msub_q_next_share0000_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/Msub_q_next_share0000_cy<16> (btn_press_unit/Msub_q_next_share0000_cy<16>)
+     XORCY:CI->O           1   0.844   0.423  btn_press_unit/Msub_q_next_share0000_xor<17> (btn_press_unit/q_next_share0000<17>)
+     LUT4:I3->O            2   0.648   0.450  btn_press_unit/q_next<17>1 (btn_press_unit/q_next<17>)
+     LUT4:I3->O            1   0.648   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_lut<2> (btn_press_unit/state_reg_cmp_eq0000_wg_lut<2>)
+     MUXCY:S->O            1   0.632   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_cy<2> (btn_press_unit/state_reg_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_cy<3> (btn_press_unit/state_reg_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_cy<4> (btn_press_unit/state_reg_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           2   0.269   0.479  btn_press_unit/state_reg_cmp_eq0000_wg_cy<5> (btn_press_unit/state_reg_cmp_eq0000)
+     LUT4:I2->O            1   0.648   0.420  btn_press_unit/db_tick1 (press_tick_OBUF)
+     OBUF:I->O                 4.520          press_tick_OBUF (press_tick)
+    ----------------------------------------
+    Total                     13.612ns (11.250ns logic, 2.362ns route)
+                                       (82.6% logic, 17.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 205 / 5
+-------------------------------------------------------------------------
+Delay:               13.493ns (Levels of Logic = 8)
+  Source:            rotary_press (PAD)
+  Destination:       press_tick (PAD)
+
+  Data Path: rotary_press to press_tick
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.849   0.963  rotary_press_IBUF (rotary_press_IBUF)
+     LUT2_D:I0->O         24   0.648   1.284  btn_press_unit/q_next<0>11 (btn_press_unit/N0)
+     LUT4:I2->O            2   0.648   0.479  btn_press_unit/q_next<1>1 (btn_press_unit/q_next<1>)
+     LUT4:I2->O            1   0.648   0.423  btn_press_unit/q_next<20>1_SW0 (N2)
+     LUT4:I3->O            1   0.648   0.000  btn_press_unit/state_reg_cmp_eq0000_wg_lut<5> (btn_press_unit/state_reg_cmp_eq0000_wg_lut<5>)
+     MUXCY:S->O            2   0.836   0.479  btn_press_unit/state_reg_cmp_eq0000_wg_cy<5> (btn_press_unit/state_reg_cmp_eq0000)
+     LUT4:I2->O            1   0.648   0.420  btn_press_unit/db_tick1 (press_tick_OBUF)
+     OBUF:I->O                 4.520          press_tick_OBUF (press_tick)
+    ----------------------------------------
+    Total                     13.493ns (9.445ns logic, 4.048ns route)
+                                       (70.0% logic, 30.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.94 secs
+ 
+--> 
+
+Total memory usage is 182704 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

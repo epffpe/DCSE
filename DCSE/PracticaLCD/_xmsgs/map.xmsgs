@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="986" delta="unknown" >The SAVE constraint for nets has been made more strict starting in 10.1, such that the net driver and load blocks will be preserved as well. To revert to the original behavior please set XIL_MAP_OLD_SAVE.
+</msg>
+
+<msg type="info" file="MapLib" num="985" delta="unknown" >SAVE has been detected on the following signals (maximum 5 shown):
+<arg fmt="%s" index="1">rot_press_in,
+modo_in,
+pb_in&lt;3&gt;,
+pb_in&lt;2&gt;,
+rot_in&lt;1&gt;</arg>.
+To list all affected signals, run Map -detail.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="unknown" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+</messages>
+

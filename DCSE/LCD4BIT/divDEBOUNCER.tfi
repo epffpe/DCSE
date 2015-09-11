@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+divDEBOUNCER instance_name (
+    .clk390(clk390), 
+    .rst_n(rst_n), 
+    .clk10ms(clk10ms)
+    );
+
+

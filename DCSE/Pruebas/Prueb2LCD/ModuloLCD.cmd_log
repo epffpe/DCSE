@@ -1,0 +1,53 @@
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+map -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+par -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -w -intstyle ise -ol std -t 1 ModuloLCD_map.ncd ModuloLCD.ncd ModuloLCD.pcf
+trce -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -e 3 -s 4 -xml ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+bitgen -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -f ModuloLCD.ut ModuloLCD.ncd
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+map -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+par -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -w -intstyle ise -ol std -t 1 ModuloLCD_map.ncd ModuloLCD.ncd ModuloLCD.pcf
+trce -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -e 3 -s 4 -xml ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+bitgen -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -f ModuloLCD.ut ModuloLCD.ncd
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+map -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+par -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -w -intstyle ise -ol std -t 1 ModuloLCD_map.ncd ModuloLCD.ncd ModuloLCD.pcf
+trce -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -e 3 -s 4 -xml ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+bitgen -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -f ModuloLCD.ut ModuloLCD.ncd
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+map -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+par -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -w -intstyle ise -ol std -t 1 ModuloLCD_map.ncd ModuloLCD.ncd ModuloLCD.pcf
+trce -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -e 3 -s 4 -xml ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+bitgen -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -f ModuloLCD.ut ModuloLCD.ncd
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+map -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+map -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+par -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -w -intstyle ise -ol std -t 1 ModuloLCD_map.ncd ModuloLCD.ncd ModuloLCD.pcf
+trce -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -e 3 -s 4 -xml ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+bitgen -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -f ModuloLCD.ut ModuloLCD.ncd
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+map -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+par -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -w -intstyle ise -ol std -t 1 ModuloLCD_map.ncd ModuloLCD.ncd ModuloLCD.pcf
+trce -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -e 3 -s 4 -xml ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+bitgen -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -f ModuloLCD.ut ModuloLCD.ncd
+xst -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+ngdbuild -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+map -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+par -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -w -intstyle ise -ol std -t 1 ModuloLCD_map.ncd ModuloLCD.ncd ModuloLCD.pcf
+trce -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -e 3 -s 4 -xml ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+bitgen -ise "D:/Desings/Xilinx/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -f ModuloLCD.ut ModuloLCD.ncd
+xst -ise "D:/Desings/DCSE/Pruebas/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -ifn ModuloLCD.xst -ofn ModuloLCD.syr
+ngdbuild -ise "D:/Desings/DCSE/Pruebas/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -dd _ngo -nt timestamp -uc "ModuloLCD.ucf" -p xc3s700a-fg484-4 "ModuloLCD.ngc" ModuloLCD.ngd
+map -ise "D:/Desings/DCSE/Pruebas/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o ModuloLCD_map.ncd ModuloLCD.ngd ModuloLCD.pcf
+par -ise "D:/Desings/DCSE/Pruebas/Prueb2LCD/Prueb2LCD.ise" -w -intstyle ise -ol std -t 1 ModuloLCD_map.ncd ModuloLCD.ncd ModuloLCD.pcf
+trce -ise "D:/Desings/DCSE/Pruebas/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -e 3 -s 4 -xml ModuloLCD ModuloLCD.ncd -o ModuloLCD.twr ModuloLCD.pcf -ucf ModuloLCD.ucf
+bitgen -ise "D:/Desings/DCSE/Pruebas/Prueb2LCD/Prueb2LCD.ise" -intstyle ise -f ModuloLCD.ut ModuloLCD.ncd

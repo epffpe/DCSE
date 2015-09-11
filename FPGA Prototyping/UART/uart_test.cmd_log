@@ -1,0 +1,46 @@
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "uart_test.ngc" uart_test.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -e 3 -s 4 -xml uart_test uart_test.ncd -o uart_test.twr uart_test.pcf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -f uart_test.ut uart_test.ncd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "uart_test.ngc" uart_test.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -e 3 -s 4 -xml uart_test uart_test.ncd -o uart_test.twr uart_test.pcf -ucf uart_test.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -f uart_test.ut uart_test.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "uart_test.ngc" uart_test.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -e 3 -s 4 -xml uart_test uart_test.ncd -o uart_test.twr uart_test.pcf -ucf uart_test.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -f uart_test.ut uart_test.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "uart_test.ngc" uart_test.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -e 3 -s 4 -xml uart_test uart_test.ncd -o uart_test.twr uart_test.pcf -ucf uart_test.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -f uart_test.ut uart_test.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "uart_test.ngc" uart_test.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -e 3 -s 4 -xml uart_test uart_test.ncd -o uart_test.twr uart_test.pcf -ucf uart_test.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -f uart_test.ut uart_test.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "uart_test.ngc" uart_test.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -e 3 -s 4 -xml uart_test uart_test.ncd -o uart_test.twr uart_test.pcf -ucf uart_test.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -f uart_test.ut uart_test.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "uart_test.ngc" uart_test.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o uart_test_map.ncd uart_test.ngd uart_test.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -w -intstyle ise -ol std -t 1 uart_test_map.ncd uart_test.ncd uart_test.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -e 3 -s 4 -xml uart_test uart_test.ncd -o uart_test.twr uart_test.pcf -ucf uart_test.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART/UART.ise" -intstyle ise -f uart_test.ut uart_test.ncd

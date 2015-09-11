@@ -1,0 +1,5 @@
+vhdl work "UControl.vhd"
+vhdl work "Led_status.vhd"
+vhdl work "Interfaz.vhd"
+vhdl work "clock.vhd"
+vhdl work "Pasos.vhd"

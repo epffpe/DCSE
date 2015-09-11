@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/Designs/DCSE/FPGA Prototyping/LCD/LCD.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 Prueba_LCD.ngc Prueba_LCD.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+Prueba_LCD_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

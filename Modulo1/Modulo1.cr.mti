@@ -1,0 +1,35 @@
+D:/Designs/DCSE/Modulo1/tickgen.vhd {1 {vcom -work work -2002 -explicit D:/Designs/DCSE/Modulo1/tickgen.vhd
+Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity tickgen
+-- Compiling architecture compor of tickgen
+
+} {} {}} D:/Designs/DCSE/Modulo1/ramdump.vhd {0 {vcom -work work -2002 -explicit D:/Designs/DCSE/Modulo1/ramdump.vhd
+Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ramdump
+-- Compiling architecture compor of ramdump
+** Error: D:/Designs/DCSE/Modulo1/ramdump.vhd(44): near ",": syntax error
+** Error: D:/Designs/DCSE/Modulo1/ramdump.vhd(48): VHDL Compiler exiting
+
+} {7.0 9.0} {}} D:/Designs/DCSE/Modulo1/clkscale.vhd {1 {vcom -work work -2002 -explicit D:/Designs/DCSE/Modulo1/clkscale.vhd
+Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity clkscale
+-- Compiling architecture compor of clkscale
+
+} {} {}} D:/Designs/DCSE/Modulo1/reader.vhd {1 {vcom -work work -2002 -explicit D:/Designs/DCSE/Modulo1/reader.vhd
+Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity reader
+-- Compiling architecture compor of reader
+
+} {} {}}

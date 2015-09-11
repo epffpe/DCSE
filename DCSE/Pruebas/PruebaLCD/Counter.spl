@@ -1,0 +1,7 @@
+[Inputs]
+clk
+clr
+=tiempo[1:0]=
+[Outputs]
+tic
+[BiDir]

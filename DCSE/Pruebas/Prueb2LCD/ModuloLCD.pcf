@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map J.30 on Fri Feb 06 17:23:29 2009
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk50" LOCATE = SITE "E12" LEVEL 1;
+COMP "LCD_RS" LOCATE = SITE "Y14" LEVEL 1;
+COMP "LCD_RW" LOCATE = SITE "W13" LEVEL 1;
+COMP "LCD_E" LOCATE = SITE "AB4" LEVEL 1;
+COMP "LCD_DB<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "LCD_DB<1>" LOCATE = SITE "AB18" LEVEL 1;
+COMP "LCD_DB<2>" LOCATE = SITE "AB17" LEVEL 1;
+COMP "LCD_DB<3>" LOCATE = SITE "AB12" LEVEL 1;
+COMP "LCD_DB<4>" LOCATE = SITE "AA12" LEVEL 1;
+COMP "LCD_DB<5>" LOCATE = SITE "Y16" LEVEL 1;
+COMP "LCD_DB<6>" LOCATE = SITE "AB16" LEVEL 1;
+COMP "LCD_DB<7>" LOCATE = SITE "Y15" LEVEL 1;
+COMP "rst" LOCATE = SITE "T15" LEVEL 1;
+TIMEGRP Enable = BEL "LCD_E";
+TIMEGRP DB = BEL "LCD_RS" BEL "LCD_DB<7>" BEL "LCD_DB<6>" BEL "LCD_DB<5>" BEL
+        "LCD_DB<4>" BEL "LCD_DB<3>" BEL "LCD_DB<2>" BEL "LCD_DB<1>" BEL
+        "LCD_DB<0>";
+COMP "LCD_E" OFFSET = OUT 40 ns AFTER COMP "clk50" HIGH;
+SCHEMATIC END;

@@ -1,0 +1,31 @@
+Práctica 3.4: Edición de mensajes en LCD
+
+Se trata de describir y sintetizar un diseño diital que permita la edición de mensajes cortos 
+en una línea de la pantalla LCD presente en la placa de evaluación Spartan3A. La introducción de
+texto se realiza haciendo uso de los pulsadores disponibles en la placa y a travez de un teclado PS/2.
+El mensaje editado podrá desplazarse en pantalla( realización de scroll continuo de izquierda y derecha).
+
+El diseño tiene dos modos de funcionamientos seleccionables mediante el switch sw0: modo edición y modo 
+visualización.
+
+Modo edición sw0=0:
+
+Permite componer mensajes que podrá estar formado por letras mayúsculas, minúsculas, dígitos, caracteres 
+de puntuación y espacios en blanco. En este modo se dispone de los 4 pulsadores de la placa, del interruptor
+rotatorio y de un teclado PS/2.
+
+Cada uno de los 4 pulsadores que rodean al interruptor de rotación tiene asociado un grupo de caracteres 
+seleccionables para mostrar en el LCD. Cada pulsación del pulsador envía al LCD los siguientes caracteres:
+
+BTN_NORTH	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+BTN_SOUTH	abcdefghijklmnopqrstuvwxyz
+BTN_EAST		0123456789
+BTN_WEST		 !"#$%&'()*+,-./
+
+Como se ha incluido la opción del teclado, se ha habilitado la opción de poder escribir en la misma columna
+o que con cada caracter avanze una columna. Esto es especialmente útil a la hora de escribir con el teclado
+ya que puedes introducir el caracter directamente. Con el sw1=0, el cursor no avanza de columna cada vez que
+escribe un nuevo caracter y con sw1=1 si avanza. Cuando se va a escribir con teclado lo mejor es activar
+sw1=1.
+
+Con sw2 permite elegir teclado o datos provenientes de la unidad UART. Con sw2=0 se selecciona teclado.

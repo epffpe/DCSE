@@ -1,0 +1,51 @@
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o receptor_map.ncd receptor.ngd receptor.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -w -intstyle ise -ol std -t 1 receptor_map.ncd receptor.ncd receptor.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -e 3 -s 4 -xml receptor receptor.ncd -o receptor.twr receptor.pcf -ucf receptor.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -f receptor.ut receptor.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o receptor_map.ncd receptor.ngd receptor.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -w -intstyle ise -ol std -t 1 receptor_map.ncd receptor.ncd receptor.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -e 3 -s 4 -xml receptor receptor.ncd -o receptor.twr receptor.pcf -ucf receptor.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -f receptor.ut receptor.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o receptor_map.ncd receptor.ngd receptor.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -w -intstyle ise -ol std -t 1 receptor_map.ncd receptor.ncd receptor.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -e 3 -s 4 -xml receptor receptor.ncd -o receptor.twr receptor.pcf -ucf receptor.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -f receptor.ut receptor.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o receptor_map.ncd receptor.ngd receptor.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -w -intstyle ise -ol std -t 1 receptor_map.ncd receptor.ncd receptor.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -e 3 -s 4 -xml receptor receptor.ncd -o receptor.twr receptor.pcf -ucf receptor.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -f receptor.ut receptor.ncd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o receptor_map.ncd receptor.ngd receptor.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -w -intstyle ise -ol std -t 1 receptor_map.ncd receptor.ncd receptor.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -e 3 -s 4 -xml receptor receptor.ncd -o receptor.twr receptor.pcf -ucf receptor.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -f receptor.ut receptor.ncd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o receptor_map.ncd receptor.ngd receptor.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -w -intstyle ise -ol std -t 1 receptor_map.ncd receptor.ncd receptor.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -e 3 -s 4 -xml receptor receptor.ncd -o receptor.twr receptor.pcf -ucf receptor.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -f receptor.ut receptor.ncd
+netgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -s 4  -pcf receptor.pcf -rpw 100 -tpw 0 -ar Structure -tm receptor -insert_pp_buffers false -w -dir netgen/par -ofmt vhdl -sim receptor.ncd receptor_timesim.vhd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o receptor_map.ncd receptor.ngd receptor.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -w -intstyle ise -ol std -t 1 receptor_map.ncd receptor.ncd receptor.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -e 3 -s 4 -xml receptor receptor.ncd -o receptor.twr receptor.pcf -ucf receptor.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -f receptor.ut receptor.ncd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/UART_RX/receptor.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/UART_RX/UART_RX.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "receptor.ngc" receptor.ngd

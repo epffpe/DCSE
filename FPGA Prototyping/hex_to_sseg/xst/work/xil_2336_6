@@ -1,0 +1,8 @@
+V3 3
+EN work/hex_to_sseg 0 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.vhd" \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/hex_to_sseg/Behavioral 0 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/hex_to_sseg/hex_to_sseg.vhd" \
+      EN work/hex_to_sseg 0

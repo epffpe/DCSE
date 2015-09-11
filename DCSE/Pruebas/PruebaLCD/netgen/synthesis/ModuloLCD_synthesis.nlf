@@ -1,0 +1,29 @@
+Release 10.1 - netgen K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis
+-ofmt verilog -sim ModuloLCD.ngc ModuloLCD_synthesis.v  
+
+Reading design 'ModuloLCD.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog netlist file
+'D:\Desings\Xilinx\PruebaLCD\netgen\synthesis\ModuloLCD_synthesis.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM simulation library for
+   correct compilation and simulation. 
+INFO:NetListWriters:678 - Setup Simulation
+INFO:NetListWriters:688 - To perform a setup simulation, specify values in the
+   Maximum (MAX) field with the following command line modifier:
+INFO:NetListWriters:659 - -SDFMAX
+INFO:NetListWriters:669 - Hold Simulation
+INFO:NetListWriters:689 - To perform the most accurate hold simulation, specify
+   values in the Minimum (MIN) field with the following command line modifier:
+INFO:NetListWriters:660 - -SDFMIN
+INFO:NetListWriters:665 - For more information on how to pass the SDF switches
+   to the simulator, see your Simulator tool documentation.
+Number of warnings: 0
+Number of info messages: 8
+Total memory usage is 72128 kilobytes

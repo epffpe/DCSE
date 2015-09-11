@@ -1,0 +1,3 @@
+vhdl work "uart_rx.vhd"
+vhdl work "mod_m_counter.vhd"
+vhdl work "receptor.vhd"

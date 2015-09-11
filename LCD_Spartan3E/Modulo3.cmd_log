@@ -1,0 +1,25 @@
+xst -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -ifn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.xst" -ofn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.syr"
+xst -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -ifn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.xst" -ofn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.syr"
+xst -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -ifn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.xst" -ofn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.syr"
+ngdbuild -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Modulo3.ngc" Modulo3.ngd
+xst -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -ifn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.xst" -ofn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.syr"
+ngdbuild -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Modulo3.ngc" Modulo3.ngd
+ngdbuild -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Modulo3.ngc" Modulo3.ngd
+map -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Modulo3_map.ncd Modulo3.ngd Modulo3.pcf
+par -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -w -intstyle ise -ol std -t 1 Modulo3_map.ncd Modulo3.ncd Modulo3.pcf
+trce -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -e 3 -s 4 -xml Modulo3 Modulo3.ncd -o Modulo3.twr Modulo3.pcf -ucf Modulo3.ucf
+xst -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -ifn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.xst" -ofn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.syr"
+ngdbuild -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Modulo3.ngc" Modulo3.ngd
+map -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Modulo3_map.ncd Modulo3.ngd Modulo3.pcf
+par -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -w -intstyle ise -ol std -t 1 Modulo3_map.ncd Modulo3.ncd Modulo3.pcf
+trce -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -e 3 -s 4 -xml Modulo3 Modulo3.ncd -o Modulo3.twr Modulo3.pcf -ucf Modulo3.ucf
+bitgen -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -f Modulo3.ut Modulo3.ncd
+xst -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -ifn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.xst" -ofn "D:/Designs/DCSE/LCD_Spartan3E/Modulo3.syr"
+ngdbuild -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "Modulo3.ngc" Modulo3.ngd
+map -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o Modulo3_map.ncd Modulo3.ngd Modulo3.pcf
+par -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -w -intstyle ise -ol std -t 1 Modulo3_map.ncd Modulo3.ncd Modulo3.pcf
+trce -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -e 3 -s 4 -xml Modulo3 Modulo3.ncd -o Modulo3.twr Modulo3.pcf -ucf Modulo3.ucf
+bitgen -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -f Modulo3.ut Modulo3.ncd
+xpwr -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise "Modulo3.ncd" "Modulo3.pcf" -wx "Modulo3_xpwr.xml" -o "Modulo3.pwr"
+netgen -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -sta -w Modulo3.ncd Modulo3_sta.v
+trce -ise "D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise" -intstyle ise -v 3 -s 4 -xml Modulo3_preroute Modulo3_map.ncd -o Modulo3_preroute.twr Modulo3.pcf -ucf Modulo3.ucf

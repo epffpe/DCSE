@@ -1,0 +1,1 @@
+xst -ise "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/DCSEP2.ise" -intstyle ise -ifn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/ramdump.xst" -ofn "D:/Designs/DCSE/Modulo2/Modulo2/DCSEP2/ramdump.syr"

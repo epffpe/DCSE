@@ -1,0 +1,15 @@
+verilog work ../source/picoblze/kcpsm3.v
+verilog work ../source/picoblze/kcuart_tx.v
+verilog work ../source/picoblze/bbfifo_16x8.v
+verilog work ../source/picoblze/uart_tx.v
+verilog work ../source/picoblze/kcuart_rx.v
+verilog work ../source/picoblze/uart_rx.v
+verilog work ../source/picocode/picocode.v
+verilog work ../source/picotext/picotext.v
+verilog work ../source/picotext/buffer.v
+verilog work ../source/picotext/regfile.v
+verilog work ../source/picotext/timing.v
+verilog work ../source/keyboard.v
+verilog work ../source/terminal.v
+verilog work ../source/picoboot.v
+verilog work ../source/synchro.v

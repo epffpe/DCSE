@@ -1,0 +1,12 @@
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/kb_test.syr"
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "kb_test.ngc" kb_test.ngd
+ngdbuild -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "kb_test.ngc" kb_test.ngd
+map -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o kb_test_map.ncd kb_test.ngd kb_test.pcf
+par -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -w -intstyle ise -ol std -t 1 kb_test_map.ncd kb_test.ncd kb_test.pcf
+trce -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -e 3 -s 4 -xml kb_test kb_test.ncd -o kb_test.twr kb_test.pcf -ucf kb_test.ucf
+bitgen -ise "D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/Verificacion/Verificacion.ise" -intstyle ise -f kb_test.ut kb_test.ncd

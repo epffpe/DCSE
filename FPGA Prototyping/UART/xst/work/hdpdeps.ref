@@ -1,0 +1,52 @@
+V3 26
+FL "D:/Designs/DCSE/FPGA Prototyping/debounce.vhd" 2009/08/19.17:12:34 K.31
+FL "D:/Designs/DCSE/FPGA Prototyping/fifo.vhd" 2009/08/20.02:50:35 K.31
+FL "D:/Designs/DCSE/FPGA Prototyping/UART/debounce.vhd" 2009/08/19.17:12:34 K.31
+EN work/debounce 1251245116 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/debounce.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/debounce/imp_fsmd_arch 1251245117 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/debounce.vhd" EN work/debounce 1251245116
+FL "D:/Designs/DCSE/FPGA Prototyping/UART/fifo.vhd" 2009/08/20.02:50:35 K.31
+EN work/fifo 1251245110 FL "D:/Designs/DCSE/FPGA Prototyping/UART/fifo.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/fifo/Behavioral 1251245111 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/fifo.vhd" EN work/fifo 1251245110
+FL "D:/Designs/DCSE/FPGA Prototyping/UART/flag_buf.vhd" 2009/08/19.18:58:20 K.31
+EN work/flag_buf 1250704703 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/flag_buf.vhd" \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/flag_buf/Behavioral 1250704704 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/flag_buf.vhd" EN work/flag_buf 1250704703
+FL "D:/Designs/DCSE/FPGA Prototyping/UART/mod_m_counter.vhd" 2009/08/19.19:57:49 K.31
+EN work/mod_m_counter 1251245106 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/mod_m_counter.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/mod_m_counter/Behavioral 1251245107 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/mod_m_counter.vhd" \
+      EN work/mod_m_counter 1251245106
+FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart.vhd" 2009/08/19.20:15:21 K.31
+EN work/uart 1251245114 FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart/Behavioral 1251245115 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart.vhd" EN work/uart 1251245114 \
+      AR work/mod_m_counter/Behavioral 1251245107 AR work/uart_rx/Behavioral 1251245109 \
+      AR work/fifo/Behavioral 1251245111 AR work/uart_tx/Behavioral 1251245113
+FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_rx.vhd" 2009/08/19.18:36:55 K.31
+EN work/uart_rx 1251245108 FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_rx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_rx/Behavioral 1251245109 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_rx.vhd" EN work/uart_rx 1251245108
+FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.vhd" 2009/08/26.01:04:41 K.31
+EN work/uart_test 1251245118 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_test/Behavioral 1251245119 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_test.vhd" EN work/uart_test 1251245118 \
+      AR work/uart/Behavioral 1251245115 AR work/debounce/imp_fsmd_arch 1251245117
+FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_tx.vhd" 2009/08/19.19:41:22 K.31
+EN work/uart_tx 1251245112 FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_tx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_tx/Behavioral 1251245113 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/UART/uart_tx.vhd" EN work/uart_tx 1251245112

@@ -1,0 +1,94 @@
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo -nt timestamp -uc "izq_der_leds.ucf" -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo -nt timestamp -uc "izq_der_leds.ucf" -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -e 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo -nt timestamp -uc "izq_der_leds.ucf" -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -e 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo -nt timestamp -uc "izq_der_leds.ucf" -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo -nt timestamp -uc "izq_der_leds.ucf" -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -e 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo -nt timestamp -uc "izq_der_leds.ucf" -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -e 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo -nt timestamp -uc "izq_der_leds.ucf" -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -e 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn izq_der_leds.xst -ofn izq_der_leds.syr
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo -nt timestamp -uc "izq_der_leds.ucf" -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr b -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -e 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+netgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ar Structure -tm izq_der_leds -w -dir netgen/synthesis -ofmt vhdl -sim izq_der_leds.ngc izq_der_leds_synthesis.vhd
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xa3s50-vqg100-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xa3s50-vqg100-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700an-fgg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700an-fgg484-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -v 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700an-fgg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700an-fgg484-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -v 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg400-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg400-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg400-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg400-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg400-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -v 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -v 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd
+xst -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -ifn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.xst" -ofn "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.syr"
+ngdbuild -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "izq_der_leds.ngc" izq_der_leds.ngd
+map -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o izq_der_leds_map.ncd izq_der_leds.ngd izq_der_leds.pcf
+par -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -w -intstyle ise -ol std -t 1 izq_der_leds_map.ncd izq_der_leds.ncd izq_der_leds.pcf
+trce -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -v 3 -s 4 -xml izq_der_leds izq_der_leds.ncd -o izq_der_leds.twr izq_der_leds.pcf -ucf izq_der_leds.ucf
+bitgen -ise "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Prueba_rotatorio.ise" -intstyle ise -f izq_der_leds.ut izq_der_leds.ncd

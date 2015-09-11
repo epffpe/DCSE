@@ -1,0 +1,347 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise -intstyle ise -v 3 -s 4 -xml
+Modulo3_preroute Modulo3_map.ncd -o Modulo3_preroute.twr Modulo3.pcf -ucf
+Modulo3.ucf
+
+Design file:              Modulo3_map.ncd
+Physical constraint file: Modulo3.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2008-01-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "clk_BUFGP/IBUFG" PERIOD = 20 ns HIGH 50%;
+
+ 281398 paths analyzed, 1802 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is  11.585ns.
+--------------------------------------------------------------------------------
+Slack:                  8.415ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Control_interfaz_unit/btn_press_unit/q_reg_0 (FF)
+  Destination:          LCD_Control_unit/ascii_reg_4 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      11.585ns (Levels of Logic = 18)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Control_interfaz_unit/btn_press_unit/q_reg_0 to LCD_Control_unit/ascii_reg_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.587   Control_interfaz_unit/btn_press_unit/q_reg<1>
+                                                       Control_interfaz_unit/btn_press_unit/q_reg_0
+    SLICEL.F1            net (fanout=3)     e  0.100   Control_interfaz_unit/btn_press_unit/q_reg<0>
+    SLICEL.COUT          Topcyf                1.162   Control_interfaz_unit/btn_press_unit/q_next_share0000<0>
+                                                       Control_interfaz_unit/btn_press_unit/q_reg<0>_rt
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<0>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<2>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<2>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<4>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<4>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<6>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<6>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<8>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<8>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<10>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<10>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<12>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<12>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<14>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<14>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<16>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<16>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<17>
+    SLICEL.Y             Tciny                 0.869   Control_interfaz_unit/btn_press_unit/q_next_share0000<18>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<18>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_xor<19>
+    SLICEL.F4            net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/q_next_share0000<19>
+    SLICEL.X             Tilo                  0.704   Control_interfaz_unit/btn_press_unit/q_reg<19>
+                                                       Control_interfaz_unit/btn_press_unit/q_next<19>1
+    SLICEL.F4            net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/q_next<19>
+    SLICEL.COUT          Topcyf                1.162   Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000
+                                                       Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_lut<4>
+                                                       Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_cy<4>
+                                                       Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_cy<5>
+    SLICEL.G4            net (fanout=2)     e  0.100   Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000
+    SLICEL.Y             Tilo                  0.704   LCD_Control_unit/N63
+                                                       Control_interfaz_unit/btn_press_unit/db_tick1
+    SLICEL.F4            net (fanout=11)    e  0.100   press_tick
+    SLICEL.X             Tilo                  0.704   LCD_Control_unit/N63
+                                                       LCD_Control_unit/ascii_reg_or00012
+    SLICEL.G3            net (fanout=7)     e  0.100   LCD_Control_unit/N63
+    SLICEL.Y             Tilo                  0.704   N192
+                                                       LCD_Control_unit/state_reg_cmp_eq00071
+    SLICEL.F4            net (fanout=9)     e  0.100   LCD_Control_unit/state_reg_cmp_eq0007
+    SLICEL.X             Tilo                  0.704   N192
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>35_SW0
+    SLICEL.G3            net (fanout=1)     e  0.100   N192
+    SLICEL.Y             Tilo                  0.704   LCD_Control_unit/ascii_reg<4>
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>35
+    SLICEL.F4            net (fanout=1)     e  0.100   LCD_Control_unit/ascii_reg_mux0000<4>35/O
+    SLICEL.CLK           Tfck                  0.837   LCD_Control_unit/ascii_reg<4>
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>44
+                                                       LCD_Control_unit/ascii_reg_4
+    -------------------------------------------------  ---------------------------
+    Total                                     11.585ns (9.785ns logic, 1.800ns route)
+                                                       (84.5% logic, 15.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  8.415ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Control_interfaz_unit/btn_e_unit/q_reg_0 (FF)
+  Destination:          LCD_Control_unit/ascii_reg_4 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      11.585ns (Levels of Logic = 18)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Control_interfaz_unit/btn_e_unit/q_reg_0 to LCD_Control_unit/ascii_reg_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.587   Control_interfaz_unit/btn_e_unit/q_reg<1>
+                                                       Control_interfaz_unit/btn_e_unit/q_reg_0
+    SLICEL.F1            net (fanout=3)     e  0.100   Control_interfaz_unit/btn_e_unit/q_reg<0>
+    SLICEL.COUT          Topcyf                1.162   Control_interfaz_unit/btn_e_unit/q_next_share0000<0>
+                                                       Control_interfaz_unit/btn_e_unit/q_reg<0>_rt
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<0>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_e_unit/q_next_share0000<2>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<2>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_e_unit/q_next_share0000<4>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<4>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_e_unit/q_next_share0000<6>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<6>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_e_unit/q_next_share0000<8>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<8>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_e_unit/q_next_share0000<10>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<10>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_e_unit/q_next_share0000<12>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<12>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_e_unit/q_next_share0000<14>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<14>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<15>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_e_unit/q_next_share0000<16>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<16>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<17>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<17>
+    SLICEL.Y             Tciny                 0.869   Control_interfaz_unit/btn_e_unit/q_next_share0000<18>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_cy<18>
+                                                       Control_interfaz_unit/btn_e_unit/Msub_q_next_share0000_xor<19>
+    SLICEL.F4            net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/q_next_share0000<19>
+    SLICEL.X             Tilo                  0.704   Control_interfaz_unit/btn_e_unit/q_reg<19>
+                                                       Control_interfaz_unit/btn_e_unit/q_next<19>1
+    SLICEL.F4            net (fanout=1)     e  0.100   Control_interfaz_unit/btn_e_unit/q_next<19>
+    SLICEL.COUT          Topcyf                1.162   Control_interfaz_unit/btn_e_unit/state_reg_cmp_eq0000
+                                                       Control_interfaz_unit/btn_e_unit/state_reg_cmp_eq0000_wg_lut<4>
+                                                       Control_interfaz_unit/btn_e_unit/state_reg_cmp_eq0000_wg_cy<4>
+                                                       Control_interfaz_unit/btn_e_unit/state_reg_cmp_eq0000_wg_cy<5>
+    SLICEL.F4            net (fanout=2)     e  0.100   Control_interfaz_unit/btn_e_unit/state_reg_cmp_eq0000
+    SLICEL.X             Tilo                  0.704   Control_interfaz_unit/btn_e_unit/state_reg_FSM_FFd2
+                                                       Control_interfaz_unit/btn_e_unit/db_tick1
+    SLICEL.F2            net (fanout=8)     e  0.100   btn_tick<2>
+    SLICEL.X             Tilo                  0.704   LCD_Control_unit/N63
+                                                       LCD_Control_unit/ascii_reg_or00012
+    SLICEL.G3            net (fanout=7)     e  0.100   LCD_Control_unit/N63
+    SLICEL.Y             Tilo                  0.704   N192
+                                                       LCD_Control_unit/state_reg_cmp_eq00071
+    SLICEL.F4            net (fanout=9)     e  0.100   LCD_Control_unit/state_reg_cmp_eq0007
+    SLICEL.X             Tilo                  0.704   N192
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>35_SW0
+    SLICEL.G3            net (fanout=1)     e  0.100   N192
+    SLICEL.Y             Tilo                  0.704   LCD_Control_unit/ascii_reg<4>
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>35
+    SLICEL.F4            net (fanout=1)     e  0.100   LCD_Control_unit/ascii_reg_mux0000<4>35/O
+    SLICEL.CLK           Tfck                  0.837   LCD_Control_unit/ascii_reg<4>
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>44
+                                                       LCD_Control_unit/ascii_reg_4
+    -------------------------------------------------  ---------------------------
+    Total                                     11.585ns (9.785ns logic, 1.800ns route)
+                                                       (84.5% logic, 15.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  8.415ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Control_interfaz_unit/btn_press_unit/q_reg_0 (FF)
+  Destination:          LCD_Control_unit/ascii_reg_4 (FF)
+  Requirement:          20.000ns
+  Data Path Delay:      11.585ns (Levels of Logic = 18)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 20.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Control_interfaz_unit/btn_press_unit/q_reg_0 to LCD_Control_unit/ascii_reg_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICEL.YQ            Tcko                  0.587   Control_interfaz_unit/btn_press_unit/q_reg<1>
+                                                       Control_interfaz_unit/btn_press_unit/q_reg_0
+    SLICEL.F1            net (fanout=3)     e  0.100   Control_interfaz_unit/btn_press_unit/q_reg<0>
+    SLICEL.COUT          Topcyf                1.162   Control_interfaz_unit/btn_press_unit/q_next_share0000<0>
+                                                       Control_interfaz_unit/btn_press_unit/q_reg<0>_rt
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<0>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<1>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<1>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<2>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<2>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<4>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<4>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<5>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<5>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<6>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<6>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<7>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<7>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<8>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<8>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<9>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<9>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<10>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<10>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<11>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<11>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<12>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<12>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<13>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<13>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/q_next_share0000<14>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<14>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<15>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<15>
+    SLICEL.Y             Tciny                 0.869   Control_interfaz_unit/btn_press_unit/q_next_share0000<16>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_cy<16>
+                                                       Control_interfaz_unit/btn_press_unit/Msub_q_next_share0000_xor<17>
+    SLICEL.F4            net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/q_next_share0000<17>
+    SLICEL.X             Tilo                  0.704   Control_interfaz_unit/btn_press_unit/q_reg<17>
+                                                       Control_interfaz_unit/btn_press_unit/q_next<17>1
+    SLICEL.F4            net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/q_next<17>
+    SLICEL.COUT          Topcyf                1.162   Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_cy<3>
+                                                       Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_lut<2>
+                                                       Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_cy<2>
+                                                       Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_cy<3>
+    SLICEL.CIN           net (fanout=1)     e  0.100   Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_cy<3>
+    SLICEL.COUT          Tbyp                  0.118   Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000
+                                                       Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_cy<4>
+                                                       Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000_wg_cy<5>
+    SLICEL.G4            net (fanout=2)     e  0.100   Control_interfaz_unit/btn_press_unit/state_reg_cmp_eq0000
+    SLICEL.Y             Tilo                  0.704   LCD_Control_unit/N63
+                                                       Control_interfaz_unit/btn_press_unit/db_tick1
+    SLICEL.F4            net (fanout=11)    e  0.100   press_tick
+    SLICEL.X             Tilo                  0.704   LCD_Control_unit/N63
+                                                       LCD_Control_unit/ascii_reg_or00012
+    SLICEL.G3            net (fanout=7)     e  0.100   LCD_Control_unit/N63
+    SLICEL.Y             Tilo                  0.704   N192
+                                                       LCD_Control_unit/state_reg_cmp_eq00071
+    SLICEL.F4            net (fanout=9)     e  0.100   LCD_Control_unit/state_reg_cmp_eq0007
+    SLICEL.X             Tilo                  0.704   N192
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>35_SW0
+    SLICEL.G3            net (fanout=1)     e  0.100   N192
+    SLICEL.Y             Tilo                  0.704   LCD_Control_unit/ascii_reg<4>
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>35
+    SLICEL.F4            net (fanout=1)     e  0.100   LCD_Control_unit/ascii_reg_mux0000<4>35/O
+    SLICEL.CLK           Tfck                  0.837   LCD_Control_unit/ascii_reg<4>
+                                                       LCD_Control_unit/ascii_reg_mux0000<4>44
+                                                       LCD_Control_unit/ascii_reg_4
+    -------------------------------------------------  ---------------------------
+    Total                                     11.585ns (9.785ns logic, 1.800ns route)
+                                                       (84.5% logic, 15.5% route)
+
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   11.585|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 281398 paths, 0 nets, and 4574 connections
+
+Design statistics:
+   Minimum period:  11.585ns{1}   (Maximum frequency:  86.319MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Wed Sep 09 00:46:03 2009 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 107 MB
+
+
+

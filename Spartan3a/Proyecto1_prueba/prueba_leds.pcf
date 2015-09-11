@@ -1,0 +1,28 @@
+//! **************************************************************************
+// Written by: Map J.30 on Sun May 11 00:54:15 2008
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "o_leds<0>" LOCATE = SITE "R20" LEVEL 1;
+COMP "o_leds<1>" LOCATE = SITE "T19" LEVEL 1;
+COMP "o_leds<2>" LOCATE = SITE "U20" LEVEL 1;
+COMP "o_leds<3>" LOCATE = SITE "U19" LEVEL 1;
+COMP "clk50in" LOCATE = SITE "E12" LEVEL 1;
+COMP "i_switch<0>" LOCATE = SITE "V8" LEVEL 1;
+COMP "i_switch<1>" LOCATE = SITE "U10" LEVEL 1;
+COMP "i_switch<2>" LOCATE = SITE "U8" LEVEL 1;
+COMP "i_switch<3>" LOCATE = SITE "T9" LEVEL 1;
+COMP "rst" LOCATE = SITE "T15" LEVEL 1;
+TIMEGRP Inst_Reloj_ent_CLK0_BUF = BEL "o_leds_0" BEL "o_leds_1" BEL "o_leds_2"
+        BEL "o_leds_3";
+TIMEGRP switch = BEL "i_switch<3>" BEL "i_switch<2>" BEL "i_switch<1>" BEL
+        "i_switch<0>";
+TIMEGRP leds = BEL "o_leds<3>" BEL "o_leds<2>" BEL "o_leds<1>" BEL
+        "o_leds<0>";
+PIN Inst_Reloj_ent/DCM_SP_INST_pins<10> = BEL "Inst_Reloj_ent/DCM_SP_INST"
+        PINNAME CLKIN;
+TIMEGRP clk50in = PIN "Inst_Reloj_ent/DCM_SP_INST_pins<10>";
+TS_clk50in = PERIOD TIMEGRP "clk50in" 20 ns HIGH 50%;
+TS_Inst_Reloj_ent_CLK0_BUF = PERIOD TIMEGRP "Inst_Reloj_ent_CLK0_BUF"
+        TS_clk50in HIGH 50%;
+SCHEMATIC END;

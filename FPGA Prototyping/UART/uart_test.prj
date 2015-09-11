@@ -1,0 +1,7 @@
+vhdl work "uart_tx.vhd"
+vhdl work "uart_rx.vhd"
+vhdl work "mod_m_counter.vhd"
+vhdl work "fifo.vhd"
+vhdl work "uart.vhd"
+vhdl work "debounce.vhd"
+vhdl work "uart_test.vhd"

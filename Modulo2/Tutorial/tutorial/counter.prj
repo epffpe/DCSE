@@ -1,0 +1,3 @@
+vhdl work "tickgen.vhd"
+vhdl work "clkscale.vhd"
+vhdl work "counter.vhd"

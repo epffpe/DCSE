@@ -1,0 +1,97 @@
+//! **************************************************************************
+// Written by: Map K.31 on Fri Feb 06 18:41:22 2009
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk50" LOCATE = SITE "E12" LEVEL 1;
+COMP "leds_out<0>" LOCATE = SITE "R20" LEVEL 1;
+COMP "leds_out<1>" LOCATE = SITE "T19" LEVEL 1;
+COMP "leds_out<2>" LOCATE = SITE "U20" LEVEL 1;
+COMP "leds_out<3>" LOCATE = SITE "U19" LEVEL 1;
+COMP "leds_out<4>" LOCATE = SITE "V19" LEVEL 1;
+COMP "LCD_RS" LOCATE = SITE "Y14" LEVEL 1;
+COMP "leds_out<5>" LOCATE = SITE "V20" LEVEL 1;
+COMP "leds_out<6>" LOCATE = SITE "Y22" LEVEL 1;
+COMP "LCD_RW" LOCATE = SITE "W13" LEVEL 1;
+COMP "leds_out<7>" LOCATE = SITE "W12" LEVEL 1;
+COMP "pb_in<0>" LOCATE = SITE "U15" LEVEL 1;
+COMP "pb_in<1>" LOCATE = SITE "T16" LEVEL 1;
+COMP "pb_in<2>" LOCATE = SITE "T15" LEVEL 1;
+COMP "pb_in<3>" LOCATE = SITE "T14" LEVEL 1;
+COMP "LCD_E" LOCATE = SITE "AB4" LEVEL 1;
+COMP "LCD_DB<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "LCD_DB<1>" LOCATE = SITE "AB18" LEVEL 1;
+COMP "LCD_DB<2>" LOCATE = SITE "AB17" LEVEL 1;
+COMP "LCD_DB<3>" LOCATE = SITE "AB12" LEVEL 1;
+COMP "LCD_DB<4>" LOCATE = SITE "AA12" LEVEL 1;
+COMP "LCD_DB<5>" LOCATE = SITE "Y16" LEVEL 1;
+COMP "LCD_DB<6>" LOCATE = SITE "AB16" LEVEL 1;
+COMP "modo_in" LOCATE = SITE "V8" LEVEL 1;
+COMP "LCD_DB<7>" LOCATE = SITE "Y15" LEVEL 1;
+COMP "rot<0>" LOCATE = SITE "T13" LEVEL 1;
+COMP "rot<1>" LOCATE = SITE "R14" LEVEL 1;
+COMP "rot<2>" LOCATE = SITE "R13" LEVEL 1;
+TIMEGRP Inst_Clock_CLKDV_BUF = BEL "Inst_LEDS/led_4" BEL "Inst_LEDS/led_5" BEL
+        "Inst_LEDS/led_6" BEL "Inst_LEDS/led_7" BEL "Inst_LEDS/led_3" BEL
+        "Inst_LEDS/led_2" BEL "Inst_LEDS/led_1" BEL "Inst_LEDS/led_0" BEL
+        "Inst_Counter/temp_0" BEL "Inst_Counter/temp_1" BEL
+        "Inst_Counter/temp_2" BEL "Inst_Counter/temp_3" BEL
+        "Inst_Counter/temp_4" BEL "Inst_Counter/temp_5" BEL
+        "Inst_Counter/temp_6" BEL "Inst_Counter/temp_7" BEL
+        "Inst_Counter/temp_8" BEL "Inst_Counter/temp_9" BEL
+        "Inst_Counter/temp_10" BEL "Inst_Counter/temp_11" BEL
+        "Inst_Counter/temp_12" BEL "Inst_Counter/temp_13" BEL
+        "Inst_Counter/temp_14" BEL "Inst_Direccion/direccion_0" BEL
+        "Inst_Direccion/direccion_1" BEL "Inst_Direccion/direccion_2" BEL
+        "Inst_Direccion/direccion_3" BEL "Inst_Interfaz/rotatory_left" BEL
+        "Inst_Interfaz/rotary_left" BEL "Inst_Interfaz/delay_rotary_q1" BEL
+        "Inst_Interfaz/rotary_q2" BEL "Inst_Interfaz/rotary_q1" BEL
+        "Inst_Interfaz/rotary_in_1" BEL "Inst_Interfaz/rotary_in_0" BEL
+        "Inst_Interfaz/rotatory_event" BEL "Inst_Interfaz/rotary_a_in" BEL
+        "Inst_Interfaz/rotary_press_in" BEL "Inst_Interfaz/btn_north" BEL
+        "Inst_Interfaz/rotary_b_in" BEL "Inst_Interfaz/btn_west" BEL
+        "Inst_Interfaz/btn_east" BEL "Inst_Interfaz/modo" BEL
+        "Inst_Interfaz/btn_south" BEL "Inst_Interfaz/rotary_event" BEL
+        "Inst_Control/state_FSM_FFd3" BEL "Inst_Control/state_FSM_FFd28" BEL
+        "Inst_Control/state_FSM_FFd27" BEL "Inst_Control/state_FSM_FFd29" BEL
+        "Inst_Control/state_FSM_FFd26" BEL "Inst_Control/state_FSM_FFd25" BEL
+        "Inst_Control/state_FSM_FFd24" BEL "Inst_Control/state_FSM_FFd23" BEL
+        "Inst_Control/state_FSM_FFd21" BEL "Inst_Control/state_FSM_FFd20" BEL
+        "Inst_Control/state_FSM_FFd22" BEL "Inst_Control/state_FSM_FFd19" BEL
+        "Inst_Control/state_FSM_FFd18" BEL "Inst_Control/state_FSM_FFd17" BEL
+        "Inst_Control/state_FSM_FFd16" BEL "Inst_Control/state_FSM_FFd14" BEL
+        "Inst_Control/state_FSM_FFd13" BEL "Inst_Control/state_FSM_FFd15" BEL
+        "Inst_Control/state_FSM_FFd12" BEL "Inst_Control/state_FSM_FFd11" BEL
+        "Inst_Control/state_FSM_FFd10" BEL "Inst_Control/state_FSM_FFd9" BEL
+        "Inst_Control/state_FSM_FFd8" BEL "Inst_Control/state_FSM_FFd7" BEL
+        "Inst_Control/state_FSM_FFd6" BEL "Inst_Control/state_FSM_FFd5" BEL
+        "Inst_Control/state_FSM_FFd4" BEL "Inst_Control/state_FSM_FFd2" BEL
+        "Inst_Control/state_FSM_FFd1" BEL "Inst_Control/incrementa_pb" BEL
+        "Inst_Control/RS" BEL "Inst_Control/E" BEL "Inst_Control/tiempo_1" BEL
+        "Inst_Control/tiempo_0" BEL "Inst_Control/clr" BEL
+        "Inst_Control/addr_control_0" BEL "Inst_Control/pb_sel_1" BEL
+        "Inst_Control/pb_sel_0" BEL "Inst_Control/DB_7" BEL
+        "Inst_Control/DB_6" BEL "Inst_Control/DB_5" BEL "Inst_Control/DB_4"
+        BEL "Inst_Control/DB_3" BEL "Inst_Control/DB_2" BEL
+        "Inst_Control/DB_1" BEL "Inst_Control/DB_0" BEL
+        "Inst_DatosLCD/oeste_3" BEL "Inst_DatosLCD/oeste_2" BEL
+        "Inst_DatosLCD/oeste_1" BEL "Inst_DatosLCD/oeste_0" BEL
+        "Inst_DatosLCD/este_3" BEL "Inst_DatosLCD/este_2" BEL
+        "Inst_DatosLCD/este_1" BEL "Inst_DatosLCD/este_0" BEL
+        "Inst_DatosLCD/norte_7" BEL "Inst_DatosLCD/norte_6" BEL
+        "Inst_DatosLCD/norte_5" BEL "Inst_DatosLCD/norte_4" BEL
+        "Inst_DatosLCD/norte_3" BEL "Inst_DatosLCD/norte_2" BEL
+        "Inst_DatosLCD/norte_1" BEL "Inst_DatosLCD/norte_0" BEL
+        "Inst_DatosLCD/sur_7" BEL "Inst_DatosLCD/sur_6" BEL
+        "Inst_DatosLCD/sur_5" BEL "Inst_DatosLCD/sur_4" BEL
+        "Inst_DatosLCD/sur_3" BEL "Inst_DatosLCD/sur_2" BEL
+        "Inst_DatosLCD/sur_1" BEL "Inst_DatosLCD/sur_0";
+PIN Inst_Clock/DCM_SP_INST_pins<10> = BEL "Inst_Clock/DCM_SP_INST" PINNAME
+        CLKIN;
+TIMEGRP clk50 = PIN "Inst_Clock/DCM_SP_INST_pins<10>";
+TS_clk50 = PERIOD TIMEGRP "clk50" 20 ns HIGH 50%;
+TS_Inst_Clock_CLKDV_BUF = PERIOD TIMEGRP "Inst_Clock_CLKDV_BUF" TS_clk50 * 32
+        HIGH 50%;
+COMP "LCD_E" OFFSET = OUT 40 ns AFTER COMP "clk50" HIGH;
+SCHEMATIC END;
+

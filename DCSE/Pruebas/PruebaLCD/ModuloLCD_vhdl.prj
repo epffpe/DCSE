@@ -1,0 +1,4 @@
+vhdl work "D:\Desings\Xilinx\PruebaLCD\Counter.vhd"
+vhdl work "D:\Desings\Xilinx\PruebaLCD\Control.vhd"
+vhdl work "D:\Desings\Xilinx\PruebaLCD\Clock.vhd"
+vhdl work "D:\Desings\Xilinx\PruebaLCD\ModuloLCD.vhd"

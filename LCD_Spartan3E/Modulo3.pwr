@@ -1,0 +1,48 @@
+----------------------------------------------------------------
+Release 10.1 - XPower Analysis Report SoftwareVersion:K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+# NOTE:  This file is designed to facilitate 
+Number of error messages: 0
+Number of warning messages: 1
+Number of info messages: 1
+
+orting.  The "|" character
+# should be selected as the data field separator.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\xpwr.exe -ise D:/Designs/DCSE/LCD_Spartan3E/LCD_Spartan3E.ise -intstyle ise Modulo3.ncd
+Modulo3.pcf -wx Modulo3_xpwr.xml -o Modulo3.pwr 
+
+Design       | D:\Designs\DCSE\LCD_Spartan3E\Modulo3.ncd                       |
+Preferences  | Modulo3.pcf                                                     |
+Part         | 3s500efg320-4                                                   |
+Data version | ADVANCED,v1.0,10-03-03                                          |
+
+Power summary                        |    I(mA)   |    P(mW)   |
+----------------------------------------------------------------
+Total estimated power consumption    |            |       110  |
+                               ---
+               Total Vccint   1.20V  |        34  |        41  |
+               Total Vccaux   2.50V  |        18  |        45  |
+               Total Vcco33   3.30V  |         8  |        25  |
+                               ---
+                           Clocks    |         3  |         4  |
+                           Inputs    |         0  |         0  |
+                            Logic    |         1  |         1  |
+                          Outputs    |
+                             Vcco33  |         6  |        18  |
+                          Signals    |         4  |         4  |
+                               ---
+           Quiescent Vccint   1.20V  |        26  |        31  |
+           Quiescent Vccaux   2.50V  |        18  |        45  |
+           Quiescent Vcco33   3.30V  |         2  |         7  |
+
+Thermal summary
+----------------------------------------------------------------
+Estimated junction temperature       |           28C           |
+                      Ambient temp   |           25C           |
+                         Case temp   |           27C           |
+                         Theta J-A   |          26C/W          |
+
+Analysis completed: Wed Sep 09 00:26:05 2009
+----------------------------------------------------------------

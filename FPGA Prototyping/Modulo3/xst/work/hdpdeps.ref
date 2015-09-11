@@ -1,0 +1,92 @@
+V3 44
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Control_interfaz.vhd" 2009/08/26.06:09:53 K.31
+EN work/Control_interfaz 1251832234 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Control_interfaz.vhd" \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/Control_interfaz/Behavioral 1251832235 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/Control_interfaz.vhd" \
+      EN work/Control_interfaz 1251832234 CP debounce
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/debounce.vhd" 2009/08/26.06:09:54 K.31
+EN work/debounce 1251832232 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/debounce.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/debounce/imp_fsmd_arch 1251832233 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/debounce.vhd" EN work/debounce 1251832232
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/fifo.vhd" 2009/08/26.06:10:24 K.31
+EN work/fifo 1251832220 FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/fifo.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/fifo/Behavioral 1251832221 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/fifo.vhd" EN work/fifo 1251832220
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/kb_code.vhd" 2009/09/01.18:18:49 K.31
+EN work/kb_code 1251832226 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/kb_code.vhd" \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/kb_code/Behavioral 1251832227 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/kb_code.vhd" EN work/kb_code 1251832226 \
+      AR work/ps2_rx/Behavioral 1251832225 AR work/fifo/Behavioral 1251832221
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/kb_test.vhd" 2009/09/01.20:06:29 K.31
+EN work/kb_test 1251832238 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/kb_test.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/kb_test/Behavioral 1251832239 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/kb_test.vhd" EN work/kb_test 1251832238 \
+      AR work/kb_code/Behavioral 1251832227 AR work/uart/Behavioral 1251832229 \
+      AR work/key2ascii/Behavioral 1251832231
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/key2ascii.vhd" 2009/08/26.06:11:19 K.31
+EN work/key2ascii 1251832230 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/key2ascii.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/key2ascii/Behavioral 1251832231 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/key2ascii.vhd" \
+      EN work/key2ascii 1251832230
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Control.vhd" 2009/09/01.18:10:42 K.31
+EN work/LCD_Control 1251832236 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Control.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/LCD_Control/Behavioral 1251832237 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Control.vhd" \
+      EN work/LCD_Control 1251832236
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.vhd" 2009/09/01.20:01:34 K.31
+EN work/LCD_Spartan3A 1251832240 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.vhd" \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/LCD_Spartan3A/Behavioral 1251832241 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.vhd" \
+      EN work/LCD_Spartan3A 1251832240 CP Control_interfaz CP LCD_Control \
+      CP kb_test
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/LCD_Spartan3A.vhf" 2009/08/21.01:54:01 K.31
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/mod_m_counter.vhd" 2009/08/26.06:11:07 K.31
+EN work/mod_m_counter 1251832216 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/mod_m_counter.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/mod_m_counter/Behavioral 1251832217 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/mod_m_counter.vhd" \
+      EN work/mod_m_counter 1251832216
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/ps2_rx.vhd" 2009/08/26.06:10:23 K.31
+EN work/ps2_rx 1251832224 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/ps2_rx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/ps2_rx/Behavioral 1251832225 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/ps2_rx.vhd" EN work/ps2_rx 1251832224
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart.vhd" 2009/09/01.20:10:06 K.31
+EN work/uart 1251832228 FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart/Behavioral 1251832229 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart.vhd" EN work/uart 1251832228 \
+      AR work/mod_m_counter/Behavioral 1251832217 AR work/uart_rx/Behavioral 1251832219 \
+      AR work/fifo/Behavioral 1251832221 AR work/uart_tx/Behavioral 1251832223
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart_rx.vhd" 2009/08/26.06:11:08 K.31
+EN work/uart_rx 1251832218 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart_rx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_rx/Behavioral 1251832219 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart_rx.vhd" EN work/uart_rx 1251832218
+FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart_tx.vhd" 2009/08/26.06:11:08 K.31
+EN work/uart_tx 1251832222 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart_tx.vhd" \
+      PB ieee/std_logic_1164 1200023565 PH ieee/NUMERIC_STD 1200023568
+AR work/uart_tx/Behavioral 1251832223 \
+      FL "D:/Designs/DCSE/FPGA Prototyping/Modulo3/uart_tx.vhd" EN work/uart_tx 1251832222

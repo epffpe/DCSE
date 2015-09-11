@@ -1,0 +1,102 @@
+m255
+K3
+13
+cModel Technology
+dD:\Modeltech_xe_starter\examples
+Eclkscale
+Z0 w1225202034
+Z1 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z2 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z3 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dD:\Designs\DCSE\Modulo1
+Z5 8D:/Designs/DCSE/Modulo1/clkscale.vhd
+Z6 FD:/Designs/DCSE/Modulo1/clkscale.vhd
+l0
+L17
+VozUIl^ih=6KIzc:k0ml_F0
+Z7 OX;C;6.3c;37
+32
+Z8 o-work work -2002 -explicit -O0
+Z9 tExplicit 1
+Acompor
+R1
+R2
+R3
+DE work clkscale ozUIl^ih=6KIzc:k0ml_F0
+l27
+L23
+VG1>gLTkFDh4b@AnTabcSo3
+R7
+32
+Z10 M3 ieee std_logic_1164
+Z11 M2 ieee std_logic_unsigned
+Z12 M1 ieee std_logic_arith
+R8
+R9
+Eramdump
+w1225206028
+R3
+R4
+8D:/Designs/DCSE/Modulo1/ramdump.vhd
+FD:/Designs/DCSE/Modulo1/ramdump.vhd
+l0
+L15
+VLiPAUU]LPdN`c[WWoXI2c0
+R7
+32
+R8
+R9
+Ereader
+Z13 w1225205252
+R1
+R2
+R3
+R4
+Z14 8D:/Designs/DCSE/Modulo1/reader.vhd
+Z15 FD:/Designs/DCSE/Modulo1/reader.vhd
+l0
+L17
+V<:3@:bL_ic1TohVH_kMW<1
+R7
+32
+R8
+R9
+Acompor
+R1
+R2
+R3
+DE work reader <:3@:bL_ic1TohVH_kMW<1
+l34
+L24
+VMZ;gf?Gin3_d9TEY2>GoH1
+R7
+32
+R10
+R11
+R12
+R8
+R9
+Etickgen
+Z16 w1225201122
+R3
+R4
+Z17 8D:/Designs/DCSE/Modulo1/tickgen.vhd
+Z18 FD:/Designs/DCSE/Modulo1/tickgen.vhd
+l0
+L15
+VMj^kP9j3bm_6<UG>]156:0
+R7
+32
+R8
+R9
+Acompor
+R3
+DE work tickgen Mj^kP9j3bm_6<UG>]156:0
+l24
+L20
+VgWKU>h=0@W1KKHdlXEa^K0
+R7
+32
+Z19 M1 ieee std_logic_1164
+R8
+R9

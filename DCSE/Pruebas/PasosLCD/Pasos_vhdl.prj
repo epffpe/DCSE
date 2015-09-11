@@ -1,0 +1,5 @@
+vhdl work "D:\Desings\DCSE\Pruebas\PasosLCD\UControl.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\PasosLCD\Led_status.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\PasosLCD\Interfaz.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\PasosLCD\clock.vhd"
+vhdl work "D:\Desings\DCSE\Pruebas\PasosLCD\Pasos.vhd"

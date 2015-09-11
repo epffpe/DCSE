@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/Designs/DCSE/FPGA Prototyping/PS2_Keyboard/PS2_Keyboard.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 kb_monitor.ngc kb_monitor.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+kb_monitor_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

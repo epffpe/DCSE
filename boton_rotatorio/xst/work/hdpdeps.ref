@@ -1,0 +1,9 @@
+V3 3
+FL D:/Designs/DCSE/boton_rotatorio/left_right_leds.vhd 2006/02/20.15:04:40 K.31
+EN work/left_right_leds 1251837203 \
+      FL D:/Designs/DCSE/boton_rotatorio/left_right_leds.vhd \
+      PB ieee/std_logic_1164 1200023565 PB ieee/std_logic_arith 1200023566 \
+      PB ieee/STD_LOGIC_UNSIGNED 1200023567
+AR work/left_right_leds/Behavioral 1251837204 \
+      FL D:/Designs/DCSE/boton_rotatorio/left_right_leds.vhd \
+      EN work/left_right_leds 1251837203

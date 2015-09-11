@@ -1,0 +1,63 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\Modulo2\Modulo2\DCSEP2
+Edcsep2
+Z1 w1228684757
+Z2 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z3 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8DCSEP2.vhd
+Z6 FDCSEP2.vhd
+l0
+L30
+VJ2OOD9S9<P86YX7k3GlQK2
+Z7 OX;C;6.3c;37
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+DE work dcsep2 J2OOD9S9<P86YX7k3GlQK2
+l67
+L40
+VmHOXKLK7OZTTjaBYT4[YL3
+R7
+31
+Z10 M3 ieee std_logic_1164
+Z11 M2 ieee std_logic_arith
+Z12 M1 ieee std_logic_unsigned
+R8
+R9
+Edisplay
+Z13 w1228684920
+R2
+R3
+R4
+Z14 8DISPLAY.vhd
+Z15 FDISPLAY.vhd
+l0
+L30
+V:W`fg;Al=:@mCU9n<227<3
+R7
+31
+R8
+R9
+Abehavioral
+R2
+R3
+R4
+DE work display :W`fg;Al=:@mCU9n<227<3
+l58
+L38
+VhY7b60W8Pdi5cV_iEBPhe1
+R7
+31
+R10
+R11
+R12
+R8
+R9

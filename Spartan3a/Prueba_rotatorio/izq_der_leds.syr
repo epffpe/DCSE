@@ -1,0 +1,410 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.92 secs
+ 
+--> Parameter xsthdpdir set to D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.92 secs
+ 
+--> Reading design: izq_der_leds.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "izq_der_leds.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "izq_der_leds"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : izq_der_leds
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : izq_der_leds.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Reloj.vhd" in Library work.
+Architecture behavioral of Entity reloj is up to date.
+Compiling vhdl file "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.vhd" in Library work.
+Architecture behavioral of Entity izq_der_leds is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <izq_der_leds> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Reloj> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <izq_der_leds> in library <work> (Architecture <behavioral>).
+WARNING:Xst:752 - "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.vhd" line 113: Unconnected input port 'RST_IN' of component 'Reloj' is tied to default value.
+WARNING:Xst:753 - "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.vhd" line 113: Unconnected output port 'LOCKED_OUT' of component 'Reloj'.
+INFO:Xst:1561 - "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.vhd" line 161: Mux is complete : default of case is discarded
+Entity <izq_der_leds> analyzed. Unit <izq_der_leds> generated.
+
+Analyzing Entity <Reloj> in library <work> (Architecture <behavioral>).
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <Reloj>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <Reloj>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <Reloj>.
+    Set user-defined property "CLKDV_DIVIDE =  10.0000000000000000" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "CLKIN_PERIOD =  20.0000000000000000" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_INST> in unit <Reloj>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_INST> in unit <Reloj>.
+Entity <Reloj> analyzed. Unit <Reloj> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Reloj>.
+    Related source file is "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/Reloj.vhd".
+Unit <Reloj> synthesized.
+
+
+Synthesizing Unit <izq_der_leds>.
+    Related source file is "D:/Designs/DCSE/Spartan3a/Prueba_rotatorio/izq_der_leds.vhd".
+WARNING:Xst:646 - Signal <clkbuff> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <clk0_out> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8-bit register for signal <led>.
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 8-bit register for signal <led_drive>.
+    Found 8-bit register for signal <led_pattern>.
+    Found 1-bit register for signal <rotary_a_in>.
+    Found 1-bit register for signal <rotary_b_in>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 2-bit register for signal <rotary_in>.
+    Found 1-bit register for signal <rotary_left>.
+    Found 1-bit register for signal <rotary_press_in>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 149.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 149.
+    Summary:
+	inferred  34 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <izq_der_leds> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 12
+ 1-bit register                                        : 8
+ 2-bit register                                        : 1
+ 8-bit register                                        : 3
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s700a.nph' in environment D:\Xilinx\10.1\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <izq_der_leds> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block izq_der_leds, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : izq_der_leds.ngr
+Top Level Output File Name         : izq_der_leds
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 22
+#      GND                         : 1
+#      LUT2                        : 10
+#      LUT3                        : 10
+#      VCC                         : 1
+# FlipFlops/Latches                : 34
+#      FD                          : 24
+#      FDE                         : 9
+#      FDR                         : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 12
+#      IBUF                        : 3
+#      IBUFG                       : 1
+#      OBUF                        : 8
+# DCMs                             : 1
+#      DCM                         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                       20  out of   5888     0%  
+ Number of Slice Flip Flops:             34  out of  11776     0%  
+ Number of 4 input LUTs:                 20  out of  11776     0%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    372     3%  
+ Number of GCLKs:                         2  out of     24     8%  
+ Number of DCMs:                          1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)    | Load  |
+-----------------------------------+--------------------------+-------+
+clk_in                             | Inst_Reloj/DCM_INST:CLKDV| 34    |
+-----------------------------------+--------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 0.326ns (Maximum Frequency: 3069.367MHz)
+   Minimum input arrival time before clock: 1.521ns
+   Maximum output required time after clock: 5.531ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_in'
+  Clock period: 0.326ns (frequency: 3069.367MHz)
+  Total number of paths / destination ports: 70 / 40
+-------------------------------------------------------------------------
+Delay:               3.258ns (Levels of Logic = 1)
+  Source:            rotary_q1 (FF)
+  Destination:       rotary_event (FF)
+  Source Clock:      clk_in rising 0.1X
+  Destination Clock: clk_in rising 0.1X
+
+  Data Path: rotary_q1 to rotary_event
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.591   0.730  rotary_q1 (rotary_q1)
+     LUT2:I0->O            1   0.648   0.420  rotary_event_not00011 (rotary_event_not0001)
+     FDR:R                     0.869          rotary_event
+    ----------------------------------------
+    Total                      3.258ns (2.108ns logic, 1.150ns route)
+                                       (64.7% logic, 35.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_in'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 1)
+  Source:            rotary_b (PAD)
+  Destination:       rotary_b_in (FF)
+  Destination Clock: clk_in rising 0.1X
+
+  Data Path: rotary_b to rotary_b_in
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  rotary_b_IBUF (rotary_b_IBUF)
+     FD:D                      0.252          rotary_b_in
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_in'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              5.531ns (Levels of Logic = 1)
+  Source:            led_7 (FF)
+  Destination:       led<7> (PAD)
+  Source Clock:      clk_in rising 0.1X
+
+  Data Path: led_7 to led<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.420  led_7 (led_7)
+     OBUF:I->O                 4.520          led_7_OBUF (led<7>)
+    ----------------------------------------
+    Total                      5.531ns (5.111ns logic, 0.420ns route)
+                                       (92.4% logic, 7.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.14 secs
+ 
+--> 
+
+Total memory usage is 184964 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,34 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/divDEBOUNCER.vhd" in Library work.
+Entity <divDEBOUNCER> compiled.
+Entity <divDEBOUNCER> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/DEBOUNCER.vhd" in Library work.
+Entity <DEBOUNCER> compiled.
+Entity <DEBOUNCER> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/PracticaLCD/Interfaz.vhd" in Library work.
+Entity <interfaz> compiled.
+Entity <interfaz> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> 
+
+Total memory usage is 135964 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,28 @@
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+netgen -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ar Structure -tm ramdump -w -dir netgen/synthesis -ofmt vhdl -sim ramdump.ngc ramdump_synthesis.vhd
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+netgen -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ar Structure -tm ramdump -w -dir netgen/synthesis -ofmt vhdl -sim ramdump.ngc ramdump_synthesis.vhd
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+netgen -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ar Structure -tm ramdump -w -dir netgen/synthesis -ofmt vhdl -sim ramdump.ngc ramdump_synthesis.vhd
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+netgen -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ar Structure -tm ramdump -w -dir netgen/synthesis -ofmt vhdl -sim ramdump.ngc ramdump_synthesis.vhd
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+netgen -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ar Structure -tm ramdump -w -dir netgen/synthesis -ofmt vhdl -sim ramdump.ngc ramdump_synthesis.vhd
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+netgen -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ar Structure -tm ramdump -w -dir netgen/synthesis -ofmt vhdl -sim ramdump.ngc ramdump_synthesis.vhd
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"
+xst -ise "D:/Designs/DCSE/Practica1/Practica1.ise" -intstyle ise -ifn "D:/Designs/DCSE/Practica1/ramdump.xst" -ofn "D:/Designs/DCSE/Practica1/ramdump.syr"

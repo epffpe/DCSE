@@ -1,0 +1,37 @@
+Determining compilation order of HDL files
+Analyzing VHDL file Square_wave_gen.vhd
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Analyzing VHDL file tb_sq_wave_gen.vhd
+Restoring VHDL parse-tree ieee.numeric_std from
+c:/xilinx/10.1/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Saving VHDL parse-tree work.square_wave_gen into d:/designs/dcse/fpga
+prototyping/tema4/isim/work/square_wave_gen.vdb
+Saving VHDL parse-tree work.tb_sq_wave_gen into d:/designs/dcse/fpga
+prototyping/tema4/isim/work/tb_sq_wave_gen.vdb
+Starting static elaboration
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 867.
+   Range is empty (null range)
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 868.
+   Range is empty (null range)
+Completed static elaboration
+Fuse Memory Usage: 56456 Kb
+Fuse CPU Usage: 593 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling architecture behavioral of entity square_wave_gen
+[square_wave_gen_default]
+Compiling architecture behavior of entity tb_sq_wave_gen
+Compiled 8 VHDL Units
+Built simulation executable tb_sq_wave_gen_isim_beh.exe
+Fuse Memory Usage: 57740 Kb
+Fuse CPU Usage: 624 ms

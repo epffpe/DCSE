@@ -1,0 +1,4 @@
+## Project Navigator simulation template: ModuloLCD_wave.tdo
+## You may edit this file to control your simulation.
+add wave *
+add wave /glbl/GSR

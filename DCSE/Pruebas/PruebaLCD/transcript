@@ -1,0 +1,53 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do {ModuloLCD_tb.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package vcomponents
+# -- Compiling entity clock
+# -- Compiling architecture behavioral of clock
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity modulolcd
+# -- Compiling architecture behavioral of modulolcd
+# Model Technology ModelSim XE III vcom 6.3c Compiler 2007.09 Sep 12 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity modulolcd_tb
+# -- Compiling architecture behavior of modulolcd_tb
+# ** Warning: [4] ModuloLCD_tb.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] ModuloLCD_tb.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# vsim -lib work -t 1ps ModuloLCD_tb 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.modulolcd_tb(behavior)
+# Loading work.modulolcd(behavioral)
+# Loading unisim.vcomponents
+# Loading work.clock(behavioral)
+# Loading unisim.bufg(bufg_v)
+# Loading unisim.ibufg(ibufg_v)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# Loading unisim.dcm_sp(dcm_sp_v)
+# Loading unisim.dcm_sp_clock_divide_by_2(dcm_sp_clock_divide_by_2_v)
+# Loading unisim.dcm_sp_maximum_period_check(dcm_sp_maximum_period_check_v)
+# Loading unisim.dcm_sp_clock_lost(dcm_sp_clock_lost_v)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs.pw.wf
+# .main_pane.workspace.interior.cs.nb.canvas.notebook.cs.page2.cs
+# .main_pane.signals.interior.cs
+restart
+run
+run

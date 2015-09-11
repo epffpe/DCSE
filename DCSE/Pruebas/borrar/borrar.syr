@@ -1,0 +1,523 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Desings/DCSE/Pruebas/borrar/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to D:/Desings/DCSE/Pruebas/borrar/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: borrar.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "borrar.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "borrar"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : borrar
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : borrar.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/divDEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity divdebouncer is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/DEBOUNCER.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/Interfaz.vhd" in Library work.
+Entity <interfaz> compiled.
+Entity <interfaz> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/LEDS.vhd" in Library work.
+Entity <leds> compiled.
+Entity <leds> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/borrar/borrar.vhd" in Library work.
+Architecture behavioral of Entity borrar is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <borrar> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Interfaz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <LEDS> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <divDEBOUNCER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DEBOUNCER> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <borrar> in library <work> (Architecture <behavioral>).
+Entity <borrar> analyzed. Unit <borrar> generated.
+
+Analyzing Entity <Interfaz> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "D:/Desings/DCSE/Pruebas/borrar/Interfaz.vhd" line 205: Mux is complete : default of case is discarded
+Entity <Interfaz> analyzed. Unit <Interfaz> generated.
+
+Analyzing Entity <divDEBOUNCER> in library <work> (Architecture <behavioral>).
+Entity <divDEBOUNCER> analyzed. Unit <divDEBOUNCER> generated.
+
+Analyzing Entity <DEBOUNCER> in library <work> (Architecture <behavioral>).
+Entity <DEBOUNCER> analyzed. Unit <DEBOUNCER> generated.
+
+Analyzing Entity <LEDS> in library <work> (Architecture <behavioral>).
+Entity <LEDS> analyzed. Unit <LEDS> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <LEDS>.
+    Related source file is "D:/Desings/DCSE/Pruebas/borrar/LEDS.vhd".
+    Found 8-bit register for signal <led>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <LEDS> synthesized.
+
+
+Synthesizing Unit <divDEBOUNCER>.
+    Related source file is "D:/Desings/DCSE/Pruebas/borrar/divDEBOUNCER.vhd".
+    Found 1-bit register for signal <clk10ms>.
+    Found 12-bit up counter for signal <contador>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <divDEBOUNCER> synthesized.
+
+
+Synthesizing Unit <DEBOUNCER>.
+    Related source file is "D:/Desings/DCSE/Pruebas/borrar/DEBOUNCER.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | clk10ms (rising_edge)                          |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <DEBOUNCER> synthesized.
+
+
+Synthesizing Unit <Interfaz>.
+    Related source file is "D:/Desings/DCSE/Pruebas/borrar/Interfaz.vhd".
+    Found 1-bit register for signal <rst_n>.
+    Found 1-bit register for signal <rot_press_out>.
+    Found 4-bit register for signal <pb_out>.
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 1-bit register for signal <modo>.
+    Found 1-bit register for signal <pb0>.
+    Found 1-bit register for signal <pb1>.
+    Found 1-bit register for signal <pb2>.
+    Found 1-bit register for signal <pb3>.
+    Found 1-bit register for signal <rotary_a_in>.
+    Found 1-bit register for signal <rotary_b_in>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 2-bit register for signal <rotary_in>.
+    Found 1-bit register for signal <rotary_left>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 193.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 193.
+    Found 1-bit register for signal <rotatory_press>.
+    Summary:
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Interfaz> synthesized.
+
+
+Synthesizing Unit <borrar>.
+    Related source file is "D:/Desings/DCSE/Pruebas/borrar/borrar.vhd".
+WARNING:Xst:646 - Signal <rst_n> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <borrar> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 12-bit up counter                                     : 1
+# Registers                                            : 29
+ 1-bit register                                        : 28
+ 2-bit register                                        : 1
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_Interfaz/Inst_pb0/state/FSM> on signal <state[1:2]> with speed1 encoding.
+Optimizing FSM <Inst_Interfaz/Inst_pb1/state/FSM> on signal <state[1:2]> with speed1 encoding.
+Optimizing FSM <Inst_Interfaz/Inst_pb2/state/FSM> on signal <state[1:2]> with speed1 encoding.
+Optimizing FSM <Inst_Interfaz/Inst_pb3/state/FSM> on signal <state[1:2]> with speed1 encoding.
+Optimizing FSM <Inst_Interfaz/Inst_rotatory_press/state/FSM> on signal <state[1:2]> with speed1 encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 10
+ s1    | 00
+ s2    | 01
+-------------------
+Loading device for application Rf_Device from file '3s700a.nph' in environment C:\Xilinx\10.1\ISE.
+WARNING:Xst:2677 - Node <rst_n> of sequential type is unconnected in block <Inst_Interfaz>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 12-bit up counter                                     : 1
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <borrar> ...
+
+Optimizing unit <Interfaz> ...
+WARNING:Xst:2677 - Node <Inst_Interfaz/rst_n> of sequential type is unconnected in block <borrar>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block borrar, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <borrar> :
+	Found 2-bit shift register for signal <Inst_LEDS/led_4>.
+	Found 2-bit shift register for signal <Inst_LEDS/led_5>.
+	Found 2-bit shift register for signal <Inst_LEDS/led_6>.
+	Found 2-bit shift register for signal <Inst_LEDS/led_7>.
+	Found 2-bit shift register for signal <Inst_LEDS/led_1>.
+Unit <borrar> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 41
+ Flip-Flops                                            : 41
+# Shift Registers                                      : 5
+ 2-bit shift register                                  : 5
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : borrar.ngr
+Top Level Output File Name         : borrar
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 56
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 11
+#      LUT2                        : 7
+#      LUT3                        : 4
+#      LUT4                        : 1
+#      LUT4_D                      : 2
+#      MUXCY                       : 11
+#      VCC                         : 1
+#      XORCY                       : 11
+# FlipFlops/Latches                : 46
+#      FD                          : 19
+#      FDC                         : 5
+#      FDE                         : 3
+#      FDP                         : 5
+#      FDR                         : 14
+# Shift Registers                  : 5
+#      SRL16                       : 5
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 8
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                       29  out of   5888     0%  
+ Number of Slice Flip Flops:             41  out of  11776     0%  
+ Number of 4 input LUTs:                 37  out of  11776     0%  
+    Number used as logic:                32
+    Number used as Shift registers:       5
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    372     4%  
+    IOB Flip Flops:                       5
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------+--------------------------------------------+-------+
+Clock Signal                           | Clock buffer(FF name)                      | Load  |
+---------------------------------------+--------------------------------------------+-------+
+clk                                    | BUFGP                                      | 41    |
+Inst_Interfaz/Inst_divDEBOUNCER/clk10ms| NONE(Inst_Interfaz/Inst_pb0/state_FSM_FFd1)| 10    |
+---------------------------------------+--------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+--------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                            | Load  |
+-----------------------------------+--------------------------------------------+-------+
+N2(XST_GND:G)                      | NONE(Inst_Interfaz/Inst_pb0/state_FSM_FFd2)| 10    |
+-----------------------------------+--------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.802ns (Maximum Frequency: 208.247MHz)
+   Minimum input arrival time before clock: 1.521ns
+   Maximum output required time after clock: 5.531ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.802ns (frequency: 208.247MHz)
+  Total number of paths / destination ports: 258 / 43
+-------------------------------------------------------------------------
+Delay:               4.802ns (Levels of Logic = 2)
+  Source:            Inst_Interfaz/Inst_divDEBOUNCER/contador_8 (FF)
+  Destination:       Inst_Interfaz/Inst_divDEBOUNCER/contador_11 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_Interfaz/Inst_divDEBOUNCER/contador_8 to Inst_Interfaz/Inst_divDEBOUNCER/contador_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.590  Inst_Interfaz/Inst_divDEBOUNCER/contador_8 (Inst_Interfaz/Inst_divDEBOUNCER/contador_8)
+     LUT4_D:I0->O          1   0.648   0.500  Inst_Interfaz/Inst_divDEBOUNCER/contador_cmp_eq000016 (Inst_Interfaz/Inst_divDEBOUNCER/contador_cmp_eq000016)
+     LUT3:I1->O           12   0.643   0.961  Inst_Interfaz/Inst_divDEBOUNCER/contador_cmp_eq000039 (Inst_Interfaz/Inst_divDEBOUNCER/contador_cmp_eq0000)
+     FDR:R                     0.869          Inst_Interfaz/Inst_divDEBOUNCER/contador_0
+    ----------------------------------------
+    Total                      4.802ns (2.751ns logic, 2.051ns route)
+                                       (57.3% logic, 42.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_Interfaz/Inst_divDEBOUNCER/clk10ms'
+  Clock period: 1.986ns (frequency: 503.525MHz)
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Delay:               1.986ns (Levels of Logic = 1)
+  Source:            Inst_Interfaz/Inst_pb0/state_FSM_FFd1 (FF)
+  Destination:       Inst_Interfaz/Inst_pb0/state_FSM_FFd2 (FF)
+  Source Clock:      Inst_Interfaz/Inst_divDEBOUNCER/clk10ms rising
+  Destination Clock: Inst_Interfaz/Inst_divDEBOUNCER/clk10ms rising
+
+  Data Path: Inst_Interfaz/Inst_pb0/state_FSM_FFd1 to Inst_Interfaz/Inst_pb0/state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.591   0.500  Inst_Interfaz/Inst_pb0/state_FSM_FFd1 (Inst_Interfaz/Inst_pb0/state_FSM_FFd1)
+     LUT2:I1->O            1   0.643   0.000  Inst_Interfaz/Inst_pb0/state_FSM_FFd2-In1 (Inst_Interfaz/Inst_pb0/state_FSM_FFd2-In)
+     FDC:D                     0.252          Inst_Interfaz/Inst_pb0/state_FSM_FFd2
+    ----------------------------------------
+    Total                      1.986ns (1.486ns logic, 0.500ns route)
+                                       (74.8% logic, 25.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 1)
+  Source:            rotatory<0> (PAD)
+  Destination:       Inst_Interfaz/rotary_a_in (FF)
+  Destination Clock: clk rising
+
+  Data Path: rotatory<0> to Inst_Interfaz/rotary_a_in
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  rotatory_0_IBUF (rotatory_0_IBUF)
+     FD:D                      0.252          Inst_Interfaz/rotary_a_in
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              5.531ns (Levels of Logic = 1)
+  Source:            Inst_LEDS/led_7 (FF)
+  Destination:       led<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Inst_LEDS/led_7 to led<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.420  Inst_LEDS/led_7 (Inst_LEDS/led_7)
+     OBUF:I->O                 4.520          led_7_OBUF (led<7>)
+    ----------------------------------------
+    Total                      5.531ns (5.111ns logic, 0.420ns route)
+                                       (92.4% logic, 7.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.38 secs
+ 
+--> 
+
+Total memory usage is 182068 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

@@ -1,0 +1,19 @@
+xst -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -ifn "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.xst" -ofn "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.syr"
+ngdbuild -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "sqr_wave.ngc" sqr_wave.ngd
+map -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o sqr_wave_map.ncd sqr_wave.ngd sqr_wave.pcf
+par -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -w -intstyle ise -ol std -t 1 sqr_wave_map.ncd sqr_wave.ncd sqr_wave.pcf
+trce -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -e 3 -s 4 -xml sqr_wave sqr_wave.ncd -o sqr_wave.twr sqr_wave.pcf -ucf sqr_wave.ucf
+bitgen -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -f sqr_wave.ut sqr_wave.ncd
+ngdbuild -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "sqr_wave.ngc" sqr_wave.ngd
+map -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o sqr_wave_map.ncd sqr_wave.ngd sqr_wave.pcf
+par -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -w -intstyle ise -ol std -t 1 sqr_wave_map.ncd sqr_wave.ncd sqr_wave.pcf
+trce -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -e 3 -s 4 -xml sqr_wave sqr_wave.ncd -o sqr_wave.twr sqr_wave.pcf -ucf sqr_wave.ucf
+bitgen -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -f sqr_wave.ut sqr_wave.ncd
+xst -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -ifn "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.xst" -ofn "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.syr"
+ngdbuild -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s700a-fg484-4 "sqr_wave.ngc" sqr_wave.ngd
+map -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -p xc3s700a-fg484-4 -cm area -pr off -k 4 -c 100 -o sqr_wave_map.ncd sqr_wave.ngd sqr_wave.pcf
+par -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -w -intstyle ise -ol std -t 1 sqr_wave_map.ncd sqr_wave.ncd sqr_wave.pcf
+trce -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -e 3 -s 4 -xml sqr_wave sqr_wave.ncd -o sqr_wave.twr sqr_wave.pcf -ucf sqr_wave.ucf
+bitgen -ise "D:/Designs/DCSE/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -f sqr_wave.ut sqr_wave.ncd
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.syr"
+xst -ise "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/Senal_cuadrada.ise" -intstyle ise -ifn "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.xst" -ofn "D:/Designs/DCSE/FPGA Prototyping/Regular_Sequential_Circuit/Senal_cuadrada/sqr_wave.syr"

@@ -1,0 +1,12 @@
+# Output products list for <asd>
+asd.asy
+asd.ngc
+asd.sym
+asd.v
+asd.veo
+asd.vhd
+asd.vho
+asd.xco
+asd_dds_compiler_v2_1_xst_1.ngc_xst.xrpt
+asd_flist.txt
+asd_xmdf.tcl

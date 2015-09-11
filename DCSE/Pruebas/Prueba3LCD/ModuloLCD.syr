@@ -1,0 +1,682 @@
+Release 9.1i - xst J.30
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 1.98 s | Elapsed : 0.00 / 2.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 1.98 s | Elapsed : 0.00 / 2.00 s
+ 
+--> Reading design: ModuloLCD.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ModuloLCD.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ModuloLCD"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : ModuloLCD
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : ModuloLCD.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/Prueba3LCD/LEDS.vhd" in Library work.
+Entity <LEDS> compiled.
+Entity <LEDS> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" in Library work.
+Entity <Clock> compiled.
+Entity <Clock> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/Prueba3LCD/Interfaz.vhd" in Library work.
+Entity <Interfaz> compiled.
+Entity <Interfaz> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/Prueba3LCD/Control.vhd" in Library work.
+Entity <Control> compiled.
+Entity <Control> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/Prueba3LCD/Counter.vhd" in Library work.
+Entity <Counter> compiled.
+Entity <Counter> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/Prueba3LCD/Direccion.vhd" in Library work.
+Entity <Direccion> compiled.
+Entity <Direccion> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/Prueba3LCD/DatosLCD.vhd" in Library work.
+Entity <DatosLCD> compiled.
+Entity <DatosLCD> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/Desings/DCSE/Pruebas/Prueba3LCD/ModuloLCD.vhd" in Library work.
+Entity <ModuloLCD> compiled.
+Entity <ModuloLCD> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ModuloLCD> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <LEDS> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Clock> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <Interfaz> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Control> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Counter> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Direccion> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <DatosLCD> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ModuloLCD> in library <work> (Architecture <Behavioral>).
+Entity <ModuloLCD> analyzed. Unit <ModuloLCD> generated.
+
+Analyzing Entity <LEDS> in library <work> (Architecture <Behavioral>).
+Entity <LEDS> analyzed. Unit <LEDS> generated.
+
+Analyzing Entity <Clock> in library <work> (Architecture <BEHAVIORAL>).
+WARNING:Xst:2211 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 93: Instantiating black box module <BUFG>.
+WARNING:Xst:2211 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 97: Instantiating black box module <IBUFG>.
+WARNING:Xst:2211 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 101: Instantiating black box module <BUFG>.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'CLK90' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'CLK180' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'CLK270' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'CLK2X' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'CLK2X180' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'CLKFX' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'CLKFX180' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'STATUS' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'LOCKED' of component 'DCM_SP'.
+WARNING:Xst:753 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Unconnected output port 'PSDONE' of component 'DCM_SP'.
+WARNING:Xst:2211 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd" line 105: Instantiating black box module <DCM_SP>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKDV_DIVIDE =  16.0000000000000000" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  TRUE" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKIN_PERIOD =  40.0000000000000000" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <Clock>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <Clock>.
+Entity <Clock> analyzed. Unit <Clock> generated.
+
+Analyzing Entity <Interfaz> in library <work> (Architecture <Behavioral>).
+INFO:Xst:1561 - "D:/Desings/DCSE/Pruebas/Prueba3LCD/Interfaz.vhd" line 226: Mux is complete : default of case is discarded
+Entity <Interfaz> analyzed. Unit <Interfaz> generated.
+
+Analyzing Entity <Control> in library <work> (Architecture <Behavioral>).
+Entity <Control> analyzed. Unit <Control> generated.
+
+Analyzing Entity <Counter> in library <work> (Architecture <Behavioral>).
+Entity <Counter> analyzed. Unit <Counter> generated.
+
+Analyzing Entity <Direccion> in library <work> (Architecture <Behavioral>).
+Entity <Direccion> analyzed. Unit <Direccion> generated.
+
+Analyzing Entity <DatosLCD> in library <work> (Architecture <Behavioral>).
+Entity <DatosLCD> analyzed. Unit <DatosLCD> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <LEDS>.
+    Related source file is "D:/Desings/DCSE/Pruebas/Prueba3LCD/LEDS.vhd".
+WARNING:Xst:647 - Input <rst_n> is never used.
+    Found 8-bit register for signal <led>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <LEDS> synthesized.
+
+
+Synthesizing Unit <Interfaz>.
+    Related source file is "D:/Desings/DCSE/Pruebas/Prueba3LCD/Interfaz.vhd".
+    Found 1-bit register for signal <rotatory_left>.
+    Found 1-bit register for signal <rotatory_event>.
+    Found 1-bit register for signal <btn_east>.
+    Found 1-bit register for signal <btn_north>.
+    Found 1-bit register for signal <btn_south>.
+    Found 1-bit register for signal <btn_west>.
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 1-bit register for signal <modo>.
+    Found 1-bit register for signal <rotary_a_in>.
+    Found 1-bit register for signal <rotary_b_in>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 2-bit register for signal <rotary_in>.
+    Found 1-bit register for signal <rotary_left>.
+    Found 1-bit register for signal <rotary_press_in>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 214.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 214.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Interfaz> synthesized.
+
+
+Synthesizing Unit <Control>.
+    Related source file is "D:/Desings/DCSE/Pruebas/Prueba3LCD/Control.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 29                                             |
+    | Transitions        | 49                                             |
+    | Inputs             | 8                                              |
+    | Outputs            | 35                                             |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst_n (negative)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 1-bit register for signal <clr>.
+    Found 2-bit register for signal <addr_control>.
+    Found 8-bit register for signal <DB>.
+    Found 1-bit register for signal <E>.
+    Found 2-bit register for signal <pb_sel>.
+    Found 1-bit register for signal <RS>.
+    Found 1-bit register for signal <incrementa_pb>.
+    Found 2-bit register for signal <tiempo>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  18 D-type flip-flop(s).
+Unit <Control> synthesized.
+
+
+Synthesizing Unit <Counter>.
+    Related source file is "D:/Desings/DCSE/Pruebas/Prueba3LCD/Counter.vhd".
+    Found 1-bit 4-to-1 multiplexer for signal <tic>.
+    Found 15-bit up counter for signal <temp>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Multiplexer(s).
+Unit <Counter> synthesized.
+
+
+Synthesizing Unit <Direccion>.
+    Related source file is "D:/Desings/DCSE/Pruebas/Prueba3LCD/Direccion.vhd".
+    Found 4-bit updown counter for signal <direccion>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Direccion> synthesized.
+
+
+Synthesizing Unit <DatosLCD>.
+    Related source file is "D:/Desings/DCSE/Pruebas/Prueba3LCD/DatosLCD.vhd".
+WARNING:Xst - Property "use_dsp48" is not applicable for this technology.
+    Found 4x8-bit ROM for signal <caracteres$mux0001> created at line 150.
+    Found 8-bit adder for signal <caracteres>.
+    Found 8-bit 4-to-1 multiplexer for signal <caracteres$mux0000> created at line 150.
+    Found 4-bit up counter for signal <este>.
+    Found 4-bit comparator less for signal <este$cmp_lt0000> created at line 127.
+    Found 8-bit up counter for signal <norte>.
+    Found 8-bit comparator less for signal <norte$cmp_lt0000> created at line 97.
+    Found 4-bit up counter for signal <oeste>.
+    Found 1-of-4 decoder for signal <sel>.
+    Found 8-bit up counter for signal <sur>.
+    Found 8-bit comparator less for signal <sur$cmp_lt0000> created at line 112.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   4 Counter(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   3 Comparator(s).
+	inferred   8 Multiplexer(s).
+	inferred   1 Decoder(s).
+Unit <DatosLCD> synthesized.
+
+
+Synthesizing Unit <Clock>.
+    Related source file is "D:/Desings/DCSE/Pruebas/Prueba3LCD/Clock.vhd".
+Unit <Clock> synthesized.
+
+
+Synthesizing Unit <ModuloLCD>.
+    Related source file is "D:/Desings/DCSE/Pruebas/Prueba3LCD/ModuloLCD.vhd".
+WARNING:Xst:646 - Signal <clk0> is assigned but never used.
+WARNING:Xst:646 - Signal <clkbuf> is assigned but never used.
+Unit <ModuloLCD> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x8-bit ROM                                           : 1
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 6
+ 15-bit up counter                                     : 1
+ 4-bit up counter                                      : 2
+ 4-bit updown counter                                  : 1
+ 8-bit up counter                                      : 2
+# Registers                                            : 32
+ 1-bit register                                        : 27
+ 2-bit register                                        : 4
+ 8-bit register                                        : 1
+# Comparators                                          : 3
+ 4-bit comparator less                                 : 1
+ 8-bit comparator less                                 : 2
+# Multiplexers                                         : 4
+ 1-bit 4-to-1 multiplexer                              : 3
+ 8-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_Control/state> on signal <state[1:29]> with one-hot encoding.
+----------------------------------------
+ State | Encoding
+----------------------------------------
+ s0    | 00000000000000000000000000001
+ s1    | 00000000000000000000000000010
+ s2    | 00000000000000000000000000100
+ s3    | 00000000000000000000000001000
+ s4    | 00000000000000000000000010000
+ s5    | 00000000000000000000000100000
+ s6    | 00000000000000000000001000000
+ s7    | 00000000000000000000010000000
+ s8    | 00000000000000000000100000000
+ s9    | 00000000000000000001000000000
+ s10   | 00000000000000000010000000000
+ s11   | 00000000000000000100000000000
+ s12   | 00000000000000001000000000000
+ s13   | 00000000000000010000000000000
+ s14   | 00000000000000100000000000000
+ s15   | 00000000000001000000000000000
+ s16   | 00000000000010000000000000000
+ s17   | 00000000000100000000000000000
+ s18   | 00000000001000000000000000000
+ s19   | 00000000010000000000000000000
+ s20   | 00000000100000000000000000000
+ s21   | 00000001000000000000000000000
+ s22   | 00000010000000000000000000000
+ s23   | 00010000000000000000000000000
+ s24   | 00000100000000000000000000000
+ s25   | 00100000000000000000000000000
+ s26   | 01000000000000000000000000000
+ s27   | 00001000000000000000000000000
+ s28   | 10000000000000000000000000000
+----------------------------------------
+Loading device for application Rf_Device from file '3s700a.nph' in environment C:\Xilinx91i.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 4x8-bit ROM                                           : 1
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 6
+ 15-bit up counter                                     : 1
+ 4-bit up counter                                      : 2
+ 4-bit updown counter                                  : 1
+ 8-bit up counter                                      : 2
+# Registers                                            : 72
+ Flip-Flops                                            : 72
+# Comparators                                          : 3
+ 4-bit comparator less                                 : 1
+ 8-bit comparator less                                 : 2
+# Multiplexers                                         : 4
+ 1-bit 4-to-1 multiplexer                              : 3
+ 8-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ModuloLCD> ...
+
+Optimizing unit <Interfaz> ...
+
+Optimizing unit <Control> ...
+INFO:Xst:2261 - The FF/Latch <state_FFd3> in Unit <Control> is equivalent to the following FF/Latch, which will be removed : <addr_control_1> 
+
+Optimizing unit <DatosLCD> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ModuloLCD, actual ratio is 1.
+
+Final Macro Processing ...
+
+Processing Unit <ModuloLCD> :
+	Found 2-bit shift register for signal <Inst_Interfaz/rotary_in_1>.
+	Found 2-bit shift register for signal <Inst_Interfaz/rotary_in_0>.
+Unit <ModuloLCD> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 110
+ Flip-Flops                                            : 110
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ModuloLCD.ngr
+Top Level Output File Name         : ModuloLCD
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 28
+
+Cell Usage :
+# BELS                             : 243
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 17
+#      LUT2                        : 33
+#      LUT2_L                      : 1
+#      LUT3                        : 47
+#      LUT3_D                      : 3
+#      LUT3_L                      : 1
+#      LUT4                        : 46
+#      LUT4_D                      : 2
+#      LUT4_L                      : 6
+#      MULT_AND                    : 2
+#      MUXCY                       : 35
+#      MUXF5                       : 7
+#      VCC                         : 1
+#      XORCY                       : 37
+# FlipFlops/Latches                : 112
+#      FD                          : 19
+#      FDC                         : 60
+#      FDCE                        : 28
+#      FDE                         : 3
+#      FDP                         : 1
+#      FDR                         : 1
+# Shift Registers                  : 2
+#      SRL16                       : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 28
+#      IBUF                        : 8
+#      IBUFG                       : 1
+#      OBUF                        : 19
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                      87  out of   5888     1%  
+ Number of Slice Flip Flops:           112  out of  11776     0%  
+ Number of 4 input LUTs:               162  out of  11776     1%  
+    Number used as logic:              160
+    Number used as Shift registers:      2
+ Number of IOs:                         28
+ Number of bonded IOBs:                 28  out of    372     7%  
+ Number of GCLKs:                        2  out of     24     8%  
+ Number of DCMs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Inst_Clock/CLKDV_BUF               | BUFG                   | 114   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------+----------------------------+-------+
+Control Signal                              | Buffer(FF name)            | Load  |
+--------------------------------------------+----------------------------+-------+
+Inst_Control/rst_n_inv(Inst_Interfaz/rst1:O)| NONE(Inst_DatosLCD/norte_2)| 74    |
+Inst_Control/clr(Inst_Control/clr:Q)        | NONE(Inst_Counter/temp_8)  | 15    |
+--------------------------------------------+----------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.023ns (Maximum Frequency: 142.389MHz)
+   Minimum input arrival time before clock: 1.284ns
+   Maximum output required time after clock: 7.342ns
+   Maximum combinational path delay: 1.232ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_Clock/CLKDV_BUF'
+  Clock period: 7.023ns (frequency: 142.389MHz)
+  Total number of paths / destination ports: 1729 / 136
+-------------------------------------------------------------------------
+Delay:               7.023ns (Levels of Logic = 12)
+  Source:            Inst_Control/pb_sel_0 (FF)
+  Destination:       Inst_Control/DB_7 (FF)
+  Source Clock:      Inst_Clock/CLKDV_BUF rising
+  Destination Clock: Inst_Clock/CLKDV_BUF rising
+
+  Data Path: Inst_Control/pb_sel_0 to Inst_Control/DB_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.557   1.102  Inst_Control/pb_sel_0 (Inst_Control/pb_sel_0)
+     LUT3:I2->O            1   0.608   0.000  Inst_DatosLCD/Mmux_caracteres_mux0000_3 (Inst_DatosLCD/N1)
+     MUXF5:I1->O           2   0.305   0.531  Inst_DatosLCD/Mmux_caracteres_mux0000_2_f5 (Inst_DatosLCD/caracteres_mux0000<0>)
+     LUT2:I1->O            1   0.616   0.000  Inst_DatosLCD/Madd_caracteres_lut<0> (caracter<0>)
+     MUXCY:S->O            1   0.639   0.000  Inst_DatosLCD/Madd_caracteres_cy<0> (Inst_DatosLCD/Madd_caracteres_cy<0>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DatosLCD/Madd_caracteres_cy<1> (Inst_DatosLCD/Madd_caracteres_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DatosLCD/Madd_caracteres_cy<2> (Inst_DatosLCD/Madd_caracteres_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DatosLCD/Madd_caracteres_cy<3> (Inst_DatosLCD/Madd_caracteres_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DatosLCD/Madd_caracteres_cy<4> (Inst_DatosLCD/Madd_caracteres_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Inst_DatosLCD/Madd_caracteres_cy<5> (Inst_DatosLCD/Madd_caracteres_cy<5>)
+     MUXCY:CI->O           0   0.065   0.000  Inst_DatosLCD/Madd_caracteres_cy<6> (Inst_DatosLCD/Madd_caracteres_cy<6>)
+     XORCY:CI->O           1   0.873   0.424  Inst_DatosLCD/Madd_caracteres_xor<7> (caracter<7>)
+     LUT4:I3->O            1   0.613   0.000  Inst_Control/DB_mux0001<0> (Inst_Control/DB_mux0001<0>)
+     FDC:D                     0.365          Inst_Control/DB_7
+    ----------------------------------------
+    Total                      7.023ns (4.966ns logic, 2.057ns route)
+                                       (70.7% logic, 29.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_Clock/CLKDV_BUF'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              1.284ns (Levels of Logic = 1)
+  Source:            rot<1> (PAD)
+  Destination:       Inst_Interfaz/Mshreg_rotary_in_1 (FF)
+  Destination Clock: Inst_Clock/CLKDV_BUF rising
+
+  Data Path: rot<1> to Inst_Interfaz/Mshreg_rotary_in_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.443   0.420  rot_1_IBUF (rot_1_IBUF)
+     SRL16:D                   0.421          Inst_Interfaz/Mshreg_rotary_in_1
+    ----------------------------------------
+    Total                      1.284ns (0.864ns logic, 0.420ns route)
+                                       (67.3% logic, 32.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_Clock/CLKDV_BUF'
+  Total number of paths / destination ports: 20 / 19
+-------------------------------------------------------------------------
+Offset:              7.342ns (Levels of Logic = 1)
+  Source:            Inst_Control/E (FF)
+  Destination:       LCD_E (PAD)
+  Source Clock:      Inst_Clock/CLKDV_BUF rising
+
+  Data Path: Inst_Control/E to LCD_E
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.557   0.420  Inst_Control/E (Inst_Control/E)
+     OBUF:I->O                 6.365          LCD_E_OBUF (LCD_E)
+    ----------------------------------------
+    Total                      7.342ns (6.922ns logic, 0.420ns route)
+                                       (94.3% logic, 5.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.232ns (Levels of Logic = 1)
+  Source:            clk50 (PAD)
+  Destination:       Inst_Clock/DCM_SP_INST:CLKIN (PAD)
+
+  Data Path: clk50 to Inst_Clock/DCM_SP_INST:CLKIN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFG:I->O            0   1.232   0.000  Inst_Clock/CLKIN_IBUFG_INST (Inst_Clock/CLKIN_IBUFG_OUT)
+    DCM_SP:CLKIN               0.000          Inst_Clock/DCM_SP_INST
+    ----------------------------------------
+    Total                      1.232ns (1.232ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+CPU : 17.19 / 19.31 s | Elapsed : 17.00 / 20.00 s
+ 
+--> 
+
+Total memory usage is 195248 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

@@ -1,0 +1,10 @@
+vhdl    work ../source/flashprog.vhd
+vhdl    work ../source/picocode/picocode.vhd
+vhdl    work ../source/picoblze/kcpsm3.vhd
+vhdl    work ../source/picoblze/uart_tx_plus.vhd
+vhdl    work ../source/picoblze/uart_rx.vhd
+vhdl    work ../source/picoblze/kcuart_tx.vhd
+vhdl    work ../source/picoblze/kcuart_rx.vhd
+vhdl    work ../source/picoblze/bbfifo_16x8.vhd
+vhdl    work ../source/clocking.vhd
+verilog work ../source/picoboot.v

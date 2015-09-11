@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Designs\DCSE\Spartan3a\Proyecto1_prueba
+Eprueba_leds
+Z1 w1210458468
+Z2 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+Z3 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8prueba_leds.vhd
+Z6 Fprueba_leds.vhd
+l0
+L30
+V;JNUA5EK?e1SZE`ll<RY01
+Z7 OX;C;6.3c;37
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+DE work prueba_leds ;JNUA5EK?e1SZE`ll<RY01
+l56
+L37
+V:Cd_61_AOj>WY@kShNYcE3
+R7
+31
+Z10 M3 ieee std_logic_1164
+Z11 M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+R8
+R9
+Eprueba_leds_techbench_vhd
+Z12 w1210459601
+Z13 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+R3
+R2
+R4
+Z14 8prueba_leds_techbench.vhd
+Z15 Fprueba_leds_techbench.vhd
+l0
+L34
+VR>ml40I=:bEW?z:HYd1e:3
+R7
+31
+R8
+R9
+Abehavior
+R13
+R3
+R2
+R4
+DE work prueba_leds_techbench_vhd R>ml40I=:bEW?z:HYd1e:3
+l57
+L37
+VUHASA_<eK<50zOhj7;TzY3
+R7
+31
+M4 ieee std_logic_1164
+M3 ieee std_logic_unsigned
+R11
+M1 ieee numeric_std
+R8
+R9
+Ereloj_ent
+Z16 w1210458380
+Z17 DP unisim vcomponents LleKR0SczfnVz2QDcaQZM1
+R13
+R4
+Z18 8Reloj_ent.vhd
+Z19 FReloj_ent.vhd
+l0
+L28
+VSH;gAQoB7^5J[K]AFkO0Z0
+R7
+31
+R8
+R9
+Abehavioral
+R17
+R13
+R4
+DE work reloj_ent SH;gAQoB7^5J[K]AFkO0Z0
+l89
+L36
+V8=POH=bh@nzPoCXKOE3id3
+R7
+31
+R10
+M2 ieee numeric_std
+M1 unisim vcomponents
+R8
+R9

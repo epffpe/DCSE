@@ -1,0 +1,76 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" in Library work.
+Entity <stop_watch> compiled.
+Entity <stop_watch> (Architecture <cascade_arch>) compiled.
+ERROR:HDLParsers:3010 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 97. Entity stop_wtch does not exist.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 99. Undefined symbol 'unsigned'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 99. unsigned: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 102. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 102. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 107. Undefined symbol 'clk'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 107. clk: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 109. = can not have such operands in this context.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 110. Undefined symbol 'ms_reg'.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 110. Undefined symbol 'ms_next'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 110. ms_next: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 111. Undefined symbol 'd2_reg'.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 111. Undefined symbol 'd2_next'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 111. d2_next: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 112. Undefined symbol 'd1_reg'.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 112. Undefined symbol 'd1_next'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 112. d1_next: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 113. Undefined symbol 'd0_reg'.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 113. Undefined symbol 'd0_next'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 113. d0_next: Undefined symbol (last report in this block)
+WARNING:HDLParsers:1406 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 107. No sensitivity list and no wait in the process
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 119. Undefined symbol 'ms_next'.
+ERROR:HDLParsers:3313 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 119. Undefined symbol 'clr'.  Should it be: cr?
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 119. clr: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 119. = can not have such operands in this context.
+ERROR:HDLParsers:808 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 119. = can not have such operands in this context.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 120. Undefined symbol 'ms_reg'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 120. ms_reg: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 120. Undefined symbol 'go'.  Should it be: to or so?
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 120. go: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 122. Undefined symbol 'ms_tick'.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 125. Undefined symbol 'd0_reg'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 125. d0_reg: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 125. Undefined symbol 'd1_reg'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 125. d1_reg: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 125. Undefined symbol 'd2_reg'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 125. d2_reg: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 125. ms_tick: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 128. Undefined symbol 'd0_next'.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 129. Undefined symbol 'd1_next'.
+ERROR:HDLParsers:3312 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 130. Undefined symbol 'd2_next'.
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 132. d0_next: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 133. d1_next: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 134. d2_next: Undefined symbol (last report in this block)
+ERROR:HDLParsers:808 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 136. /= can not have such operands in this context.
+ERROR:HDLParsers:808 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 140. /= can not have such operands in this context.
+ERROR:HDLParsers:808 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 144. /= can not have such operands in this context.
+WARNING:HDLParsers:1406 - "D:/Designs/DCSE/FPGA Prototyping/Tema4/stop_watch.vhd" Line 125. No sensitivity list and no wait in the process
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> 
+
+Total memory usage is 134556 kilobytes
+
+Number of errors   :   46 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
